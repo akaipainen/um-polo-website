@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+
+  @font-face {
+    font-family: 'univers';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      local('michigan 2'),
+      url("./fonts/univers.ttf") format('truetype')
+  }
+  .link{
+    text-decoration: none;
+  }
+.navbar {
+    height: 5vw;
+    background-color:#00274C;
+    border-top: whitesmoke .22vw solid;
+    margin-top: 1vw;
+    border-bottom: transparent;
+    color: whitesmoke;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    transition: transform 0.3s ease;
+  }
+
+  .holder {
+    background-color:#00274C;
+    
+
+  }
+  .blockM{
+    width: 14vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+    height: auto;
+    cursor: pointer;
+
+
+
+}
+.Line{
+    border-left: .5vw solid white;
+  height: 10vw;
+  margin-top: 2vw;
+  cursor: pointer;
+
+}
+.titlePolo{
+  color: white;
+  line-height: 50%;
+  font-size:5vw;
+margin-top: 1.3vw;
+margin-bottom: 3vw;
+
+}
+  .logoHolder{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+height: 12vw;
+  }
+  .navbar:hover {
+    transform:scaleY(1.2);
+    
+  }
+  .space{
+    padding-left: 1vw;
+height:9vw;
+margin-top: 2vw;
+align-items: center;
+font-family: 'univers';
+cursor: pointer;
+
+
+padding-top: auto;
+    padding-bottom: auto;
+    justify-content: center;
+
+
+  }
+
+ 
+  .line-1{
+    position: absolute;
+    font-family: "strait";
+    width: 40.2vw;
+    color: white;
+    height: auto;
+    margin-top: 2vw;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 3.5vw;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 800ms steps(44) 10 forwards normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 40.2vw;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
