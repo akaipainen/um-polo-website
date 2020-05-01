@@ -1,13 +1,16 @@
 import React from 'react'
 import Updates from '../../Data/updates.json'
+import ImageIntro from '../RepeatingComponents/introImage'
+
 
 function HomeBody() {
 
-    return (
-
-
-        
+    return (        
             <div>
+
+
+
+        <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/mavShooting.png`}></ImageIntro>
          {Updates.map(post => {
 
              return(
