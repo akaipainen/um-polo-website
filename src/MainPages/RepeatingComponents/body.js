@@ -1,7 +1,7 @@
 import React from 'react'
 import "./body.css";
 
-export const Body = ({
+export const BodyText = ({
     children,
     
   }) => {

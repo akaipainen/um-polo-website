@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageIntro from '../RepeatingComponents/introImage'
-import {Body} from '../RepeatingComponents/body'
+import {Body, BodyText} from '../RepeatingComponents/body'
 import { YellowBanner } from '../RepeatingComponents/YellowBanner';
 
 function FundraisingBody() {
@@ -12,9 +12,9 @@ function FundraisingBody() {
 
             <YellowBanner>Fundraising</YellowBanner>
 
-            <Body>
+            <BodyText>
                 This is the body.
-            </Body>
+            </BodyText>
 
 
         </div>
