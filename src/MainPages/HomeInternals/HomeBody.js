@@ -1,6 +1,8 @@
 import React from 'react'
 import Updates from '../../Data/updates.json'
 import ImageIntro from '../RepeatingComponents/introImage'
+import { YellowBanner } from '../RepeatingComponents/YellowBanner';
+
 
 
 function HomeBody() {
@@ -11,6 +13,7 @@ function HomeBody() {
 
 
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/mavShooting.png`}></ImageIntro>
+         <YellowBanner>Updates</YellowBanner>
          {Updates.map(post => {
 
              return(
