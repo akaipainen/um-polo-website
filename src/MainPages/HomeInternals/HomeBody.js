@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Updates from '../../Data/updates.json'
 
 function HomeBody() {
 
@@ -8,7 +8,18 @@ function HomeBody() {
 
         
             <div>
-         This is the body of the home page
+         {Updates.map(post => {
+
+             return(
+                <div>
+
+                <p>{post.title}</p>
+                <p>{post.content}</p>
+                <hr></hr>
+                </div>
+
+             )
+         })}
             </div>
 
      
