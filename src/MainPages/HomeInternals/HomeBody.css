@@ -1,0 +1,23 @@
+
+:root{
+    --yellow: #F1C400;
+    --blue: #00274C;
+  
+  }
+
+.streamingAlert{
+    font-size: 2vw;
+    cursor: pointer;
+    text-decoration: underline var(--blue);
+    text-align: center;
+    display: block;
+
+    color:var(--blue);
+}
+.streamingAlert:visited {
+
+    color:var(--blue);
+}  
+.champ{
+    margin-top: 2.5vw;
+}
