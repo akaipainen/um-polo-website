@@ -3,6 +3,8 @@ import Updates from '../../Data/updates.json'
 import "./HomeBody.css"
 import ImageIntro from '../RepeatingComponents/introImage'
 import { YellowBanner } from '../RepeatingComponents/YellowBanner';
+import { Post } from '../RepeatingComponents/Post';
+
 
 
 
@@ -17,14 +19,18 @@ function HomeBody() {
         <a className = "streamingAlert"href = "https://youtube.com" target="_blank">Matches now streamed and archived on YouTube!</a>
             <img src = "champBanner.svg" className = "champ"></img>
          <YellowBanner>Updates</YellowBanner>
+         
+         
+      
+         
          {Updates.map(post => {
 
              return(
                 <div>
 
-                <p>{post.title}</p>
-                <p>{post.content}</p>
-                <hr></hr>
+            <Post optionalDate = {post.date} optionalTitle = {post.title} optionalIndex = {post.id}>
+             {post.content}
+         </Post>
                 </div>
 
              )
