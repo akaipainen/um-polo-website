@@ -8,7 +8,7 @@ function FundraisingBody() {
     return (
         <div>
             
-            <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/daBoys.jpg`}></ImageIntro>
+            <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/daBoys.png`}></ImageIntro>
 
             <YellowBanner>Fundraising</YellowBanner>
 
