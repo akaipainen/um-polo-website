@@ -2,6 +2,7 @@ import React from 'react'
 import { Post } from '../RepeatingComponents/Post'
 import { YellowBanner } from '../RepeatingComponents/YellowBanner'
 import ImageIntro from '../RepeatingComponents/introImage'
+import Player from '../RepeatingComponents/Player';
 
 
 function AboutUsBody() {
@@ -22,6 +23,41 @@ function AboutUsBody() {
             </Post>
 
             <YellowBanner>2020 Executive Board</YellowBanner>
+
+            <div>
+                <Player 
+                    id = {1}
+                    isCaptian = {false}
+                    hometown = "President"
+                    yearAndProgram = "Rising Junior in Biomedical Engineering"
+                    headshotFile = ""
+                    name ="Andrew Golin">
+                </Player>
+                <Player 
+                    id = {1}
+                    isCaptian = {false}
+                    hometown = "Vice President"
+                    yearAndProgram = "Rising Junior in Computer Science"
+                    headshotFile = ""
+                    name ="Dan Rusca">
+                </Player>
+                <Player 
+                    id = {1}
+                    isCaptian = {false}
+                    hometown = "O-Block"
+                    yearAndProgram = "Rising Junior in Computer Science, Math Boy Minor"
+                    headshotFile = "sidheadshot.png"
+                    name ="Sidaddy">
+                </Player>
+                <Player 
+                    id = {1}
+                    isCaptian = {false}
+                    hometown = "Fairfax, VA"
+                    yearAndProgram = "Freshman studying computer science and industrial engineering"
+                    headshotFile = "mFerrariHeadshot.png"
+                    name ="Matthew kid genius Ferrari">
+                </Player>
+            </div>
 
         </div>
 
