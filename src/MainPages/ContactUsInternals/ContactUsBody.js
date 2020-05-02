@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageIntro from '../RepeatingComponents/introImage'
-import { YellowBanner } from '../RepeatingComponents/YellowBanner';
+import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader';
 
 
 function ContactUsBody() {
@@ -11,7 +11,7 @@ function ContactUsBody() {
         
             <div>
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
-        <YellowBanner>Contact Us</YellowBanner>
+        <SectionHeader>Contact Us</SectionHeader>
 
             </div>
 

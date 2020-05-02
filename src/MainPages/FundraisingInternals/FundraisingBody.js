@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageIntro from '../RepeatingComponents/introImage'
 import { Post} from '../RepeatingComponents/Post'
-import { YellowBanner } from '../RepeatingComponents/YellowBanner'
+import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader'
 import './FundraisingBody.css';
 
 function FundraisingBody() {
@@ -11,7 +11,7 @@ function FundraisingBody() {
             
             <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/daBoys.png`}></ImageIntro>
 
-            <YellowBanner>Fundraising</YellowBanner>
+            <SectionHeader>Fundraising</SectionHeader>
 
 
             <Post>

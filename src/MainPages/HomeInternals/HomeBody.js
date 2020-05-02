@@ -2,7 +2,7 @@ import React from 'react'
 import Updates from '../../Data/updates.json'
 import "./HomeBody.css"
 import ImageIntro from '../RepeatingComponents/introImage'
-import { YellowBanner } from '../RepeatingComponents/YellowBanner';
+import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader';
 import { Post } from '../RepeatingComponents/Post';
 
 
@@ -18,7 +18,7 @@ function HomeBody() {
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/mavShooting.png`}></ImageIntro>
         <a className = "streamingAlert"href = "https://youtube.com" target="_blank">Matches now streamed and archived on YouTube!</a>
             <img src = "champBanner.svg" className = "champ"></img>
-         <YellowBanner>Updates</YellowBanner>
+         <SectionHeader>Updates</SectionHeader>
                   
          {Updates.map(post => {
 
@@ -32,7 +32,7 @@ function HomeBody() {
 
              )
          })}
-                  <YellowBanner>Alumni Network</YellowBanner>
+                  <SectionHeader>Alumni Network</SectionHeader>
 
                   <img className = "companies" src = {`${process.env.PUBLIC_URL}/alumniCompanies.png`}></img>
                 <p className = "alumni">Our Alumni get placed all across the globe and strengthen the Michigan Water Polo network.</p>

@@ -1,0 +1,42 @@
+/* Global Style to make styling easier */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.dropdown-container {
+  display: inline-block;
+
+  width: 100px;
+  height: inherit;
+
+  cursor: pointer;
+}
+
+.dropdown-header {
+  height: inherit;
+  width: inherit;
+  text-align: center;
+}
+
+.dropdown-header-title {
+  font-size: 2.5vw;
+}
+
+.dropdown-list {
+  list-style: none;
+  width: inherit;
+  height:50px;
+  position: absolute;
+  background-color: #F1C400;
+}
+
+.dropdown-list-item {
+  background-color: #f1c400;
+  border-top: solid black 1px;
+  padding-top: 1px;
+  font-size: 2.5vw;
+  text-align: center;
+}

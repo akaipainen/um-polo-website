@@ -1,0 +1,56 @@
+{
+  "2019": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "hometown": "Fairfax, VA",
+      "yearAndProgram": "Freshman studying computer science and industrial engineering",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "Matthew Ferrari"
+    },
+    {
+      "id": 2,
+      "isCaptian": true,
+      "hometown": "Lansing, MI",
+      "yearAndProgram": "Sophmore studying your mom",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "Sid Murthy"
+    }
+  ],
+  "2018": [
+    {
+      "id": 1,
+      "isCaptian": false,
+      "hometown": "Sparta",
+      "yearAndProgram": "Freshman studying binary",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "2018 Matthew Ferrari"
+    },
+    {
+      "id": 2,
+      "isCaptian": false,
+      "hometown": "Lansing, MI",
+      "yearAndProgram": "Sophmore studying your mom",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "2018 Sid Murthy"
+    }
+  ],
+  "2017": [
+    {
+      "id": 1,
+      "isCaptian": false,
+      "hometown": "Sparta",
+      "yearAndProgram": "Freshman studying binary",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "2017 Matthew Ferrari"
+    },
+    {
+      "id": 2,
+      "isCaptian": false,
+      "hometown": "Lansing, MI",
+      "yearAndProgram": "Sophmore studying your mom",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "2017 Sid Murthy"
+    }
+  ]
+}
