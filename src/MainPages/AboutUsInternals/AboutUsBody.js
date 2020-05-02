@@ -2,6 +2,7 @@ import React from 'react'
 import { Post } from '../RepeatingComponents/Post'
 import { YellowBanner } from '../RepeatingComponents/YellowBanner'
 import ImageIntro from '../RepeatingComponents/introImage'
+import Eboard from '../../Data/eboard.json'
 import Player from '../RepeatingComponents/Player'
 import './AboutUsBody.css';
 
@@ -9,9 +10,9 @@ import './AboutUsBody.css';
 function AboutUsBody() {
 
     return (
-     
+
         <div>
-            <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
+            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
 
             <YellowBanner>
                 About Us
@@ -25,52 +26,38 @@ function AboutUsBody() {
 
             <YellowBanner>2020 Executive Board</YellowBanner>
 
-            <div>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "President"
-                    yearAndProgram = "Rising Junior in Biomedical Engineering"
-                    headshotFile = ""
-                    name ="Andrew Golin">
-                </Player>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "Vice President"
-                    yearAndProgram = "Rising Junior in Computer Science"
-                    headshotFile = ""
-                    name ="Dan Rusca">
-                </Player>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "O-Block"
-                    yearAndProgram = "Rising Junior in Computer Science, Math Boy Minor"
-                    headshotFile = "sidheadshot.png"
-                    name ="Sidaddy">
-                </Player>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "Fairfax, VA"
-                    yearAndProgram = "Freshman studying computer science and industrial engineering"
-                    headshotFile = "mFerrariHeadshot.png"
-                    name ="Matthew kid genius Ferrari">
-                </Player>
-                
-            </div>
+            {Eboard.map(post => {
+
+                return (
+                    <div>
+
+                        <Player
+                            id={post.id}
+                            isCaptian={post.isCaptian}
+                            hometown={post.role}
+                            headshotFile = {post.headshotFile}
+                            name={post.name}>
+                        </Player>
+
+                    </div>
+
+
+                )
+            })}
+
+
 
             <YellowBanner>More Information</YellowBanner>
-            <font size="+2"><ul>
-                    <li><a href = "https://collegiatewaterpolo.org/" target = "_blank">CWPA Website</a></li>
-                    <li><a href = "https://maizepages.umich.edu/organization/menswaterpolo" target = "_blank">Maizepages</a></li>
-                    <li><a href = "https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi">Photo Gallery</a></li>
-                    <li><a href = "https://recsports.umich.edu/clubs/" target = "_blank">Club Sports Website</a></li>
-                    <p>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. Contact us if you are interested in joining the team!</p>
-            </ul></font>
-            
-            <img className = "alt-photo" src = { `${process.env.PUBLIC_URL}/${"recsports.png"}`}></img>
+            <font size="+2">
+                <p onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}>CWPA Website </p>
+                <p onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")}>Maizepages</p>
+                <p onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")}>Photo Gallery</p>
+                <p onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")}>Club Sports Website</p>
+
+                <p>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. Contact us if you are interested in joining the team!</p>
+            </font>
+
+            <img className="alt-photo" src={`${process.env.PUBLIC_URL}/${"recsports.png"}`}></img>
         </div>
 
 

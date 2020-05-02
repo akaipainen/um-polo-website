@@ -14,7 +14,7 @@ function Player(props) {
             
         <div className = {"class" + id % 2 }>
         
-        <img className = "headshot" src = { `${process.env.PUBLIC_URL}/${headshotFile}`}></img>
+        {headshotFile != "" &&  headshotFile != null && <img className = "headshot" src = { `${process.env.PUBLIC_URL}/${headshotFile}`}></img>}
            
        <div className = "nameHolder">
         <div className = "name"> {name}</div>
