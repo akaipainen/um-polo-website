@@ -48,16 +48,31 @@ function AboutUsBody() {
 
 
             <YellowBanner>More Information</YellowBanner>
-            <font size="+2">
-                <p onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}>CWPA Website </p>
-                <p onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")}>Maizepages</p>
-                <p onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")}>Photo Gallery</p>
-                <p onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")}>Club Sports Website</p>
+            <div className = "bannerText"><br></br>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. <br></br>Contact us if you are interested in joining the team!</div>
 
-                <p>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. Contact us if you are interested in joining the team!</p>
-            </font>
+               <div className = "banners">
+                    <div className = "bannerContainer" onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")}>
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"recsports.png"}`}></img>
+                    <p className = "bannerText" >Club Sports Website</p>
+                    </div>
 
-            <img className="alt-photo" src={`${process.env.PUBLIC_URL}/${"recsports.png"}`}></img>
+                    <div className = "bannerContainer" onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}>
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"cwpa.png"}`}></img>
+                    <p className = "bannerText" >CWPA Page</p>
+                    </div>
+
+                    <div className = "bannerContainer" onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")}>
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"studentlife.png"}`}></img>
+                    <p className = "bannerText" >Maizepages</p>
+                    </div>
+
+                    <div className = "bannerContainer" onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")}>
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"gallery.png"}`}></img>
+                    <p className = "bannerText" >Photo Gallery</p>
+                    </div>
+               </div>
+               
+
         </div>
 
 
