@@ -1,4 +1,6 @@
 import React from 'react'
+import ImageIntro from '../RepeatingComponents/introImage'
+import { YellowBanner } from '../RepeatingComponents/YellowBanner';
 
 
 function ContactUsBody() {
@@ -8,8 +10,11 @@ function ContactUsBody() {
 
         
             <div>
-         This is the body of the contact us page
+        <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
+        <YellowBanner>Contact Us</YellowBanner>
+
             </div>
+
 
      
 

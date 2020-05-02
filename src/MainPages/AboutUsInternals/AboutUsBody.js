@@ -9,7 +9,7 @@ function AboutUsBody() {
     return (
      
         <div>
-            <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/title.png`}></ImageIntro>
+            <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
 
             <YellowBanner>
                 About Us
