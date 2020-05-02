@@ -1,0 +1,17 @@
+[{
+    "id": 1,
+    "isCaptian": false,
+     "hometown": "Sparta",
+      "yearAndProgram": "Freshman studying binary",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "2018 Matthew Ferrari"
+},
+{
+    "id": 2,
+    "isCaptian": false,
+     "hometown": "Lansing, MI",
+      "yearAndProgram": "Sophmore studying your mom",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "2018 Sid Murthy"
+}
+]
