@@ -2,7 +2,7 @@
 
 .body_text{
     font-family: "Segoe UI";
-    font-size: 20.5px;
+    font-size: 1.4vw;
     padding-top: 1.3vw;
     padding-bottom: 2vw;
 
@@ -32,9 +32,12 @@
     background-color: lightgrey;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 1vw;
 }
 .index1{
-    background-color: transparent;
+    background-color:#E8E8E8;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 1vw;
+
 }
