@@ -1,7 +1,7 @@
 .imageDisplay{
 
     width: 90vw;
-    height: 45vw;
+    height: 30vw;
     margin: auto;
     display:block;
    
@@ -9,7 +9,7 @@
     
 }
 .imageContainer{
-    margin-top: 2vw;
+    margin-top: 1vw;
 
     margin-bottom: 2vw;
 

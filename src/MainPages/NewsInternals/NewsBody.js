@@ -1,4 +1,6 @@
 import React from 'react'
+import ImageIntro from '../RepeatingComponents/introImage'
+import { YellowBanner } from '../RepeatingComponents/YellowBanner';
 
 
 function NewsBody() {
@@ -8,7 +10,9 @@ function NewsBody() {
 
         
             <div>
-         This is the body of the news page
+        <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/sam.png`}></ImageIntro>
+        <YellowBanner>News</YellowBanner>
+
             </div>
 
      

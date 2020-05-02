@@ -4,10 +4,10 @@
     text-decoration: none;
   }
 .navbar {
-    height: 5vw;
+    height: 4vw;
     background-color:#00274C;
     border-top: whitesmoke .22vw solid;
-    margin-top: 1vw;
+    margin-top: .5vw;
     border-bottom: transparent;
     color: whitesmoke;
     margin-bottom: 12px;
@@ -26,9 +26,10 @@
 
   }
   .blockM{
-    width: 14vw;
+    width: 10vw;
     padding-right: 1vw;
-    padding-top: 2vw;
+    padding-top: .8vw;
+
     height: auto;
     cursor: pointer;
 
@@ -37,16 +38,16 @@
 }
 .Line{
     border-left: .5vw solid white;
-  height: 10vw;
-  margin-top: 2vw;
+  height: 8vw;
+  margin-top: 1vw;
   cursor: pointer;
 
 }
 .titlePolo{
   color: white;
   line-height: 50%;
-  font-size:5vw;
-margin-top: 1.3vw;
+  font-size:4.2vw;
+margin-top: 1vw;
 margin-bottom: 3vw;
 letter-spacing: 50%;
 
@@ -60,7 +61,7 @@ letter-spacing: 50%;
     justify-content: center;
     align-items: center;
     
-height: 12vw;
+height: 9vw;
   }
   .navbar:hover {
     transform:scaleY(1.05);
@@ -85,13 +86,13 @@ padding-top: auto;
  
   .line-1{
     position: absolute;
-    width: 40.2vw;
+    width: 37vw;
     color: white;
     height: auto;
     margin-top: 2vw;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
@@ -105,7 +106,7 @@ padding-top: auto;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 40.2vw;}
+  to{width: 37vw;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
