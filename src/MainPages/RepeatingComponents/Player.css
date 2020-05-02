@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+.class0{
+    height:10vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: .5vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    font-family: "Abel";
+     display: flex;
+background-color: lightgray;
+
+margin-top: 1vw;
+margin-bottom: 1vw;
+}
+.class1{
+    height:10vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: .5vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    font-family: "Abel";
+     display: flex;
+     background-color:#E8E8E8;
+     margin-top: 1vw;
+margin-bottom: 1vw;
+
+
+
+
+}
+.nameHolder{
+    margin-left:1vw;
+    width: 90vw;
+
+
+}
+.headshot{
+    height: 9.5vw;
+    
+    float: left;
+
+}
+.name{
+    float:left;
+
+    font-size: 4vw;
+
+}
+.captian{
+    float:left;
+    margin-top: 1vw;
+    margin-left: 1vw;
+
+    height: 3vw;
+
+}
+.hometown{
+    float:right;
+    font-size: 4vw;
+}
+.breakBottom{
+    clear: both;
+        
+    }
+ .major{
+     margin-top: 1vw;
+    font-size: 3vw;
+    margin-bottom: .5vw;
+    }

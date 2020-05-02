@@ -1,4 +1,5 @@
 import React from 'react'
+import Player from '../RepeatingComponents/Player'
 
 
 function RosterBody() {
@@ -8,7 +9,15 @@ function RosterBody() {
 
         
             <div>
-         This is the body of the roster page
+         <Player 
+         id = {1}
+         isCaptian = {true}
+          hometown = "Fairfax, VA"
+           yearAndProgram = "Freshman studying computer science and industrial engineering"
+           headshotFile = "mFerrariHeadshot.png"
+           name ="Matthew Ferrari">
+         </Player>
+         
             </div>
 
      
