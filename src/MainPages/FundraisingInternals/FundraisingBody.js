@@ -21,9 +21,9 @@ function FundraisingBody() {
                 <p>If you would like to make a non-monetary donation please contact us.</p>
                 <p>Thank you for your generous support!</p>
                 <p>Adam Schnepf, <br />Fundraising Chair</p>
+                <img className = "alt-headshot" src = { `${process.env.PUBLIC_URL}/${"adamsCuteFace.png"}`}></img>
             </Post>
 
-            <img className = "headshot" src = { `${process.env.PUBLIC_URL}/${"adamsCuteFace.png"}`}></img>
             
         </div>
     )

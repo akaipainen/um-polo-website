@@ -2,7 +2,8 @@ import React from 'react'
 import { Post } from '../RepeatingComponents/Post'
 import { YellowBanner } from '../RepeatingComponents/YellowBanner'
 import ImageIntro from '../RepeatingComponents/introImage'
-import Player from '../RepeatingComponents/Player';
+import Player from '../RepeatingComponents/Player'
+import './AboutUsBody.css';
 
 
 function AboutUsBody() {
@@ -57,8 +58,19 @@ function AboutUsBody() {
                     headshotFile = "mFerrariHeadshot.png"
                     name ="Matthew kid genius Ferrari">
                 </Player>
+                
             </div>
 
+            <YellowBanner>More Information</YellowBanner>
+            <font size="+2"><ul>
+                    <li><a href = "https://collegiatewaterpolo.org/" target = "_blank">CWPA Website</a></li>
+                    <li><a href = "https://maizepages.umich.edu/organization/menswaterpolo" target = "_blank">Maizepages</a></li>
+                    <li><a href = "https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi">Photo Gallery</a></li>
+                    <li><a href = "https://recsports.umich.edu/clubs/" target = "_blank">Club Sports Website</a></li>
+                    <p>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. Contact us if you are interested in joining the team!</p>
+            </ul></font>
+            
+            <img className = "alt-photo" src = { `${process.env.PUBLIC_URL}/${"recsports.png"}`}></img>
         </div>
 
 
