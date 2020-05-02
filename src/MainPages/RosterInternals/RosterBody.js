@@ -29,7 +29,7 @@ class RosterBody extends React.Component {
       const years = Object.keys(roster).reverse();
         return (
           <div>
-            <SectionHeader text="Roster">
+            <SectionHeader title="Roster">
               <Dropdown default={this.state.year} list={years} handleYearChange={this.handleYearChange} />
             </SectionHeader>
 

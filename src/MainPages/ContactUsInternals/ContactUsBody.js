@@ -11,7 +11,7 @@ function ContactUsBody() {
         
             <div>
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
-        <SectionHeader>Contact Us</SectionHeader>
+        <SectionHeader title="Contact Us" />
 
             </div>
 

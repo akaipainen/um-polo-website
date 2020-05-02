@@ -8,7 +8,7 @@ const SectionHeader = (props) => {
   return (
     <div className="sectionContainer">
       <div className="sectionHeaderText">
-        { props.text }
+        { props.title }
       </div>
       { props.children }
     </div>

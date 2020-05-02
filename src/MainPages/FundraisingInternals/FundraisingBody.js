@@ -11,7 +11,7 @@ function FundraisingBody() {
             
             <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/daBoys.png`}></ImageIntro>
 
-            <SectionHeader>Fundraising</SectionHeader>
+            <SectionHeader title="Fundraising" />
 
 
             <Post>

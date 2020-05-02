@@ -14,9 +14,7 @@ function AboutUsBody() {
         <div>
             <ImageIntro imagePath={`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
 
-            <SectionHeader>
-                About Us
-            </SectionHeader>
+            <SectionHeader title="About Us" />
 
             <Post>
                 <font size="+2.5"><p><b>National Champions</b><br />1996, 1998, 2003</p></font>
@@ -24,7 +22,7 @@ function AboutUsBody() {
                 <font size="+2"><p><b>Big Ten Runner-Up</b><br />2000, 2001, 2002, 2005, 2006, 2008, 2009, 2010, 2014</p></font>
             </Post>
 
-            <SectionHeader>2020 Executive Board</SectionHeader>
+            <SectionHeader title="2020 Executive Board" />
 
             {Eboard.map(post => {
 
@@ -47,7 +45,7 @@ function AboutUsBody() {
 
 
 
-            <SectionHeader>More Information</SectionHeader>
+            <SectionHeader title="More Information" />
             <div className = "bannerText"><br></br>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. <br></br>Contact us if you are interested in joining the team!</div>
 
                <div className = "banners">
