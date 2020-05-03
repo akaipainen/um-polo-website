@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Strait&display=swap');
+.gameHolder0{
+    background-color: lightgrey;
+    margin-left: 2vw;
+    width:96vw;
+    margin-right: 2vw;
+    
+}
+.gameHolder1{
+    background-color:#E8E8E8;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width:96vw;
+
+
+   
+}
+.rivalLogo{
+    width:9vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    float: left;
+
+}
+.toTheRight{
+    float: left;
+    font-size: 3vw;
+
+    font-family: "Strait";
+    margin-top: 1vw;
+    width: 85vw;
+}
+.breakBottom{
+    clear: both;
+}
+.internalText{
+    float: left;
+
+}
+
+.goingRight{
+    float:right;
+    height: 3vw;
+    margin-right: 1.5vw;
+
+}
+.playbackLive{
+    width: max-content;
+    margin-top: 0;
+    float: right;
+    margin-right: 2vw;
+    font-family: "Strait";
+    font-size: 1.8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+
+}
+.playbackRecording{
+    width: max-content;
+    margin-top: 0;
+    float: right;
+    margin-right: 2vw;
+    font-family: "Strait";
+    font-size: 1.8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtubeStream{
+    height: 2vw;
+    margin-left: 1vw;
+}
