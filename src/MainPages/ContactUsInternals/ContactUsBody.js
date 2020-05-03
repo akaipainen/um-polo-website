@@ -1,7 +1,8 @@
 import React from 'react'
 import ImageIntro from '../RepeatingComponents/introImage'
-import { YellowBanner } from '../RepeatingComponents/YellowBanner';
-import ContactForm from '../RepeatingComponents/ContactForm';
+import Question from '../RepeatingComponents/Question';
+import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader';
+import DropdownQuestion from '../RepeatingComponents/DropdownQuestion';
 
 
 function ContactUsBody() {
@@ -11,19 +12,20 @@ function ContactUsBody() {
 
         
             <div>
-                <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
-                <YellowBanner>Contact Us</YellowBanner>
-                <ContactForm question_title = 'What is your name?'></ContactForm>
-                <ContactForm question_title = 'What is your email?'></ContactForm>
-                <ContactForm question_title = 'What is your phone number?'></ContactForm>
-                <ContactForm question_title = "What is your reason for contact?" is_dropdown = "true"></ContactForm>
+                <form className = "form_format">
+                    <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
+                    <SectionHeader title = "Contact Us"></SectionHeader>
+                    <Question question_title = 'What is your name?'></Question>
+                    <Question question_title = 'What is your email?'></Question>
+                    <Question question_title = 'What is your phone number?'></Question>
+                    <DropdownQuestion question_title = 'What is your reason for contact?'
+                        options = {["Potential Athlete", "other"]}>
+                    </DropdownQuestion>
+                </form>
             </div>
-
-
 
 
     )
 }
-
 
 export default ContactUsBody
