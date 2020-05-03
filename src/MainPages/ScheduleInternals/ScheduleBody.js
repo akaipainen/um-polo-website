@@ -19,12 +19,16 @@ Array.prototype.unique = function() {
 
   return a;
 };
+Array.prototype.valueAt = function(index) {
+    var a = this.concat();
+    return a[index];
+  };
 
 class ScheduleBody extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      year: "2019"
+      year: Object.keys(Schedule).concat(Object.keys(Awards)).unique().sort().reverse().valueAt(0)
     };
     this.handleYearChange = this.handleYearChange.bind(this);
   }
@@ -38,11 +42,7 @@ class ScheduleBody extends Component {
     const awards = Awards;
     const scheduleYears = Object.keys(schedule).reverse();
     const awardYears = Object.keys(Awards).reverse();
-    const years = awardYears
-      .concat(scheduleYears)
-      .unique()
-      .sort()
-      .reverse();
+    const years = awardYears.concat(scheduleYears).unique().sort().reverse();
 
     return (
       <div>

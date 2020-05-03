@@ -8,13 +8,16 @@ import { render } from '@testing-library/react';
 import Dropdown from '../RepeatingComponents/Dropdown/Dropdown';
 
 
-
+Array.prototype.valueAt = function(index) {
+    var a = this.concat();
+    return a[index];
+  };
 
 class RosterBody extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-            year: "2019"
+            year: Object.keys(roster).sort().reverse().valueAt(0)
         }
         this.handleYearChange = this.handleYearChange.bind(this)
     }
