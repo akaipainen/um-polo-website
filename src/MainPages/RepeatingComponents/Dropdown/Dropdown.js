@@ -12,11 +12,17 @@ class Dropdown extends Component {
     this.handleYearChange = this.handleYearChange.bind(this);
   }
 
-  handleClickOutside() {
+  close() {
     this.setState({
       listOpen: false
     })
   }
+  open() {
+    this.setState({
+      listOpen: true
+    })
+  }
+  
 
   handleYearChange(year) {
     this.props.handleYearChange(year);
@@ -34,9 +40,11 @@ class Dropdown extends Component {
     const {listOpen, headerTitle} = this.state
     return (
       <div class="dropdown-container">
-        <div className="dropdown-header" onClick={() => this.toggleList()}>
+        <div className="dropdown-header"  onMouseEnter = {()=> this.open()} onMouseLeave = {()=> this.close()}>
           <div className="dropdown-header-title">
-            {headerTitle}
+            {listOpen && <div>{headerTitle}↓</div>}
+            {!listOpen && <div>{headerTitle}↑</div>}
+
             {/* {listOpen
               ? '↓'
               : '↑'
@@ -44,10 +52,10 @@ class Dropdown extends Component {
           </div>
         </div>
         {listOpen &&
-          <ul className="dropdown-list">
+          <ul className="dropdown-list" onMouseLeave = {()=> this.close()} onMouseEnter = {()=> this.open()}>
             {
               list.map(item => (
-                <li className="dropdown-list-item" key={item} onClick={() => this.handleYearChange(item)}>{item}</li>
+                <li className={(item === headerTitle) + "dropdown-list-item" } key={item} onClick={() => this.handleYearChange(item)}>{item}</li>
               ))
             }
           </ul>
