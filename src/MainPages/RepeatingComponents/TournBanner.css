@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+
+.tournamentName{
+    font-size: 2vw;
+    width: max-content;
+
+
+
+
+}
+.tournamentDate{   
+    font-size: 1.3vw;
+    width: max-content;
+    margin-left: 2vw;
+
+
+
+}
+.bannerHolde{
+    background-color: #F1C400;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Jost";
+
+
+}
+.hub{
+height: 2vw;
+margin-right: 1vw;
+}
+
+.tournArena{
+text-align: right;
+font-size: 1.3vw;
+
+
+}
+.rightHand{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+cursor: pointer;
+margin-right: 2vw;
+}

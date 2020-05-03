@@ -1,46 +1,108 @@
 {
   "2019": {
     "OSU Tournament": {
-      "date": "04/20/19",
-      "location": "OSU Natatorium",
+      "location": "McCorkle Aquatic Pavilion",
+      "dates": "April 20th - April 21st",
+      "directions":"https://www.google.com/maps/dir//Donald+B.+Canham+Natatorium,+500+E+Hoover+Ave,+Ann+Arbor,+MI+48104/@42.2693064,-83.7460302,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025!3e0",
       "games": [
         {
           "id": 1,
-          "opponent": "msu",
-          "time": "14:00"
+          "opponent": "Mighigan State",
+          "score": "10-5",
+          "result": "win",
+          "viewingLink": "https://www.youtube.com",
+          "time": "2020-04-20T10:00",
+          "logo":"msu.png"
         },
         {
           "id": 2,
-          "opponent": "northwestern",
-          "time": "14:00"
+          "opponent": "Northwestern",
+          "score": "5-5",
+          "result": "tie",
+          "viewingLink": "https://www.youtube.com",
+          "time": "2020-04-20T14:00",
+          "logo":"msu.png"
         },
         {
           "id": 3,
-          "opponent": "osu",
-          "time": "14:00"
+          "opponent": "Ohio State",
+          "time": "2020-04-20T18:00",
+          "score": "4-5",
+          "result": "loss",
+          "viewingLink": "https://www.youtube.com",
+          "logo":"msu.png"
         }
       ]
     },
-    "Purdue Tournament": {
-      "date": "04/22/19",
-      "location": "Purdue Natatorium, Indiana",
+        "MSU Tournament": {
+      "location": "McCorkle Aquatic Pavilion",
+      "dates": "April 20 - April 21",
+      "directions":"https://www.google.com/maps/dir//Donald+B.+Canham+Natatorium,+500+E+Hoover+Ave,+Ann+Arbor,+MI+48104/@42.2693064,-83.7460302,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025!3e0",
       "games": [
         {
           "id": 1,
-          "opponent": "msu",
-          "time": "14:00"
+          "opponent": "Mighigan State",
+          "score": "10-5",
+          "result": "win",
+          "viewingLink": "https://www.youtube.com",
+          "time": "2020-04-20T10:00",
+          "logo":"msu.png"
         },
         {
           "id": 2,
-          "opponent": "northwestern",
-          "time": "14:00"
+          "opponent": "Northwestern",
+          "score": "5-5",
+          "result": "tie",
+          "viewingLink": "https://www.youtube.com",
+          "time": "2020-04-20T14:00",
+          "logo":"msu.png"
         },
         {
           "id": 3,
-          "opponent": "osu",
-          "time": "14:00"
+          "opponent": "Ohio State",
+          "time": "2020-04-20T18:00",
+          "score": "4-5",
+          "result": "loss",
+          "viewingLink": "https://www.youtube.com",
+          "logo":"msu.png"
         }
       ]
-    }
+    }        
+  },
+  "2018": {
+    "OSU Tournament": {
+      "location": "McCorkle Aquatic Pavilion",
+      "dates": "April 20th - April 21st",
+      "directions":"https://www.google.com/maps/dir//Donald+B.+Canham+Natatorium,+500+E+Hoover+Ave,+Ann+Arbor,+MI+48104/@42.2693064,-83.7460302,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025!3e0",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Mighigan State 2018",
+          "score": "10-5",
+          "result": "win",
+          "viewingLink": "https://www.youtube.com",
+          "time": "2020-04-20T10:00",
+          "logo":"msu.png"
+        },
+        {
+          "id": 2,
+          "opponent": "Northwestern 2018",
+          "score": "5-5",
+          "result": "win",
+          "viewingLink": "https://www.youtube.com",
+          "time": "2020-04-20T14:00",
+          "logo":"msu.png"
+        },
+        {
+          "id": 3,
+          "opponent": "Ohio State 2018",
+          "time": "2020-04-20T18:00",
+          "score": "4-5",
+          "result": "win",
+          "viewingLink": "https://www.youtube.com",
+          "logo":"msu.png"
+        }
+      ]
+    }    
   }
 }

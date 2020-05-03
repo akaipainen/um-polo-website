@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+.backgroundA0{
+    background-color: lightgrey;
+    font-family: "Abel";
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color: white;
+    margin-bottom: .5vw;
+    color:black;
+    padding-right: 1vw;
+
+    font-size: 2vw;
+    padding-left: 1vw;
+    
+    height:max-content;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.backgroundA1{
+    background-color:#E8E8E8;
+    font-family: "Abel";
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color: white;
+    margin-bottom: .5vw;
+    color:black;
+    padding-right: 1vw;
+
+    font-size: 2vw;
+    padding-left: 1vw;
+    
+    height:max-content;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.awardTitle{
+    font-size: 3vw;
+
+}
+.awardPeople{
+    height: max-content;
+    text-align: right;
+    
+}
+.peopleHolder{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.breakBottom{
+    clear: both;
+}

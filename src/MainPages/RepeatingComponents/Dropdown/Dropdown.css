@@ -34,7 +34,7 @@
 .dropdown-list {
   list-style: none;
   width: inherit;
-  height:50px;
+  height:inherit;
   position: absolute;
   background-color: #F1C400;
 }
