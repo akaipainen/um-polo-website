@@ -5,7 +5,6 @@
 }
 .bannerContainer{
     margin-top: 3vw;
-    cursor: pointer;
     text-decoration: underline;
 
 
@@ -14,11 +13,14 @@
     height: 12vw;
 margin-right: 2vw;
 margin-left: 2vw;
+cursor: pointer;
+
 
 }
 .bannerText{
 text-align: center;
 font-size: 1.5vw;
 color:black;
+cursor: pointer;
 
 }
