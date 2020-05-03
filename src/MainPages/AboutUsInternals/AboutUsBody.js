@@ -1,7 +1,8 @@
 import React from 'react'
 import { Post } from '../RepeatingComponents/Post'
-import { YellowBanner } from '../RepeatingComponents/YellowBanner'
+import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader'
 import ImageIntro from '../RepeatingComponents/introImage'
+import Eboard from '../../Data/eboard.json'
 import Player from '../RepeatingComponents/Player'
 import './AboutUsBody.css';
 
@@ -9,13 +10,11 @@ import './AboutUsBody.css';
 function AboutUsBody() {
 
     return (
-     
-        <div>
-            <ImageIntro imagePath = {`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
 
-            <YellowBanner>
-                About Us
-            </YellowBanner>
+        <div>
+            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
+
+            <SectionHeader title="About Us" />
 
             <Post>
                 <font size="+2.5"><p><b>National Champions</b><br />1996, 1998, 2003</p></font>
@@ -23,54 +22,55 @@ function AboutUsBody() {
                 <font size="+2"><p><b>Big Ten Runner-Up</b><br />2000, 2001, 2002, 2005, 2006, 2008, 2009, 2010, 2014</p></font>
             </Post>
 
-            <YellowBanner>2020 Executive Board</YellowBanner>
+            <SectionHeader title="2020 Executive Board" />
 
-            <div>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "President"
-                    yearAndProgram = "Rising Junior in Biomedical Engineering"
-                    headshotFile = ""
-                    name ="Andrew Golin">
-                </Player>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "Vice President"
-                    yearAndProgram = "Rising Junior in Computer Science"
-                    headshotFile = ""
-                    name ="Dan Rusca">
-                </Player>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "O-Block"
-                    yearAndProgram = "Rising Junior in Computer Science, Math Boy Minor"
-                    headshotFile = "sidheadshot.png"
-                    name ="Sidaddy">
-                </Player>
-                <Player 
-                    id = {1}
-                    isCaptian = {false}
-                    hometown = "Fairfax, VA"
-                    yearAndProgram = "Freshman studying computer science and industrial engineering"
-                    headshotFile = "mFerrariHeadshot.png"
-                    name ="Matthew kid genius Ferrari">
-                </Player>
-                
-            </div>
+            {Eboard.map(post => {
 
-            <YellowBanner>More Information</YellowBanner>
-            <font size="+2"><ul>
-                    <li><a href = "https://collegiatewaterpolo.org/" target = "_blank">CWPA Website</a></li>
-                    <li><a href = "https://maizepages.umich.edu/organization/menswaterpolo" target = "_blank">Maizepages</a></li>
-                    <li><a href = "https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi">Photo Gallery</a></li>
-                    <li><a href = "https://recsports.umich.edu/clubs/" target = "_blank">Club Sports Website</a></li>
-                    <p>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. Contact us if you are interested in joining the team!</p>
-            </ul></font>
-            
-            <img className = "alt-photo" src = { `${process.env.PUBLIC_URL}/${"recsports.png"}`}></img>
+                return (
+                    <div>
+
+                        <Player
+                            id={post.id}
+                            isCaptian={post.isCaptian}
+                            hometown={post.role}
+                            headshotFile = {post.headshotFile}
+                            name={post.name}>
+                        </Player>
+
+                    </div>
+
+
+                )
+            })}
+
+
+
+            <SectionHeader title="More Information" />
+            <div className = "bannerText"><br></br>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. <br></br>Contact us if you are interested in joining the team!</div>
+
+               <div className = "banners">
+                    <div className = "bannerContainer" >
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"recsports.png"}`} onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")}></img>
+                    <p className = "bannerText" onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")}>Club Sports Website</p>
+                    </div>
+
+                    <div className = "bannerContainer" >
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"cwpa.png"}`} onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}></img>
+                    <p className = "bannerText" onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}>CWPA Page</p>
+                    </div>
+
+                    <div className = "bannerContainer" >
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"studentlife.png"}`} onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")}></img>
+                    <p className = "bannerText" onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")} >Maizepages</p>
+                    </div>
+
+                    <div className = "bannerContainer" >
+                    <img  onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")} className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"gallery.png"}`}></img>
+                    <p onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")} className = "bannerText" >Photo Gallery</p>
+                    </div>
+               </div>
+               
+
         </div>
 
 

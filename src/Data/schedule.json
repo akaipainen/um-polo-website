@@ -1,0 +1,46 @@
+{
+  "2019": {
+    "OSU Tournament": {
+      "date": "04/20/19",
+      "location": "OSU Natatorium",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "msu",
+          "time": "14:00"
+        },
+        {
+          "id": 2,
+          "opponent": "northwestern",
+          "time": "14:00"
+        },
+        {
+          "id": 3,
+          "opponent": "osu",
+          "time": "14:00"
+        }
+      ]
+    },
+    "Purdue Tournament": {
+      "date": "04/22/19",
+      "location": "Purdue Natatorium, Indiana",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "msu",
+          "time": "14:00"
+        },
+        {
+          "id": 2,
+          "opponent": "northwestern",
+          "time": "14:00"
+        },
+        {
+          "id": 3,
+          "opponent": "osu",
+          "time": "14:00"
+        }
+      ]
+    }
+  }
+}

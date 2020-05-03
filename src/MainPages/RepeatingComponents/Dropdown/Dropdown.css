@@ -1,0 +1,64 @@
+/* Global Style to make styling easier */
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.dropdown-container {
+  display: inline-block;
+  font-family: "Jost";
+
+  width: 8vw;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+.dropdown-header {
+  height: inherit;
+  width: inherit;
+  text-align: center;
+
+}
+
+.dropdown-header-title {
+  font-size: 2.5vw;
+  color:white;
+
+
+}
+
+.dropdown-list {
+  list-style: none;
+  width: inherit;
+  height:50px;
+  position: absolute;
+  background-color: #F1C400;
+}
+
+.truedropdown-list-item {
+  background-color: #f1c400;
+  border-top: solid black 1px;
+  padding-top: 1px;
+  font-size: 1.5vw;
+  text-align: center;
+  color: #00274C;
+}
+
+.falsedropdown-list-item {
+  background-color: #f1c400;
+  border-top: solid black 1px;
+  padding-top: 1px;
+  font-size: 1.5vw;
+  text-align: center;
+  color: white;
+}
+.falsedropdown-list-item:hover {
+  background-color: #00274C;
+  
+}
+
+

@@ -4,7 +4,7 @@ import {Post} from '../RepeatingComponents/Post'
 
 import News from '../../Data/news.json'
 
-import { YellowBanner } from '../RepeatingComponents/YellowBanner';
+import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader';
 
 
 function NewsBody() {
@@ -15,7 +15,7 @@ function NewsBody() {
         
             <div>
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/sam.png`}></ImageIntro>
-        <YellowBanner>News</YellowBanner>
+        <SectionHeader title="News" />
 
         {News.map(post => {
 

@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "isCaptian": false,
+     "role": "President",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "Drew Golin"
+},
+{
+    "id": 2,
+    "isCaptian": false,
+     "role": "Vice President",
+      "headshotFile": "mFerrariHeadshot.png",
+      "name": "Dan Rusca"
+},
+{
+    "id": 3,
+    "isCaptian": false,
+     "role": "Web Master",
+     "headshotFile": "mFerrariHeadshot.png",
+     "name": "Matthew Ferrari"
+},
+{
+    "id": 4,
+    "isCaptian": false,
+     "role": "Web Dev Team",
+      "headshotFile": "",
+      "name": "Kaipi"
+},
+{
+    "id": 5,
+    "isCaptian": false,
+     "role": "Web Dev Team",
+     "headshotFile": "sidheadshot.png",
+      "name": "Sid Murthy"
+}
+]
