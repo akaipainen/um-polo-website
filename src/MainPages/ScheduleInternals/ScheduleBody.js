@@ -37,6 +37,7 @@ class ScheduleBody extends Component {
                 <TournBanner
                   tournName={tournament}
                   location={schedule[this.state.year][tournament].location}
+                  dates={schedule[this.state.year][tournament].dates}
                   directions={schedule[this.state.year][tournament].directions}
                 />
                 { // Render all games in tournament
