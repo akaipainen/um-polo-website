@@ -42,8 +42,8 @@ class Dropdown extends Component {
       <div class="dropdown-container">
         <div className="dropdown-header"  onMouseEnter = {()=> this.open()} onMouseLeave = {()=> this.close()}>
           <div className="dropdown-header-title">
-            {listOpen && <div>{headerTitle}↓</div>}
-            {!listOpen && <div>{headerTitle}↑</div>}
+            {listOpen && <div>{headerTitle} ↓</div>}
+            {!listOpen && <div>{headerTitle} ↑</div>}
 
             {/* {listOpen
               ? '↓'
