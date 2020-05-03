@@ -24,7 +24,7 @@ function Game(props) {
         month = "0" + month;
     }
 
-    const dayL = days[time.getDay()].substring(0, 3)
+    const dayL = days[time.getDay()].substring(0, 3);
 
     const logo = props.logo
     var hour = time.getHours().toString()
