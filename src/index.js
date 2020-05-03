@@ -22,9 +22,9 @@ function Index(){
       <Route exact path="/index.html" component = {HomeComp}/>
       <Route exact path="/roster" component = {Roster}/>
       <Route exact path="/aboutus" component = {AboutUs}/>
-      <Route exact path="/Fundraising" component = {Fundraising}/>
+      <Route exact path="/fundraising" component = {Fundraising}/>
       <Route exact path="/news" component = {News}/>
-      <Route exact path="/schedule" component = {Schedule}/>
+      <Route exact path="/scheduleandresults" component = {Schedule}/>
       <Route exact path="/contactus" component = {ContactUs}/>
 
       

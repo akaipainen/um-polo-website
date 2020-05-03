@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+
+.backBanner{
+    background-color: #00274C;
+    font-family: "Jost";
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color: white;
+    margin-bottom: .5vw;
+
+}
+.awardsText{
+    font-size: 2vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    padding-left: 2vw;
+}

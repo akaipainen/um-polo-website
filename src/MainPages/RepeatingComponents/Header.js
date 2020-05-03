@@ -83,11 +83,11 @@ function Header(props) {
                     buttonStyle="no--primary--solid"
                     buttonSize="no--medium"
                 >
-                    Schedule
+                    Schedule and Results
       </Button>}
                 {x !== "schedule" && <Button
                     onClick={() => {
-                        window.location.href = `${process.env.PUBLIC_URL}/schedule/`
+                        window.location.href = `${process.env.PUBLIC_URL}/scheduleandresults/`
                     }}
                     type="button"
 
@@ -95,7 +95,7 @@ function Header(props) {
                     buttonStyle="yes--primary--outline"
                     buttonSize="yes--medium"
                 >
-                    Schedule
+                    Schedule and Results
       </Button>}
 
 
