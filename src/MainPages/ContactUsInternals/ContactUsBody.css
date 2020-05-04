@@ -3,19 +3,9 @@
     font-size: 2vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
+
 }
 
-.input{
-    width: 40vw;
-    box-sizing: border-box;
-    border-color: #00274C;
-    border-radius: 4px;
-    font-size: 1.5vw;
-    font-family: "Segoe UI";
-    border-spacing: 2px;
-    padding: .5vw;
-    margin-left: 2vw;
-}
 .questionBlock{
     width: max-content;
 
@@ -30,67 +20,145 @@
 
     justify-content: left;
     align-items: center;
+    width: max-content;
+
+    
+}
+.dropHolder::after{
+    content: '\25bc';
+    font-size: 1vw;
+    padding-left: .2vw;
+    padding-right: .2vw;
+padding-top:.8vw;
+padding-bottom: .2vw;
+height: 2vw;
+    color:white;
+    background-color: black;
+    
 }
 .userName{
-    width: 15vw;
+    width: 18vw;
 
     box-sizing: border-box;
     border-color: #00274C;
-    border-radius: 8px;
+    border-radius: .2vw;
     font-size: 1.5vw;
     font-family: "Segoe UI";
     border-spacing: 2px;
     padding: .5vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
+.userName::placeholder{
+    color:lightgrey;
+ }
 .message{
     width: 100%;
 height: 20vw;
     box-sizing: border-box;
     border-color: #00274C;
-    border-radius: 8px;
+    border-radius: .2vw;
     font-size: 1.5vw;
     font-family: "Segoe UI";
     border-spacing: 2px;
     padding: .5vw;
     resize: none;
 }
+.message::placeholder{
+    color:lightgrey;
+ }
 .mail{
     width: 25vw;
     box-sizing: border-box;
     border-color: #00274C;
-    border-radius: 8px;
+    border-radius: .2vw;
     font-size: 1.5vw;
     font-family: "Segoe UI";
     border-spacing: 2px;
     padding: .5vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
+.mail::placeholder{
+    color:lightgrey;
+ }
 .phone{
     width: 10vw;
     box-sizing: border-box;
     border-color: #00274C;
-    border-radius: 8px;
+    border-radius: .2vw;
     font-size: 1.5vw;
     font-family: "Segoe UI";
     border-spacing: 2px;
     padding: .5vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
-
-.dropdown_format{
+.phone::placeholder{
+   color:lightgrey;
+}
+.dropdown_format_false{
     width: 30vw;
+    font-size: 1.5vw;
+
+
     box-sizing: border-box;
     border-color: #00274C;
-    border-radius: 4px;
+    border-radius: .2vw;
     font-size: 1.5vw;
     font-family: "Segoe UI";
-    padding-bottom: .5vw;
-    margin-left: 2vw;
+    border-spacing: 2px;
+    padding: .5vw;
+    margin-left: 1vw;
+   
+    -webkit-appearance: none;
+    appearance: none;
 
+    background-color: rgb(232, 240, 254);
+        
+
+}
+.dropdown_format_false::-ms-expand {
+    display: none;
+    }
+    .dropdown_format_true::-ms-expand {
+        display: none;
+        }
+.dropdown_format_true{
+    color: lightgrey;
+    width: 30vw;
+    font-size: 1.5vw;
+
+
+    box-sizing: border-box;
+    border-color: #00274C;
+    border-radius: .2vw;
+    font-size: 1.5vw;
+    font-family: "Segoe UI";
+    border-spacing: 2px;
+    padding: .5vw;
+    margin-left: 1vw;
+   
+    -webkit-appearance: none;
+    appearance: none;
+
+
+    
+
+}
+.dropdown_format_true:after{
+    background-color: black;
+    color:black;
+    
 }
 
 .formHolder{
     margin-right: 5vw;
     margin-left: 5vw;
+}
+.emptySelection{
+    color: lightgrey;
+    background-color: white;
+
+}
+.realOptions{
+    color:black;
+    background-color: white;
 }

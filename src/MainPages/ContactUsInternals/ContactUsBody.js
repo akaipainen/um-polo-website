@@ -27,7 +27,7 @@ class ContactUsBody extends React.Component {
         }
     }
     render() {
-        var options = ["","Prospective Athlete", "Fundraising"];
+        var options = ["Prospective Athlete", "Fundraising"];
         
         return (
             <div className="App" >
@@ -57,10 +57,11 @@ class ContactUsBody extends React.Component {
 
       
             <div className = "dropHolder">
-                <div className = "question-title">Please select the reason for contacting:</div>
-                <select required className = "dropdown_format" onChange = {this.handleChange}>
+                <div className = "question-title">Please select the reason for contacting us:</div>
+                <select required className = {"dropdown_format_" +(this.state.value === "")} placeholder = "1234567890" onChange = {this.handleChange}>
+                <option value="" selected className = "emptySelection">Please select a reason</option>
                 {
-                    options.map(item => (<option>{item}</option>))
+                    options.map(item => (<option className = "realOptions" value = {item}>{item}</option>))
                 }
             </select>
             </div>
@@ -78,7 +79,7 @@ class ContactUsBody extends React.Component {
                                
                 
             <p className = "question-title" >*Message:</p>
-                    <textarea type="text"className = "message"  placeholder = "Enter your message here" required></textarea>
+                    <textarea type="text"className = "message" required></textarea>
                 
                 
                 </div>}
