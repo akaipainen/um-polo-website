@@ -12,7 +12,7 @@ function introImage(props) {
     return (        
             <div className = "imageContainer">
 
-            <img className = "imageDisplay" src = {imagePath}></img>
+            <img className = "imageDisplay" alt = "welcomeImage"src = {imagePath}></img>
 
                   </div>
 

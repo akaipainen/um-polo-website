@@ -16,8 +16,8 @@ function HomeBody() {
 
 
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/mavShooting.png`}></ImageIntro>
-        <a className = "streamingAlert"href = "https://youtube.com" target="_blank">Matches now streamed and archived on YouTube!</a>
-            <img src = { `${process.env.PUBLIC_URL}/champBanner.svg`} className = "champ"></img>
+        <a className = "streamingAlert"href = "https://youtube.com" rel="noopener noreferrer" target="_blank">Matches now streamed and archived on YouTube!</a>
+            <img src = { `${process.env.PUBLIC_URL}/champBanner.svg`} alt = "champ" className = "champ"></img>
          <SectionHeader title="Updates" />
                   
          {Updates.map(post => {
@@ -34,7 +34,7 @@ function HomeBody() {
          })}
                   <SectionHeader title="Alumni Network" />
 
-                  <img className = "companies" src = {`${process.env.PUBLIC_URL}/alumniCompanies.png`}></img>
+                  <img alt = "companies"className = "companies" src = {`${process.env.PUBLIC_URL}/alumniCompanies.png`}></img>
                 <p className = "alumni">Our Alumni get placed all across the globe and strengthen the Michigan Water Polo network.</p>
             </div>
 

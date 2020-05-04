@@ -5,8 +5,8 @@ export const Post = ({
     children,
     optionalDate,
     optionalTitle,
-    optionalIndex
-    
+    optionalIndex,
+    bigFont
   }) => {
     
   
@@ -18,10 +18,10 @@ export const Post = ({
         
 
           <div> 
-          {optionalTitle != null > 0 &&
+          {optionalTitle !== null  && optionalTitle !== ""&&
         <div className = "title"> {optionalTitle}</div>
       }
-        {optionalDate != null &&
+        {optionalDate !== null &&optionalDate !== "" &&
         <div className = "date"> {optionalDate}</div>
       }
 
@@ -29,8 +29,11 @@ export const Post = ({
       <div className = "breakBottom"></div> 
 
 
-      <p className = "body_text">{children}</p>
-      </div>
+{ bigFont === "yesPlease" &&  <p className = "bigbody_text">{children}</p>
+}   
+{ bigFont !== "yesPlease" &&  <p className = "body_text">{children}</p>
+}  
+   </div>
       </div>
     );
   };

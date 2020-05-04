@@ -1,9 +1,8 @@
 .question-title{
     width: max-content;
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
-
 }
 
 .questionBlock{
@@ -17,25 +16,13 @@
 }
 .dropHolder{
     display: flex;
-
     justify-content: left;
     align-items: center;
     width: max-content;
 
     
 }
-.dropHolder::after{
-    content: '\25bc';
-    font-size: 1vw;
-    padding-left: .2vw;
-    padding-right: .2vw;
-padding-top:.8vw;
-padding-bottom: .2vw;
-height: 2vw;
-    color:white;
-    background-color: black;
-    
-}
+
 .userName{
     width: 18vw;
 
@@ -47,6 +34,7 @@ height: 2vw;
     border-spacing: 2px;
     padding: .5vw;
     margin-left: 1vw;
+
 }
 .userName::placeholder{
     color:lightgrey;
@@ -67,7 +55,7 @@ height: 20vw;
     color:lightgrey;
  }
 .mail{
-    width: 25vw;
+    width: 22vw;
     box-sizing: border-box;
     border-color: #00274C;
     border-radius: .2vw;
@@ -122,10 +110,10 @@ height: 20vw;
         display: none;
         }
 .dropdown_format_true{
+    background-color: white;
     color: lightgrey;
     width: 30vw;
     font-size: 1.5vw;
-
 
     box-sizing: border-box;
     border-color: #00274C;
@@ -135,23 +123,79 @@ height: 20vw;
     border-spacing: 2px;
     padding: .5vw;
     margin-left: 1vw;
-   
+   position: absolute;
     -webkit-appearance: none;
     appearance: none;
 
+}
+.selectdiv {
+    position: relative;
+    /*Don't really need this just for demo styling*/
 
-    
+    width: max-content;
+ }
+ .breakBottom{
+     clear: both;
+ }
+ .dropBoxtrue {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    color: lightgrey;
+
+    display: block;
+    width: 40vw;
+    float: right;
+    border-radius: .2vw;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    margin-left: 1vw;
+    padding-left: .5vw;
+    background-color: #ffffff;
+    background-image: none;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+  .dropBoxfalse {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Add some styling */
+    display: block;
+    width: 40vw;
+    float: right;
+    border-radius: .2vw;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    margin-left: 1vw;
+    padding-left: .5vw;
+    color: black;
+    background-color: #ffffff;
+    background-image: none;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+ .selectdiv:after {
+    content: '▼';
+    font-size: 1vw;
+    color: black;
+    right: .8vw;
+    padding-left: .5vw;
+    padding-right: 0vw;
+    padding-top: .65vw;
+
+    padding-bottom: .65vw;
+    position: absolute;
+    pointer-events: none;
 
 }
-.dropdown_format_true:after{
-    background-color: black;
-    color:black;
-    
-}
+
 
 .formHolder{
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
 }
 .emptySelection{
     color: lightgrey;

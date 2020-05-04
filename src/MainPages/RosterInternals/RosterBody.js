@@ -5,10 +5,10 @@ import ImageIntro from '../RepeatingComponents/introImage'
 
 import "./RosterBody.css"
 import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader'
-import { render } from '@testing-library/react';
 import Dropdown from '../RepeatingComponents/Dropdown/Dropdown';
 
-
+//do not remove comment below
+// eslint-disable-next-line   
 Array.prototype.valueAt = function(index) {
     var a = this.concat();
     return a[index];

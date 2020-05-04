@@ -14,12 +14,12 @@ function Player(props) {
             
         <div className = {"class" + id % 2 }>
         
-        {headshotFile != "" &&  headshotFile != null && <img className = "headshot" src = { `${process.env.PUBLIC_URL}/${headshotFile}`}></img>}
+        {headshotFile !== "" &&  headshotFile !== null && <img alt = "headshot" className = "headshot" src = { `${process.env.PUBLIC_URL}/${headshotFile}`}></img>}
            
        <div className = "nameHolder">
         <div className = "name"> {name}</div>
       
-        {isCaptian && <img className = "captian" src = { `${process.env.PUBLIC_URL}/captain.svg`}></img>}
+        {isCaptian && <img className = "captian" alt = "captian"src = { `${process.env.PUBLIC_URL}/captain.svg`}></img>}
         <div className = "hometown"> {hometown}</div>
         <div className = "breakBottom"></div> 
 

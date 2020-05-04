@@ -9,7 +9,10 @@ import { Sub } from "../RepeatingComponents/subHeading";
 
 import SectionHeader from "../RepeatingComponents/SectionHeader/SectionHeader";
 import Dropdown from "../RepeatingComponents/Dropdown/Dropdown";
+//do not remove comment below
+// eslint-disable-next-line   
 Array.prototype.unique = function() {
+
   var a = this.concat();
   for (var i = 0; i < a.length; ++i) {
     for (var j = i + 1; j < a.length; ++j) {
@@ -19,6 +22,9 @@ Array.prototype.unique = function() {
 
   return a;
 };
+//do not remove comment below
+
+// eslint-disable-next-line  
 Array.prototype.valueAt = function(index) {
     var a = this.concat();
     return a[index];

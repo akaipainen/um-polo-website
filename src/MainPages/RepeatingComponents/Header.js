@@ -13,7 +13,7 @@ function Header(props) {
         <div className="holder" >
           
             <div className="logoHolder">
-            <img onClick = {()=> window.open( `${process.env.PUBLIC_URL}/`,"_self")} src ={ `${process.env.PUBLIC_URL}/blockM.svg`} className = "blockM"></img>
+            <img onClick = {()=> window.open( `${process.env.PUBLIC_URL}/`,"_self")} alt = "BlockM" src ={ `${process.env.PUBLIC_URL}/blockM.svg`} className = "blockM"></img>
                 <div className="Line" onClick = {()=> window.open( `${process.env.PUBLIC_URL}/`,"_self")}></div>
                 <div className = "space" onClick = {()=> window.open( `${process.env.PUBLIC_URL}/`,"_self")}>
                 <p className="titlePolo">MICHIGAN MEN'S WATER POLO</p>
