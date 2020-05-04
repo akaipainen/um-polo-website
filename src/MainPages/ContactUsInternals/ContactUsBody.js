@@ -79,7 +79,7 @@ class ContactUsBody extends React.Component {
                                
                 
             <p className = "question-title" >*Message:</p>
-                    <textarea type="text"className = "message" required></textarea>
+                    <textarea type="text"className = "message" placeholder = "Enter message here..."required></textarea>
                 
                 
                 </div>}
