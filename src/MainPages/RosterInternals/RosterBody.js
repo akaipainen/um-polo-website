@@ -1,6 +1,7 @@
 import React from 'react';
 import Player from '../RepeatingComponents/Player'
 import roster from '../../Data/roster.json'
+import ImageIntro from '../RepeatingComponents/introImage'
 
 import "./RosterBody.css"
 import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader'
@@ -29,9 +30,13 @@ class RosterBody extends React.Component {
     // TODO: Move constant year in constructor to lifecycle method
 
     render() {
+        
+
       const years = Object.keys(roster).reverse();
         return (
           <div>
+                      <ImageIntro imagePath={`${process.env.PUBLIC_URL}/team.png`}></ImageIntro>
+
             <SectionHeader title="Roster">
               <Dropdown default={this.state.year} list={years} handleYearChange={this.handleYearChange} />
             </SectionHeader>

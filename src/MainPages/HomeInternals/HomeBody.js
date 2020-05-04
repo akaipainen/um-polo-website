@@ -17,7 +17,7 @@ function HomeBody() {
 
         <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/mavShooting.png`}></ImageIntro>
         <a className = "streamingAlert"href = "https://youtube.com" target="_blank">Matches now streamed and archived on YouTube!</a>
-            <img src = "champBanner.svg" className = "champ"></img>
+            <img src = { `${process.env.PUBLIC_URL}/champBanner.svg`} className = "champ"></img>
          <SectionHeader title="Updates" />
                   
          {Updates.map(post => {

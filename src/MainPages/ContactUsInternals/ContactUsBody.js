@@ -1,31 +1,96 @@
 import React from 'react'
 import ImageIntro from '../RepeatingComponents/introImage'
-import Question from '../RepeatingComponents/Question';
 import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader';
-import DropdownQuestion from '../RepeatingComponents/DropdownQuestion';
+import "./ContactUsBody.css"
 
+class ContactUsBody extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            key: "",
+            value: "",
+            link:""
 
-function ContactUsBody() {
+        }
+        this.handleChange = this.handleChange.bind(this);
+    }
+    handleChange(option) {
+        var athleteLink = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfdFFYEJJd2zCpB-XtSTUFmhuZcFqgnWV97xaGhbxyBCfB8TA/formResponse"
+        var otherLink = "https://docs.google.com/forms/u/0/d/e/1FAB-XtSTUFmhuZcFqgnWV97xaGhbxyBCfB8TA/formResponse"
 
-    return (
-
-
+        this.setState({value: option.target.value});
+        if (option.target.value == "Prospective Athlete"){
+            this.setState({link: athleteLink});
+        }
+        if (option.target.value != "Prospective Athlete"){
+            this.setState({link: otherLink});
+        }
+    }
+    render() {
+        var options = ["","Prospective Athlete", "Fundraising"];
         
-            <div>
-                <form className = "form_format">
-                    <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
-                    <SectionHeader title = "Contact Us"></SectionHeader>
-                    <Question question_title = 'What is your name?'></Question>
-                    <Question question_title = 'What is your email?'></Question>
-                    <Question question_title = 'What is your phone number?'></Question>
-                    <DropdownQuestion question_title = 'What is your reason for contact?'
-                        options = {["Potential Athlete", "other"]}>
-                    </DropdownQuestion>
-                </form>
+        return (
+            <div className="App" >
+                
+                    <ImageIntro imagePath={`${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
+                    <SectionHeader title="Contact Us"></SectionHeader>
+                   
+                   
+                   <div className = "formHolder"> 
+                    <form className="from" action={this.state.link}>
+                    <div className = "lineHolder">
+                    <div className = "questionBlock">
+                    <label className = "question-title" >*Full Name:</label>
+                    <input type="name"className = "userName" id="name" autocomplete="on" placeholder = "John Doe" required></input>
+                    </div>
+
+                    <div className = "questionBlock">
+                    <label className = "question-title" >*Email:</label>
+                    <input type="email"className = "mail" id="email" autocomplete="on" placeholder = "john@doe.com" required></input>
+                    </div>
+
+                    <div className = "questionBlock">
+                    <label className = "question-title" >*Phone Number:</label>
+                    <input type="tel"className = "phone" id="phone" autocomplete="on" placeholder = "1234567890" pattern="[0-9]{10}" required></input>
+                    </div>
+                    </div>
+
+      
+            <div className = "dropHolder">
+                <div className = "question-title">Please select the reason for contacting:</div>
+                <select required className = "dropdown_format" onChange = {this.handleChange}>
+                {
+                    options.map(item => (<option>{item}</option>))
+                }
+            </select>
             </div>
+                    
+            {this.state.value === "Prospective Athlete" && <div> 
+                
+            <div className = "questionBlock">
+                    <label className = "question-title" >Body Count</label>
+                    <input type="number" id="quantity"className = "phone" placeholder = "1000" required></input>
+                    </div>
+                
+                
+                </div>}
+            {this.state.value !== "Prospective Athlete" && this.state.value !== "" &&<div> 
+                               
+                
+            <p className = "question-title" >*Message:</p>
+                    <textarea type="text"className = "message"  placeholder = "Enter your message here" required></textarea>
+                
+                
+                </div>}
 
+                     <input type="submit" value="Send" />
+                </form>
 
-    )
+                </div>
+            </div>
+        );
+
+    }
 }
 
-export default ContactUsBody
+export default ContactUsBody;

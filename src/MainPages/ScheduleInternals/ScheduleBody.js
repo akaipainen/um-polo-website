@@ -115,6 +115,7 @@ class ScheduleBody extends Component {
                       />
                     );
                   })}
+                  <br></br>
                 </div>
               );
             })}
