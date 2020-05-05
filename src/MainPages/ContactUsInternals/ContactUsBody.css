@@ -285,3 +285,15 @@ margin-left: 2vw;
 .smallText{
     font-size: 1vw;
 }
+.appear{
+    animation-name: appear;
+    animation-duration: .8s;
+}
+@keyframes appear {
+    0%   {opacity: 0;}
+
+    100% {opacity: 100%;}
+  }
+  .hidden{
+display: none;
+  }
