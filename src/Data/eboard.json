@@ -1,17 +1,20 @@
 [{
     "id": 1,
      "role": "President",
-      "name": "Andrew Golin"
+      "name": "Andrew Golin",
+      "headshotFile":"headshotDrew.jpg"
 },
 {
     "id": 2,
      "role": "Vice President",
-      "name": "Dan Rusca"
+      "name": "Dan Rusca",
+      "headshotFile":"headshotRusca.jpg"
 },
 {
     "id": 3,
      "role": "Treasurer",
-      "name": "Brendan Chang"
+      "name": "Brendan Chang",
+      "headshotFile":"headshotBChang.jpg"
 },
 {
     "id": 4,
@@ -21,79 +24,74 @@
 {
     "id": 5,
      "role": "Captian",
+     "headshotFile": "headshotNolan.jpg",
+
      "name": "Nolan Vaughn"
+     
+},
+{
+    "id": 6,
+     "role": "Captian\nCommunity Service Chair",
+     "name": "Scott Fordham"
 },
 {
     "id": 7,
      "role": "Captian",
-     "name": "Scott Fordham"
-},
-{
-    "id": 8,
-     "role": "Captian",
+     "headshotFile": "headshotDZ.png",
+
      "name": "Daniel Zacks"
 },
 {
-    "id": 9,
+    "id": 8,
      "role": "Fundraising Chair",
-     "name": "Adam Schnepf"
-},
-{
-    "id": 10,
-     "role": "Travel Coordinator",
-      "name": "Maverick Becker",
-      "headshotFile":""
-},
-{
-    "id": 11,
-     "role": "Web Master",
-      "name": "Matthew Ferrari",
-      "headshotFile": "mferrariheadshot.png"
+     "name": "Adam Schnepf",
+     "headshotFile":"headshotAdam.png"
 
 },
 {
-    "id": 12,
+    "id": 9,
+     "role": "Travel Coordinator",
+      "name": "Maverick Becker",
+      "headshotFile":"headshotMav.jpg"
+},
+{
+    "id": 10,
+     "role": "Web Master",
+      "name": "Matthew Ferrari",
+      "headshotFile": "headshotRari.png"
+
+},
+{
+    "id": 11,
      "role": "Web Manager",
       "name": "Alex Kaipainen"
 },
 {
-    "id": 13,
-     "role": "Web Manager",
-     "headshotFile": "sidheadshot.png",
+    "id": 12,
+     "role": "Web Manager\nSocial Chair",
+     "headshotFile": "headshotSid.jpg",
       "name": "Sid Murthy"
 },
 {
-    "id": 14,
-     "role": "Web Assistant",
-      "name": "Nolan Vaughn"
-},
-{
-    "id": 15,
+    "id": 13,
      "role": "Alumni Relations Chair",
-      "name": "Court Middleton"
+      "name": "Court Middleton",
+      "headshotFile":"headshotCourt.jpg"
+
+},{
+    "id": 14,
+     "role": "Community Service Chair\nSocial Chair",
+      "name": "Arya Kale"
+},{
+    "id": 15,
+     "role": "Social Chair",
+      "name": "Stefan Kassem",
+      "headshotFile": "headshotStef.jpg"
+
 },{
     "id": 16,
-     "role": "Community Service Chair",
-      "name": "Scott Fordham"
-},{
-    "id": 17,
-     "role": "Community Service Chair",
-      "name": "Arya Kale"
-},{
-    "id": 18,
      "role": "Social Chair",
-      "name": "Sid Murthy"
-},{
-    "id": 19,
-     "role": "Social Chair",
-      "name": "Stefan Kassem"
-},{
-    "id": 20,
-     "role": "Social Chair",
+     "headshotFile": "headshotBurns.jpg",
+
       "name": "Zach Burns"
-},
-{
-    "id": 21,
-     "role": "Social Chair",
-      "name": "Arya Kale"
 }]

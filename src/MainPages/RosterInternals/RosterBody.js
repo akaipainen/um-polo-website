@@ -60,7 +60,7 @@ class RosterBody extends React.Component {
                   })}
                   
                 
-            }
+            
                     
         </div>
         );

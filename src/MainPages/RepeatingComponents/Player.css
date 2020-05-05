@@ -42,9 +42,11 @@ width: 100%;
 }
 .headshot{
     height: 9.5vw;
+    width:8vw;
     margin-right:1vw;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: .2vw;
 
 
     float: left;
@@ -70,6 +72,7 @@ width: 100%;
     text-align: right;
     margin-right: 0;
     padding-right: 0;
+    white-space: pre-wrap;
 }
 .breakBottom{
     clear: both;
