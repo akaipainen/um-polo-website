@@ -18,7 +18,7 @@ class RosterBody extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-            year: Object.keys(roster).sort().reverse().valueAt(0)
+            year: Object.keys(roster).sort().reverse().valueAt(0),
         }
         this.handleYearChange = this.handleYearChange.bind(this)
     }
@@ -31,36 +31,40 @@ class RosterBody extends React.Component {
 
     render() {
         
-
+       var path = roster[this.state.year].photo +""
       const years = Object.keys(roster).reverse();
         return (
           <div>
-                      <ImageIntro imagePath={`${process.env.PUBLIC_URL}/team.png`}></ImageIntro>
-
+{               path !=="" &&  path !=="undefined" &&  path !==null&& <ImageIntro imagePath={`${process.env.PUBLIC_URL}/${roster[this.state.year].photo }`}></ImageIntro>
+}
             <SectionHeader title="Roster">
               <Dropdown default={this.state.year} list={years} handleYearChange={this.handleYearChange} />
             </SectionHeader>
 
-            {
-                roster[this.state.year].map(post => {
+            
+                 
+                  {// Render all games in tournament
+                  roster[this.state.year].people.map(post => {
                     return (
                         <div>
-                            <Player
-                                id={post.id}
-                                isCaptian={post.isCaptian}
-                                hometown={post.hometown}
-                                yearAndProgram={post.yearAndProgram}
-                                headshotFile={post.headshotFile}
-                                name={post.name}>
-                            </Player>
-                        </div>
-                    )
-                })
+                        <Player
+                            id={post.id}
+                            isCaptian={post.isCaptian}
+                            hometown={post.hometown}
+                            yearAndProgram={post.yearAndProgram}
+                            headshotFile={""+post.headshotFile}
+                            name={post.name}>
+                        </Player>
+                    </div>
+                    );
+                  })}
+                  
+                
             }
-            </div>
-        )
-    }
-
+                    
+        </div>
+        );
+    }                                                                                              
 }
 
 

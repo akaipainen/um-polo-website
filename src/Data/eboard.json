@@ -1,36 +1,99 @@
 [{
     "id": 1,
-    "isCaptian": false,
      "role": "President",
-      "headshotFile": "mFerrariHeadshot.png",
-      "name": "Drew Golin"
+      "name": "Andrew Golin"
 },
 {
     "id": 2,
-    "isCaptian": false,
      "role": "Vice President",
-      "headshotFile": "mFerrariHeadshot.png",
       "name": "Dan Rusca"
 },
 {
     "id": 3,
-    "isCaptian": false,
-     "role": "Web Master",
-     "headshotFile": "mFerrariHeadshot.png",
-     "name": "Matthew Ferrari"
+     "role": "Treasurer",
+      "name": "Brendan Chang"
 },
 {
     "id": 4,
-    "isCaptian": false,
-     "role": "Web Dev Team",
-      "headshotFile": "",
-      "name": "Kaipi"
+     "role": "Captian",
+     "name": "Chris Lobdell"
 },
 {
     "id": 5,
-    "isCaptian": false,
-     "role": "Web Dev Team",
+     "role": "Captian",
+     "name": "Nolan Vaughn"
+},
+{
+    "id": 7,
+     "role": "Captian",
+     "name": "Scott Fordham"
+},
+{
+    "id": 8,
+     "role": "Captian",
+     "name": "Daniel Zacks"
+},
+{
+    "id": 9,
+     "role": "Fundraising Chair",
+     "name": "Adam Schnepf"
+},
+{
+    "id": 10,
+     "role": "Travel Coordinator",
+      "name": "Maverick Becker",
+      "headshotFile":""
+},
+{
+    "id": 11,
+     "role": "Web Master",
+      "name": "Matthew Ferrari",
+      "headshotFile": "mferrariheadshot.png"
+
+},
+{
+    "id": 12,
+     "role": "Web Manager",
+      "name": "Alex Kaipainen"
+},
+{
+    "id": 13,
+     "role": "Web Manager",
      "headshotFile": "sidheadshot.png",
       "name": "Sid Murthy"
-}
-]
+},
+{
+    "id": 14,
+     "role": "Web Assistant",
+      "name": "Nolan Vaughn"
+},
+{
+    "id": 15,
+     "role": "Alumni Relations Chair",
+      "name": "Court Middleton"
+},{
+    "id": 16,
+     "role": "Community Service Chair",
+      "name": "Scott Fordham"
+},{
+    "id": 17,
+     "role": "Community Service Chair",
+      "name": "Arya Kale"
+},{
+    "id": 18,
+     "role": "Social Chair",
+      "name": "Sid Murthy"
+},{
+    "id": 19,
+     "role": "Social Chair",
+      "name": "Stefan Kassem"
+},{
+    "id": 20,
+     "role": "Social Chair",
+      "name": "Zach Burns"
+},
+{
+    "id": 21,
+     "role": "Social Chair",
+      "name": "Arya Kale"
+}]

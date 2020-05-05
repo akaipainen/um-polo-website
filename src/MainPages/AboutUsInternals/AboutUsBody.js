@@ -25,15 +25,15 @@ function AboutUsBody() {
             <SectionHeader title="2020 Executive Board" />
 
             {Eboard.map(post => {
-
+console.log(post.headshotFile)
                 return (
                     <div>
 
                         <Player
                             id={post.id}
-                            isCaptian={post.isCaptian}
+                            isCaptian={false}
                             hometown={post.role}
-                            headshotFile = {post.headshotFile}
+                            headshotFile = {""+post.headshotFile}
                             name={post.name}>
                         </Player>
 
@@ -65,8 +65,8 @@ function AboutUsBody() {
                     </div>
 
                     <div className = "bannerContainer" >
-                    <img  onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")} className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"gallery.png"}`} alt = "bhoto"></img>
-                    <p onClick={()=> window.open("https://drive.google.com/drive/folders/1RXVpM5bYb-d1fWcLQ8jChyP8_1pCVFTi", "_blank")} className = "bannerText" >Photo Gallery</p>
+                    <img  onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/0ByBWCpbn60RoUUFtRW1JemQyNlE", "_blank")} className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"gallery.png"}`} alt = "bhoto"></img>
+                    <p onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/0ByBWCpbn60RoUUFtRW1JemQyNlE", "_blank")} className = "bannerText" >Photo Gallery</p>
                     </div>
                </div>
                

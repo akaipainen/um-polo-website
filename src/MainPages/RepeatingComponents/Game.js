@@ -38,10 +38,10 @@ function Game(props) {
     var dif = current.getTime() - time.getTime()
     dif = dif / 60000
     var playback
-    if (dif > 180){
+    if (dif > 180 && viewingLink !== null && viewingLink !== ""&& viewingLink !== "undefined"){
         playback = "Watch Here"
     }
-    else if(dif > -30){
+    else if(dif > -30 && viewingLink !== null && viewingLink !== ""&& viewingLink !== "undefined"){
         playback = "Watch Live Here"
 
     }

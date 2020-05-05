@@ -1,56 +1,761 @@
-{
-  "2019": [
+{   "2019": {
+  "photo":"team2019.png",
+  "people": [
+  {
+    "id": 1,
+    "isCaptian": false,
+    "name": "Matthew Ferrari",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying Computer Science and Industrial Engineering"
+
+  },
+  {
+    "id": 2,
+    "isCaptian": false,
+    "name": "Zach Burns",
+    "hometown": "Rockford, MI",
+    "yearAndProgram":"Freshman studying Philosophy, Political Science, and Economics"
+
+  },
+  {
+    "id": 3,
+    "isCaptian": false,
+    "name": "Baylor Wiggins",
+    "hometown": "Ashland, OR",
+    "yearAndProgram":"Freshman studying Biology"
+
+  },
+  {
+    "id": 4,
+    "isCaptian": false,
+    "name": "Thor Clarke",
+    "hometown": "Ann Arbor, MI",
+    "yearAndProgram":"Freshman studying Engineering"
+
+  },
+  {
+    "id": 5,
+    "isCaptian": false,
+    "name": "Alex Attisha",
+    "hometown": "San Diego, CA",
+    "yearAndProgram":"Sophmore studying Interdisciplinary Physics andEconomics"
+
+  },
+  {
+    "id": 6,
+    "isCaptian": false,
+    "name": "Andrew Golin",
+    "hometown": "Dexter",
+    "yearAndProgram":"Sophmore studying Biomedical Engineering"
+
+  },
+  {
+    "id": 7,
+    "isCaptian": false,
+    "name": "Federico Benazzo",
+    "hometown": "Pavia, Italy",
+    "yearAndProgram":"Sophmore studying Aerospace Engineering"
+
+  },{
+    "id": 8,
+    "isCaptian": false,
+    "name": "Arya Kale",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+      {
+    "id": 9,
+    "isCaptian": false,
+    "name": "Dan Rusca",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 10,
+    "isCaptian": false,
+    "name": "Maverick Becker",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Cameron Serr",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Brendan Chang",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Adam Schnepf",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Diego Sanchez-Burks",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Chris Lobdell",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Alex Kaipainen",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Sid Murthy",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": true,
+    "name": "Matt McCormack",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  
+  {
+    "id": 11,
+    "isCaptian": true,
+    "name": "Nolan Vaughn",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": true,
+    "name": "Daniel Zacks",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Aaron Crane",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Cade Bosch",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Stefan Kassem",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Zach Gusho",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Mason Devarti",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Matt Reiser",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Scott Fordham",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Court Middleton",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 3,
+    "isCaptian": false,
+    "name": "Zach Gan",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+
+  },
+  {
+    "id": 14,
+    "isCaptian": false,
+    "name": "Chris Segar",
+    "hometown": "Fairfax, VA",
+    "yearAndProgram":"Freshman studying computer science and industrial engineering"
+},
     {
-      "id": 1,
-      "isCaptian": true,
+      "id": 12,
+      "isCaptian": false,
+      "name": "Justin Poliner",
       "hometown": "Fairfax, VA",
-      "yearAndProgram": "Freshman studying computer science and industrial engineering",
-      "headshotFile": "mFerrariHeadshot.png",
-      "name": "Matthew Ferrari"
+      "yearAndProgram":"Freshman studying computer science and industrial engineering"
+  
+    },
+    {
+      "id": 11,
+      "isCaptian": false,
+      "name": "David Kamper",
+      "hometown": "Fairfax, VA",
+      "yearAndProgram":"Freshman studying computer science and industrial engineering"
+  
+    },
+    {
+      "id": 12,
+      "isCaptian": false,
+      "name": "Ilya Kovalenko",
+      "hometown": "Fairfax, VA",
+      "yearAndProgram":"Freshman studying computer science and industrial engineering"
+  
+    },
+    {
+      "id": 3,
+      "isCaptian": false,
+      "name": "Davis Argersinger",
+      "hometown": "Fairfax, VA",
+      "yearAndProgram":"Freshman studying computer science and industrial engineering"
+  
+    }]}
+    
+    
+    
+    
+    ,"2018": {
+  "photo":"team2018.png",
+  "people": [
+  {
+    "id": 1,
+    "isCaptian": true,
+    "name": "Tom McLeod"
+  },
+  {
+    "id": 2,
+    "isCaptian": true,
+    "name": "Miles Harber"
+  },
+  {
+    "id": 3,
+    "isCaptian": true,
+    "name": "David Newberger"
+  },
+  {
+    "id": 4,
+    "isCaptian": false,
+    "name": "Charles Schertzing"
+  },
+  {
+    "id": 5,
+    "isCaptian": false,
+    "name": "Justin Poliner"
+  },
+  {
+    "id": 6,
+    "isCaptian": false,
+    "name": "Nolan Vaughn"
+  },
+  {
+    "id": 7,
+    "isCaptian": false,
+    "name": "Ilya Kovalenko"
+  },{
+    "id": 8,
+    "isCaptian": false,
+    "name": "Scott Fordham"
+  },
+      {
+    "id": 9,
+    "isCaptian": false,
+    "name": "Zach Gan"
+  },
+  {
+    "id": 10,
+    "isCaptian": false,
+    "name": "Chris Seger"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Sid Murthy"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Seth Wisotsky"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Stefan Kassem"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Daniel Zacks"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Maverick Becker"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Federico Benazzo"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Andrew Golin"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Arya Kale"
+  },
+  
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Alex Kaipainen"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Adam Schnepf"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Matt McCormack"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Dan Rusca"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Court Middleton"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Chris Lobdell"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Mason Devarti"
+  },
+  {
+    "id": 12,
+    "isCaptian": false,
+    "name": "Matt Reiser"
+  },
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Brendan Chang"
+  }
+]},
+  "2017": {
+    "photo":"team2017.png",
+    "people": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "name": "Alexander Weiss"
     },
     {
       "id": 2,
       "isCaptian": true,
-      "hometown": "Lansing, MI",
-      "yearAndProgram": "Sophmore studying your mom",
-      "headshotFile": "",
-      "name": "Sid Murthy"
+      "name": "Connor Hallman"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "David Newberger"
+    },
+    {
+      "id": 4,
+      "isCaptian": false,
+      "name": "Nick Yoo"
+    },
+    {
+      "id": 5,
+      "isCaptian": false,
+      "name": "Justin Poliner"
+    },
+    {
+      "id": 6,
+      "isCaptian": false,
+      "name": "Nolan Vaughn"
+    },
+    {
+      "id": 7,
+      "isCaptian": false,
+      "name": "Ilya Kovalenko"
+    },{
+      "id": 8,
+      "isCaptian": false,
+      "name": "Scott Fordham"
+    },
+        {
+      "id": 9,
+      "isCaptian": false,
+      "name": "Daniel Wu"
+    },
+    {
+      "id": 10,
+      "isCaptian": false,
+      "name": "Zac Gan"
+    },{
+      "id": 11,
+      "isCaptian": false,
+      "name": "Dan Zacks"
+    },
+    {
+      "id": 12,
+      "isCaptian": false,
+      "name": "Chris Segar"
+    },{
+      "id": 13,
+      "isCaptian": false,
+      "name": "Matt Reiser"
+    },{
+      "id": 14,
+      "isCaptian": false,
+      "name": "Matt McCormack"
+    }, {
+      "id": 11,
+      "isCaptian": false,
+      "name": "Stefan Kassem"
     }
-  ],
-  "2018": [
+  ]},
+  "2016": {
+  "photo":"team2016.png",
+  "people": [
+  {
+    "id": 1,
+    "isCaptian": true,
+    "name": "Davis Argersinger"
+  },
+  {
+    "id": 2,
+    "isCaptian": true,
+    "name": "Dennis Dahlmann"
+  },
+  {
+    "id": 3,
+    "isCaptian": true,
+    "name": "Ryan Scannell"
+  },
+  {
+    "id": 4,
+    "isCaptian": false,
+    "name": "Jakob Kiel-Locey"
+  },
+  {
+    "id": 5,
+    "isCaptian": false,
+    "name": "Justin Poliner"
+  },
+  {
+    "id": 6,
+    "isCaptian": false,
+    "name": "Tom Mcleod"
+  },
+  {
+    "id": 7,
+    "isCaptian": false,
+    "name": "Michael Garcia"
+  },{
+    "id": 8,
+    "isCaptian": false,
+    "name": "Jesus Juarez"
+  },
+  {
+    "id": 7,
+    "isCaptian": false,
+    "name": "Daniel Wu"
+  },{
+    "id": 8,
+    "isCaptian": false,
+    "name": "David Newberger"
+  },
+  {
+    "id": 9,
+    "isCaptian": false,
+    "name": "Charles Schertzing"
+  },
+  {
+    "id": 10,
+    "isCaptian": false,
+    "name": "Zac Gan"
+  }
+  ,
+  {
+    "id": 11,
+    "isCaptian": false,
+    "name": "Chris Segar"
+  }
+  
+]},
+  "2015": {
+    "photo":"team2015.png",
+    "people": [
     {
       "id": 1,
-      "isCaptian": false,
-      "hometown": "Sparta",
-      "yearAndProgram": "Freshman studying binary",
-      "headshotFile": "mFerrariHeadshot.png",
-      "name": "2018 Matthew Ferrari"
+      "isCaptian": true,
+      "name": "Davis Argersinger"
     },
     {
       "id": 2,
+      "isCaptian": true,
+      "name": "Nick Naruns"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Ryan Scannell"
+    },
+    {
+      "id": 4,
       "isCaptian": false,
-      "hometown": "Lansing, MI",
-      "yearAndProgram": "Sophmore studying your mom",
-      "headshotFile": "mFerrariHeadshot.png",
-      "name": "2018 Sid Murthy"
+      "name": "Tom Mcleod"
+    },
+    {
+      "id": 5,
+      "isCaptian": false,
+      "name": "Andrew Hausman"
+    },
+    {
+      "id": 6,
+      "isCaptian": false,
+      "name": "Dennis Dahlmann"
+    },
+    {
+      "id": 7,
+      "isCaptian": false,
+      "name": "Michael Garcia"
+    },{
+      "id": 8,
+      "isCaptian": false,
+      "name": "Seiji Osawa"
+    },
+    {
+      "id": 7,
+      "isCaptian": false,
+      "name": "Daniel Wu"
+    },{
+      "id": 8,
+      "isCaptian": false,
+      "name": "David Newberger"
+    },
+    {
+      "id": 9,
+      "isCaptian": false,
+      "name": "Nick Yoo"
+    },
+    {
+      "id": 10,
+      "isCaptian": false,
+      "name": "Ilya Kovalenko"
+    },
+    {
+      "id": 11,
+      "isCaptian": false,
+      "name": "Justin Poliner"
     }
-  ],
-  "2017": [
+    
+  ]},
+  "2014": {
+    "people": [
     {
       "id": 1,
-      "isCaptian": false,
-      "hometown": "Sparta",
-      "yearAndProgram": "Freshman studying binary",
-      "headshotFile": "mFerrariHeadshot.png",
-      "name": "2017 Matthew Ferrari"
+      "isCaptian": true,
+      "name": "Daniel Wu"
     },
     {
       "id": 2,
-      "isCaptian": false,
-      "hometown": "Lansing, MI",
-      "yearAndProgram": "Sophmore studying your mom",
-      "headshotFile": "mFerrariHeadshot.png",
-      "name": "2017 Sid Murthy"
+      "isCaptian": true,
+      "name": "Davis Argersinger"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Ryan Scannell"
+    },
+    {
+      "id": 4,
+      "isCaptian": true,
+      "name": "Seiji Osawa"
     }
-  ]
+    
+  ]},
+  "2013": {
+    "people": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "name": "Seiji Osawa"
+    },
+    {
+      "id": 2,
+      "isCaptian": true,
+      "name": "Grant Cole"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Chris Takahashi"
+    },
+    {
+      "id": 4,
+      "isCaptian": true,
+      "name": "Nick Naruns"
+    }
+    
+  ]},
+  "2012": {
+    "people": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "name": "Seiji Osawa"
+    },
+    {
+      "id": 2,
+      "isCaptian": true,
+      "name": "Nick Naruns"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Chris Takahashi"
+    }
+    
+  ]},
+  "2011": {
+
+    "people": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "name": "Chris Takahashi"
+    },
+    {
+      "id": 2,
+      "isCaptian": true,
+      "name": "Peter DeJonge"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Ben Hubbard"
+    },
+    {
+      "id": 4,
+      "isCaptian": true,
+      "name": "Matt Woelfel"
+    }
+  ]},
+  "2010": {
+    "people": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "name": "Nick Mansfield"
+    },
+    {
+      "id": 2,
+      "isCaptian": true,
+      "name": "Sam Hoekstra"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Levi Barry"
+    },
+    {
+      "id": 4,
+      "isCaptian": true,
+      "name": "Matt Woelfel"
+    }
+  ]},
+  "2009": {
+    "people": [
+    {
+      "id": 1,
+      "isCaptian": true,
+      "name": "Ryan Pryor"
+    },
+    {
+      "id": 2,
+      "isCaptian": true,
+      "name": "Matt Woelfel"
+    },
+    {
+      "id": 3,
+      "isCaptian": true,
+      "name": "Nick Mansfield"
+    }
+  ]}
 }

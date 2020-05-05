@@ -30,7 +30,10 @@
     width: 60vw;
     
 }
-
+.format{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
 .alumni{
     text-align: center;
     color:var(--blue);
@@ -38,4 +41,14 @@
     padding-left: 20vw;  
       padding-right: 20vw;
 
+}
+.yours-custom-class{
+    width: 90vw;
+    height: 30vw;
+}
+.newBox{
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+        margin-top: 1vw;
 }

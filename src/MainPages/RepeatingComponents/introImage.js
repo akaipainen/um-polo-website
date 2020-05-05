@@ -8,14 +8,15 @@ import "./introImage.css";
 
 function introImage(props) {
     const imagePath = props.imagePath
+    console.log(imagePath)
+    return (  
+        <div>  
+           {imagePath !== "" &&   imagePath!== "undefined"&& imagePath!== null&&  <div className = "imageContainer">
 
-    return (        
-            <div className = "imageContainer">
+         <img className = "imageDisplay" alt = "welcomeImage"src = {imagePath}></img>
 
-            <img className = "imageDisplay" alt = "welcomeImage"src = {imagePath}></img>
-
-                  </div>
-
+                  </div>}
+                  </div>    
     )
 }
 

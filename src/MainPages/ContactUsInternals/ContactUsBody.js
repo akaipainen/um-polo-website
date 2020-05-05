@@ -207,9 +207,9 @@ if (currentlySelectedAthlete){
                         <input type="text" className="priorTeams" autocomplete="off" placeholder="Enter the secret password here" pattern="GO BLUE" required></input>
                         <div className = "smallText"><mark>NOTE: use normal characters and all caps—<b>DO NOT</b> copy and paste!</mark></div>
 
-                        <br></br>
+                        <div className="someSpace"></div>
 
-                        <input type="submit" value="Send" />
+                        <input type="submit"  className ="done" value="Submit" />
                     </form>
                 </div>
             </div>
