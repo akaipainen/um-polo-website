@@ -81,7 +81,9 @@
 },{
     "id": 14,
      "role": "Community Service Chair\nSocial Chair",
-      "name": "Arya Kale"
+      "name": "Arya Kale",
+      "headshotFile":"headshotArya.png"
+
 },{
     "id": 15,
      "role": "Social Chair",
