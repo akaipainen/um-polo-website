@@ -74,7 +74,9 @@ function Game(props) {
       </div>
       <div className="toTheRight">
         <div className="scoreContainer">
-          <b>{score}</b>
+         {score.length <= 13 && <div className = "scoreReport"><b>{score}</b></div>}
+         {score.length > 13 && <div className = "scoreReportSmall">{score}</div>}
+
           <img
             alt="gameResultLogo"
             className="imageResult"
@@ -89,7 +91,7 @@ function Game(props) {
       {playback === "Watch Here" && (
         <div
           onClick={() => window.open(viewingLink, "_blank")}
-          className="playbackLive"
+          className="playbackRecording"
         >
           {playback}
           <img

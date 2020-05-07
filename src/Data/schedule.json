@@ -1,108 +1,1531 @@
 {
   "2019": {
-    "OSU Tournament": {
-      "location": "McCorkle Aquatic Pavilion",
-      "dates": "April 20th - April 21st",
-      "directions":"https://www.google.com/maps/dir//Donald+B.+Canham+Natatorium,+500+E+Hoover+Ave,+Ann+Arbor,+MI+48104/@42.2693064,-83.7460302,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025!3e0",
+    
+    "Big Ten Regional 1": {
+      "location": "McCaffree Pool",
+      "dates": "October 12th - 13th",
+      "directions":"https://www.google.com/maps/dir//200+Chestnut+Rd,+East+Lansing,+MI+48824/@42.729561,-84.4904048,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8822c278f897b8b3:0xf323b449bdc8c0cb!2m2!1d-84.4883019!2d42.7290862",
       "games": [
         {
           "id": 1,
-          "opponent": "Mighigan State",
-          "score": "10-5",
-          "result": "win",
-          "viewingLink": "https://www.youtube.com",
-          "time": "2020-04-20T10:00",
-          "logo":"msu.png"
+          "opponent": "Northwestern",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-12T13:00",
+          "logo":"nw.svg"
         },
         {
           "id": 2,
-          "opponent": "Northwestern",
-          "score": "5-5",
-          "result": "tie",
-          "viewingLink": "https://www.youtube.com",
-          "time": "2020-04-20T14:00",
-          "logo":"msu.png"
+          "opponent": "Ohio State",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-12T16:30",
+          "logo":"osu.svg"
         },
         {
           "id": 3,
-          "opponent": "Ohio State",
-          "time": "2020-04-20T18:00",
-          "score": "4-5",
-          "result": "loss",
-          "viewingLink": "https://www.youtube.com",
-          "logo":"msu.png"
+          "opponent": "Purdue",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-13T11:20",
+          "logo":"purdue.svg"
+        }, {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-13T13:40",
+          "logo":"msu.svg"
         }
       ]
     },
-        "MSU Tournament": {
-      "location": "McCorkle Aquatic Pavilion",
-      "dates": "April 20th - April 21st",
-      "directions":"https://www.google.com/maps/dir//Donald+B.+Canham+Natatorium,+500+E+Hoover+Ave,+Ann+Arbor,+MI+48104/@42.2693064,-83.7460302,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025!3e0",
+    "Big Ten Regional 2": {
+      "location": "Counsilman Billingsley Aquatic Center",
+      "dates": "October 19th - 20th",
+      "directions":"https://www.google.com/maps/dir//indiana+university+natatorium/@39.4244079,-86.1484785,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b50b4cb1c33ab:0xa1dfd60c30d334cf!2m2!1d-86.1750697!2d39.770674",
       "games": [
         {
           "id": 1,
-          "opponent": "Mighigan State",
-          "score": "10-5",
+          "opponent": "Wisconsin",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-19T13:00",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-19T16:30",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Illinois",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-20T11:20",
+          "logo":"illinois.svg"
+        }, {
+          "id": 4,
+          "opponent": "Iowa",
+          "score": "Canceled due to Cryptosporidium outbreak",
+          "result": "canceled",
+          "viewingLink": "",
+          "time": "2019-10-20T13:40",
+          "logo":"iowa.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "November 2nd - 3rd",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "12-5",
           "result": "win",
-          "viewingLink": "https://www.youtube.com",
-          "time": "2020-04-20T10:00",
-          "logo":"msu.png"
+          "viewingLink": "",
+          "time": "2019-11-02T11:50",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Michigan State",
+          "score": "8-9 (OT)",
+          "result": "loss",
+          "viewingLink": "youtube.com",
+          "time": "2019-11-02T16:30",
+          "logo":"msu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Wisconsin",
+          "score": "16-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2019-11-03T11:20",
+          "logo":"wisco.svg"
+        }
+      ]
+    }
+  },
+
+
+  "2018": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "September 29th - 30th",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Iowa",
+          "score": "17-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-09-29T14:15",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Purdue",
+          "score": "12-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-09-29T18:35",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Wisconsin",
+          "score": "9-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-09-30T10:05",
+          "logo":"wisco.svg"
+        }, {
+          "id": 4,
+          "opponent": "Indiana",
+          "score": "9-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-09-30T14:25",
+          "logo":"iu.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Iowa Natatorium",
+      "dates": "October 13th - 14th",
+      "directions":"https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "11-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-10-13T11:40",
+          "logo":"illinois.svg"
         },
         {
           "id": 2,
           "opponent": "Northwestern",
+          "score": "16-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-10-13T16:00",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Michigan State",
+          "score": "4-7",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2018-10-14T09:00",
+          "logo":"msu.svg"
+        }, {
+          "id": 4,
+          "opponent": "Purdue",
+          "score": "12-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-10-14T11:20",
+          "logo":"purdue.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Canham Natatorium",
+      "dates": "October 27th - 28th",
+      "directions":"https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Iowa",
+          "score": "16-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-10-27T14:10",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Purdue",
+          "score": "14-1",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-10-27T17:35",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Michigan State",
+          "score": "5-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-10-28T12:15",
+          "logo":"wisco.svg"
+        }
+      ]
+    },
+    "National Championship": {
+      "location": "Hillenbrand Aquatic Center",
+      "dates": "November 9th - 11th",
+      "directions":"https://www.google.com/maps/dir//McKale+Memorial+Center,+1721+E+Enke+Dr,+Tucson,+AZ+85721/@32.2303194,-110.9471609,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x86d671ab9f3c04f7:0xbbe2248fa5863d3c!2m2!1d-110.9460639!2d32.2303194",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Florida",
+          "score": "12-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2018-11-09T14:50",
+          "logo":"florida.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "California Polytechnic",
+          "score": "2-12",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2019-11-10T12:30",
+          "logo":"cpsu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Texas",
+          "score": "7-9",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2018-11-10T19:30",
+          "logo":"texas.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Ohio State",
+          "score": "9-10 (OT)",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2018-11-11T09:00",
+          "logo":"osu.svg"
+        }
+      ]
+    }
+    
+    
+  },
+  
+  
+
+
+
+  "2017": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Counsilman Billingsley Aquatic Center",
+      "dates": "September 23rd - 24th",
+      "directions":"https://www.google.com/maps/dir//indiana+university+natatorium/@39.4244079,-86.1484785,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b50b4cb1c33ab:0xa1dfd60c30d334cf!2m2!1d-86.1750697!2d39.770674",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "15-1",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-09-23T15:00",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Unviversity of Iowa",
+          "score": "15-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-09-23T18:30",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Purdue",
+          "score": "11-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-09-24T09:30",
+          "logo":"purdue.svg"
+        }
+        ,
+        {
+          "id": 4,
+          "opponent": "Illinois",
+          "score": "9-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-09-24T13:30",
+          "logo":"illinois.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "September 30th - October 1st",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Indiana",
           "score": "5-5",
           "result": "tie",
-          "viewingLink": "https://www.youtube.com",
-          "time": "2020-04-20T14:00",
-          "logo":"msu.png"
+          "viewingLink": "",
+          "time": "2017-09-30T11:00",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Northwestern",
+          "score": "10-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-09-30T14:00",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Wisconsin",
+          "score": "22-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-09-30T18:00",
+          "logo":"wisco.svg"
+        }, {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "11-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-10-01T12:30",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Iowa Natatorium",
+      "dates": "October 21st - 22nd",
+      "directions":"https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Iowa",
+          "score": "15-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-10-21T11:30",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Michigan State",
+          "score": "12-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-10-21T18:30",
+          "logo":"msu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Indiana",
+          "score": "9-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-10-22T12:30",
+          "logo":"iu.svg"
+        }
+      ]
+    },
+    "National Championship": {
+      "location": "Morcom Aquatics Center",
+      "dates": "November 10th - 12th",
+      "directions":"https://www.google.com/maps/dir//florida+state+natatorium/@34.4522537,-85.2707063,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88ecf4d9b1d9722f:0x6ecc98863d76128d!2m2!1d-84.3154754!2d30.4178567",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Alabama",
+          "score": "15-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-11-10T12:30",
+          "logo":"alabama.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Texas",
+          "score": "4-6",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2017-11-11T10:10",
+          "logo":"texas.svg"
         },
         {
           "id": 3,
           "opponent": "Ohio State",
-          "time": "2020-04-20T18:00",
-          "score": "4-5",
-          "result": "loss",
-          "viewingLink": "https://www.youtube.com",
-          "logo":"msu.png"
+          "score": "6-8 (OT)",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-11-11T16:00",
+          "logo":"osu.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Army",
+          "score": "11-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2017-11-12T09:00",
+          "logo":"army.svg"
         }
       ]
-    }        
+    }
+    
+    
   },
-  "2018": {
-    "OSU Tournament": {
-      "location": "McCorkle Aquatic Pavilion",
-      "dates": "April 20th - April 21st",
-      "directions":"https://www.google.com/maps/dir//Donald+B.+Canham+Natatorium,+500+E+Hoover+Ave,+Ann+Arbor,+MI+48104/@42.2693064,-83.7460302,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025!3e0",
+
+
+  "2016": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "UW Natatorium",
+      "dates": "October 1st - 2nd",
+      "directions":"https://www.google.com/maps/dir//university+of+wisconsin+natatorium/@43.0771308,-89.490511,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8807ac94d0201553:0x45dc3f5c01e0fd17!2m2!1d-89.4204711!2d43.0771522",
       "games": [
         {
           "id": 1,
-          "opponent": "Mighigan State 2018",
-          "score": "10-5",
+          "opponent": "Illinois",
+          "score": "19-8",
           "result": "win",
-          "viewingLink": "https://www.youtube.com",
-          "time": "2020-04-20T10:00",
-          "logo":"msu.png"
+          "viewingLink": "",
+          "time": "2016-10-01T13:10",
+          "logo":"illinois.svg"
         },
         {
           "id": 2,
-          "opponent": "Northwestern 2018",
-          "score": "5-5",
+          "opponent": "Northwestern",
+          "score": "15-3",
           "result": "win",
-          "viewingLink": "https://www.youtube.com",
-          "time": "2020-04-20T14:00",
-          "logo":"msu.png"
+          "viewingLink": "",
+          "time": "2016-10-01T15:20",
+          "logo":"nw.svg"
         },
         {
           "id": 3,
-          "opponent": "Ohio State 2018",
-          "time": "2020-04-20T18:00",
-          "score": "4-5",
+          "opponent": "Iowa",
+          "score": "20-5",
           "result": "win",
-          "viewingLink": "https://www.youtube.com",
-          "logo":"msu.png"
+          "viewingLink": "",
+          "time": "2016-10-01T20:45",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Wisconsin",
+          "score": "11-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-10-02T10:40",
+          "logo":"iowa.svg"
         }
       ]
-    }    
-  }
+    },
+    "Big Ten Regional 2": {
+      "location": "Norris Aquatics Center",
+      "dates": "October 15th - 16th",
+      "directions":"https://www.google.com/maps/dir//northwestern+natatorium/@40.3606689,-86.9449474,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880fda994fb84527:0x53e48aa61e6edf40!2m2!1d-87.6736733!2d42.0601458",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "14-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-10-15T11:10",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Michigan State",
+          "score": "19-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-10-15T18:10",
+          "logo":"msu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Purdue",
+          "score": "20-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-10-16T10:10",
+          "logo":"purdue.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Canham Natatorium",
+      "dates": "October 29th - 30th",
+      "directions":"https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Wisconsin",
+          "score": "10-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-10-30T09:30",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Northwestern",
+          "score": "8-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-10-30T03:20",
+          "logo":"nw.svg"
+        }
+      ]
+    },
+
+    "National Championship": {
+      "location": "Rolfs Aquatic Center",
+      "dates": "November 10th - 12th",
+      "directions":"https://www.google.com/maps/dir//notre+dame+natatorium/@40.2080978,-86.1900593,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8816cd620e45c9ff:0x64ebca104d0fc28e!2m2!1d-86.2302778!2d41.6986111",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Duke",
+          "score": "16-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-11-11T14:50",
+          "logo":"duke.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "McKendree",
+          "score": "10-8",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2016-11-12T10:10",
+          "logo":"mckendree.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Lindenwood",
+          "score": "7-16",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2016-11-12T18:20",
+          "logo":"lindenwood.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "San Diego State",
+          "score": "6-8",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2016-11-13T11:30",
+          "logo":"sdsu.svg"
+        }
+      ]
+    }
+    
+    
+    
+  },
+  "2015": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Canham Natatorium",
+      "dates": "October 3rd - 4th",
+      "directions":"https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "13-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-03T16:50",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Wisconsin",
+          "score": "13-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-04T10:10",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Illinois",
+          "score": "11-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-04T13:10",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "8-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-04T17:10",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Norris Aquatics Center",
+      "dates": "October 17th - 18th",
+      "directions":"https://www.google.com/maps/dir//northwestern+natatorium/@40.3606689,-86.9449474,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880fda994fb84527:0x53e48aa61e6edf40!2m2!1d-87.6736733!2d42.0601458",
+       "games": [
+        {
+          "id": 1,
+          "opponent": "Purdue",
+          "score": "12-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-17T10:10",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Iowa",
+          "score": "18-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-17T15:10",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Indiana",
+          "score": "24-9",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-17T19:10",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "8-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-18T10:10",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "October 24th - 25th",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "10-1",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-24T10:00",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "10-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-24T17:00",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Illinois",
+          "score": "10-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-10-25T11:20",
+          "logo":"illinois.svg"
+        }
+      ]
+    },
+
+    "National Championship": {
+      "location": "East Field House",
+      "dates": "November 13th - 15th",
+      "directions":"https://www.google.com/maps/dir//East+Field+House,+Santa+Cruz,+CA/@36.9945708,-122.0899648,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e41a474a903d3:0x14bdec6392ec6a63!2m2!1d-122.0548595!2d36.9945074",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Colorado",
+          "score": "10-8",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-11-13T16:00",
+          "logo":"colorado.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "San Diego State",
+          "score": "5-8",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2015-11-14T11:20",
+          "logo":"sdsu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Texas",
+          "score": "13-10",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-11-14T18:20",
+          "logo":"texas.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Long Beach State",
+          "score": "7-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2015-11-15T10:15",
+          "logo":"lbsu.svg"
+        }
+      ]
+    }
+    
+    
+  },
+
+
+
+  "2014": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "September 20th - 21st",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "10-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-09-20T10:10",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Michigan State",
+          "score": "6-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-09-20T13:40",
+          "logo":"msu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Northwestern",
+          "score": "12-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-09-21T10:10",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Iowa",
+          "score": "14-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-09-21T13:40",
+          "logo":"iowa.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Iowa Natatorium",
+      "dates": "October 18th - 19th",
+      "directions":"https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Indiana",
+          "score": "10-11",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2014-10-18T13:40",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Wisconsin",
+          "score": "18-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-10-18T17:10",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Purdue",
+          "score": "10-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-10-19T09:00",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 4,
+          "opponent": "Iowa",
+          "score": "13-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-10-19T12:30",
+          "logo":"iowa.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Counsilman Billingsley Aquatic Center",
+      "dates": "October 25th - 26th",
+      "directions":"https://www.google.com/maps/dir//indiana+university+natatorium/@39.4244079,-86.1484785,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b50b4cb1c33ab:0xa1dfd60c30d334cf!2m2!1d-86.1750697!2d39.770674",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "13-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-10-25T09:20",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Illinois",
+          "score": "10-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2014-10-25T15:10",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Michigan State",
+          "score": "6-7",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2014-10-26T11:50",
+          "logo":"msu.svg"
+        }
+      ]
+    }
+    
+    
+  },
+  "2013": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "September 21st - 22nd",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "5-7",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2013-09-21T11:00",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Wisconsin",
+          "score": "9-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-09-21T15:30",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Indiana",
+          "score": "4-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-09-21T19:00",
+          "logo":"iu.svg"
+        }, {
+          "id": 4,
+          "opponent": "Purdue",
+          "score": "7-8",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2013-09-22T11:10",
+          "logo":"purdue.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Councilman Billingsley Aquatic Center",
+      "dates": "October 12th - 13th",
+      "directions":"https://www.google.com/maps/dir//indiana+university+natatorium+bloomington/@39.1735742,-86.5467462,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "13-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-10-12T12:30",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Illinois",
+          "score": "10-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-10-12T16:00",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Iowa",
+          "score": "13-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-10-13T09:00",
+          "logo":"iowa.svg"
+        }, {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "6-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-10-13T14:40",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Canham Natatorium",
+      "dates": "October 26th - 27th",
+      "directions":"https://www.google.com/maps/dir//university+of+michigan+canham/@42.2692972,-83.7788609,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "12-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-10-26T11:40",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "4-6",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2013-10-26T17:30",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Illinois",
+          "score": "10-9",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2013-10-27T10:30",
+          "logo":"illinois.svg"
+        }
+      ]
+        
+    
+}    
+  
+},
+  "2012": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "September 22nd - 23rd",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Purdue",
+          "score": "11-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-09-22T12:30",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Northwestern",
+          "score": "9-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-09-22T16:50",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Iowa",
+          "score": "10-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-09-23T09:00",
+          "logo":"iowa.svg"
+        }, {
+          "id": 4,
+          "opponent": "Illinois",
+          "score": "13-8",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-09-23T13:20",
+          "logo":"illinois.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Iowa Natatorium",
+      "dates": "October 6th - 7th",
+      "directions":"https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Wisconsin",
+          "score": "15-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-06T17:10",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "10-9",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-06T20:40",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Illinois",
+          "score": "9-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-07T10:10",
+          "logo":"illinois.svg"
+        }, {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "11-10",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-07T14:50",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Councilman Billingsley Aquatic Center",
+      "dates": "October 27th - 28th",
+      "directions":"https://www.google.com/maps/dir//indiana+university+natatorium+bloomington/@39.1735742,-86.5467462,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Iowa",
+          "score": "15-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-27T12:20",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Illinois",
+          "score": "9-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-27T18:10",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Indiana",
+          "score": "8-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2012-10-28T11:40",
+          "logo":"iu.svg"
+        }
+      ]
+        
+    
+}    
+  
+},
+
+  "2011": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Iowa Natatorium",
+      "dates": "October 1st - 2nd",
+      "directions":"https://www.google.com/maps/dir//university+of+iowa+natatorium+directions/@41.6571373,-91.5735048,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "7-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-01T11:30",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Wisconsin",
+          "score": "8-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-01T18:30",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Iowa",
+          "score": "13-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-02T09:00",
+          "logo":"iowa.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "October 22nd - 23rd",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.4281346,-86.9254607,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Purdue",
+          "score": "13-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-22T11:30",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Michigan State",
+          "score": "8-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-22T15:00",
+          "logo":"msu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Iowa",
+          "score": "16-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-23T09:00",
+          "logo":"iowa.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "October 29th - 30th",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.4281346,-86.9254607,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Illinois",
+          "score": "8-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-29T10:20",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Purdue",
+          "score": "8-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-29T16:50",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Michigan State",
+          "score": "8-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2011-10-30T11:20",
+          "logo":"msu.svg"
+        }
+      ]
+        
+    
+}    
+  
+},
+  "2010": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Canham Natatorium",
+      "dates": "October 2nd - 3rd",
+      "directions":"https://www.google.com/maps/dir//university+of+michigan+natatorium/@42.2692972,-83.7788609,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Northwestern",
+          "score": "13-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-02T14:20",
+          "logo":"nw.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Iowa",
+          "score": "13-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-02T18:20",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Purdue",
+          "score": "10-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-03T10:10",
+          "logo":"purdue.svg"
+        }, {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "8-9",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2010-10-03T13:10",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Iowa Natatorium",
+      "dates": "October 16th - 17th",
+      "directions":"https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Wisconsin",
+          "score": "10-5",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-16T12:05",
+          "logo":"wisco.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Illinois",
+          "score": "8-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-16T17:30",
+          "logo":"illinois.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Indiana",
+          "score": "5-0",
+          "result": "forfeit",
+          "viewingLink": "",
+          "time": "2010-10-17T21:50",
+          "logo":"iu.svg"
+        }, {
+          "id": 4,
+          "opponent": "Michigan State",
+          "score": "6-8",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2010-10-17T11:30",
+          "logo":"msu.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "October 30th - 31st",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.4281293,-86.9582915,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Iowa",
+          "score": "15-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-30T11:00",
+          "logo":"iowa.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Purdue",
+          "score": "13-8",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2010-10-30T16:30",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Michigan State",
+          "score": "8-9",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2010-10-31T12:30",
+          "logo":"msu.svg"
+        }
+      ]
+        
+    
+}    
+  
+},
+  "2009": {
+    
+    
+    "Big Ten Regional 1": {
+      "location": "Boilermaker Aquatic Center",
+      "dates": "September 12th - 13th",
+      "directions":"https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Michigan State",
+          "score": "4-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-12T10:30",
+          "logo":"msu.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "17-7",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-12T14:00",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Illinois",
+          "score": "15-9",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-12T17:30",
+          "logo":"illinois.svg"
+        }, {
+          "id": 4,
+          "opponent": "Purdue",
+          "score": "6-2",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-13T09:30",
+          "logo":"purdue.svg"
+        }
+      ]
+    },
+    "Big Ten Regional 2": {
+      "location": "Iowa Natatorium",
+      "dates": "September 26th - 27th",
+      "directions":"https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Purdue",
+          "score": "7-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-26T12:50",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "9-6",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-26T16:20",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Iowa",
+          "score": "14-4",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-27T09:20",
+          "logo":"iowa.svg"
+        }, {
+          "id": 4,
+          "opponent": "Wisconsin",
+          "score": "14-8",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-09-27T12:50",
+          "logo":"wisco.svg"
+        }
+      ]
+    },
+    "Big Ten Championship": {
+      "location": "UW Natatorium",
+      "dates": "October 24th - 25th",
+      "directions":"https://www.google.com/maps/dir//university+of+wisconsin+natatorium/@43.0771308,-89.490511,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8807ac94d0201553:0x45dc3f5c01e0fd17!2m2!1d-89.4204711!2d43.0771522",
+      "games": [
+        {
+          "id": 1,
+          "opponent": "Purdue",
+          "score": "10-3",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-10-24T12:00",
+          "logo":"purdue.svg"
+        },
+        {
+          "id": 2,
+          "opponent": "Indiana",
+          "score": "13-8",
+          "result": "win",
+          "viewingLink": "",
+          "time": "2009-10-24T18:45",
+          "logo":"iu.svg"
+        },
+        {
+          "id": 3,
+          "opponent": "Michigan State",
+          "score": "7-8 (OT)",
+          "result": "loss",
+          "viewingLink": "",
+          "time": "2009-10-25T11:30",
+          "logo":"msu.svg"
+        }
+      ]
+        
+    
+}    
+  
+}
+
 }

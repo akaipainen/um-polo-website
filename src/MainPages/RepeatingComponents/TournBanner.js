@@ -20,8 +20,8 @@ function TournBanner(props) {
 
 
             <div className = "rightHand" onClick={()=> window.open(directions, "_blank")}>
-                       <img className = "hub" alt = "map" src={`${process.env.PUBLIC_URL}/Icons/map.png`}></img>
-        <div className = "tournArena">{location}</div>
+           <div className = "arena">            <img className = "hub" alt = "map" src={`${process.env.PUBLIC_URL}/Icons/map.png`}></img>
+{location} </div>
 
             </div>
                   </div>

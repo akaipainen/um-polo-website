@@ -18,6 +18,8 @@
     margin-top: 1vw;
     width:9vw;
     margin-left: 1vw;
+    margin-right: 1vw;
+
     margin-bottom: 1vw;
     float: left;
 
@@ -100,4 +102,15 @@
 .youtubeStream{
     width: 1.8vw;
     margin-left: 1vw;
+}
+.scoreReport{
+    text-align: right;
+font-size: 3vw;
+}
+.scoreReport{
+    text-align: right;
+font-size: 3vw;
+}.scoreReportSmall{
+    text-align: right;
+font-size: 1.8vw;
 }

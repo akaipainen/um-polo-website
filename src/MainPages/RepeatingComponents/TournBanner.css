@@ -20,32 +20,29 @@
     background-color: #F1C400;
     margin-left: 5vw;
     margin-right: 5vw;
-    height: 3vw;
     display: flex;
+    padding-top: .4vw;
+    padding-bottom: .4vw;
     align-items: center;
     justify-content: space-between;
-    font-family: "Jost";
 
+    font-family: "Jost";
 
 }
 .hub{
 height: 2vw;
-margin-right: .5vw;
+margin-bottom: 0;
+vertical-align: middle;
+margin-right: 1vw;
 }
 
-.tournArena{
-text-align: right;
+.arena{
 font-size: 1.3vw;
-width: 15vw;
-
 
 }
-.rightHand{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: max-content;
+.rightHand{
+    vertical-align: middle;
 cursor: pointer;
 margin-right: 2vw;
 }
