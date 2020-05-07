@@ -11,7 +11,7 @@ function FundraisingBody() {
     return (
         <div>
 
-            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/daBoys.png`}></ImageIntro>
+            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/banner-SlidePhotos/cheer.jpg`}></ImageIntro>
 
             <SectionHeader title="Fundraising" />
 
@@ -26,7 +26,7 @@ function FundraisingBody() {
                 <br></br><p>If you would like to make a monetary donation contributions can be made through the Men’s Club Water Polo online giving page <a href="https://leadersandbest.umich.edu/find/#!/give/basket/fund/311008" rel="noopener noreferrer" target="_blank">here</a>.</p>
                 <br></br> <p>If you would like to make a non-monetary donation please <a href={`${process.env.PUBLIC_URL}/contactus/`} rel="noopener noreferrer" target="_blank">contact us</a>.</p>
                 <br></br><p>Thank you for your generous support!{"\n"}</p>
-                            <img alt = "headshot" className="alt-headshot" src={`${process.env.PUBLIC_URL}/${post.img}`}></img>
+                            <img alt = "headshot" className="alt-headshot" src={`${process.env.PUBLIC_URL}/fundraisingHeadshot/${post.img}`}></img>
                             {post.signature}
 
                         </Post>

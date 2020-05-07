@@ -11,23 +11,45 @@
     margin-right: 5vw;
 
 
+
    
 }
 .rivalLogo{
-    width:9vw;
     margin-top: 1vw;
+    width:9vw;
     margin-left: 1vw;
     margin-bottom: 1vw;
     float: left;
 
 }
-.toTheRight{
+.toTheLeft{
     float: left;
     font-size: 3vw;
+    font-family: "Strait";
+    margin-top: 1vw;
+    width: max-content;
+
+}
+.baseText{
+    font-size: 2.8vw;
+    font-family: "Strait";
+
+}
+.toTheRight{
+    float: right;
+    font-size: 3vw;
+    margin-right: 1vw;
 
     font-family: "Strait";
     margin-top: 1vw;
-    width: 78vw;
+    width: auto;
+
+}
+.scoreContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .breakBottom{
     clear: both;
@@ -37,17 +59,20 @@
 
 }
 
-.goingRight{
-    float:right;
-    height: 3vw;
-    margin-right: 1vw;
+.imageResult{
+    width: 7vw;
+    margin-right: 0vw;
+    margin-left: 1vw;
+
 
 }
 .playbackLive{
     width: max-content;
-    margin-top: 0;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
     float: right;
-    margin-right: 2vw;
+    margin-right: 1vw;
     font-family: "Strait";
     font-size: 1.8vw;
     cursor: pointer;
@@ -59,17 +84,20 @@
 }
 .playbackRecording{
     width: max-content;
-    margin-top: 0;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
     float: right;
-    margin-right: 2vw;
+    margin-right: 1vw;
     font-family: "Strait";
     font-size: 1.8vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .youtubeStream{
-    height: 2vw;
+    width: 1.8vw;
     margin-left: 1vw;
 }

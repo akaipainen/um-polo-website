@@ -1,9 +1,12 @@
 {
-    "numberSlides":5,
+    "numberSlides":7,
     "links": [
         
-        {"filename": "mavShooting.png"},{"filename": "nolanShot.png"},
-            {"filename": "sidSave.png"},{"filename": "faceShot.png"},{"filename": "cheer.png"}
+        {"filename": "shooter2.jpg"},{"filename": "faceShot.jpg"},
+            {"filename": "sidSave.jpg"},{"filename": "shooter.jpg"},
+            {"filename": "mavShooting.jpg"},  {"filename": "nolanShot.jpg"},
+            {"filename": "daBoys.jpg"}
+            
         
         
         ]

@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .footer {
-    margin-top: 20px;
+    margin-top: .5vw;
     height: auto;
-    font-size: 20px;
     background-color:#00274C;
-  border-top: #F1C400 10px solid;
-  border-bottom: #00274C 10px solid;
+  border-top: #F1C400 .6vw solid;
+  border-bottom: #00274C .6vw solid;
 
   }
   .center{
@@ -15,17 +14,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1vw;
     
   }
   .photo{
-    padding-top: 10px;
-    margin-bottom: 1px;
-    max-height: 30px;
-    max-width: 30px;
+    margin-bottom: 0vw;
+    width: 2vw;
     align-content: center;
-    margin-left: 10px;
-    margin-right: 10px    
-  
+    margin-left: .4vw;
+    margin-right: .4vw;   
   }
   .photo:hover{
     cursor: pointer;
@@ -35,6 +32,6 @@
     color:#a3a3a3;
     font-family: Roboto;
 text-align: center;
-margin-top: 10px;
+margin-top: .8vw;
    
   }

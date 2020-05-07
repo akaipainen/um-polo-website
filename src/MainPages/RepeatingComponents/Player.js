@@ -8,20 +8,24 @@ function Player(props) {
     const yearAndProgram=props.yearAndProgram
     const headshotFile=props.headshotFile
     const name = props.name
+    const folder = props.folder
+
     console.log(headshotFile)
     return (
             
 
             
         <div className = {"class" + id % 2 }>
+                  <div className = "breakBottom"></div> 
+
         
-        {  headshotFile !=="undefined"&& headshotFile !== null && headshotFile !== "" && <img alt = "headshot" className = "headshot" src = { `${process.env.PUBLIC_URL}/${headshotFile}`}></img>
+        {  headshotFile !=="undefined"&& headshotFile !== null && headshotFile !== "" && <img alt = "headshot" className = "headshot" src = { `${process.env.PUBLIC_URL}/${folder}/${headshotFile}`}></img>
         }
 
        <div className = "nameHolder">
         <div className = "name"> {name}</div>
       
-        {isCaptian && <img className = "captian" alt = "captian"src = { `${process.env.PUBLIC_URL}/captain.svg`}></img>}
+        {isCaptian && <img className = "captian" alt = "captian"src = { `${process.env.PUBLIC_URL}/Icons/captain.svg`}></img>}
         <div className = "hometown"> {hometown}</div>
         <div className = "breakBottom"></div> 
 

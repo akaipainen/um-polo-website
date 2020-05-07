@@ -14,7 +14,7 @@ function NewsBody() {
 
         
             <div>
-        <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/sam.png`}></ImageIntro>
+        <ImageIntro imagePath = { `${process.env.PUBLIC_URL}/banner-SlidePhotos/sam.jpg`}></ImageIntro>
         <SectionHeader title="News" />
 
         {News.map(post => {

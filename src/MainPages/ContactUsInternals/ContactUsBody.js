@@ -85,7 +85,7 @@ if (currentlySelectedAthlete){
         return (
             <div className="App" >
 
-                <ImageIntro imagePath={`${process.env.PUBLIC_URL}/banquet.png`}></ImageIntro>
+                <ImageIntro imagePath={`${process.env.PUBLIC_URL}/banner-SlidePhotos/banquet.jpg`}></ImageIntro>
                 <SectionHeader title="Contact Us"></SectionHeader>
 
 

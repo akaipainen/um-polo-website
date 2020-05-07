@@ -22,7 +22,7 @@
     margin-top: 2.5vw;
 }
 .companies{
-    margin-top: 2vw;
+    margin-top: 0vw;
     margin-left: auto;
     margin-right: auto;
 
@@ -42,24 +42,15 @@
       padding-right: 20vw;
 
 }
-.yours-custom-class{
+.pictureSlides{
     width: 90vw;
     height: 30vw;
 }
-.newBox{
-    margin-left: 5vw;
-    margin-right: 5vw;
-font-size: 1vw;
-        margin-top: 1vw;
-}
-.buttonHolders{
+
+.dotsHolder{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.button{
-    margin-left: 1vw;
-    margin-right: 1vw;
 }
 
 .dots{
@@ -69,4 +60,38 @@ font-size: 1vw;
     margin-left: .4vw;
     margin-right: .4vw;
 
+}
+.arrow{
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+border-radius: 100%;
+padding:.5vw;
+}
+.arrow:hover{
+    background-color: #a3a3a3;
+
+}
+.arrow:active{
+    background-color: #a3a3a3;
+    padding:.64vw;
+
+
+}
+.slideshowContainer{
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+    height: 30vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: .2vw;
+    margin-bottom: .4vw;
+
+
+}
+.totalTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

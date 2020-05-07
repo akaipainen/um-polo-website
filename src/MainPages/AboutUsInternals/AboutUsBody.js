@@ -12,7 +12,7 @@ function AboutUsBody() {
     return (
 
         <div>
-            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/bigtenchamps2017.png`}></ImageIntro>
+            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/banner-SlidePhotos/bigtenchamps2017.jpg`}></ImageIntro>
 
             <SectionHeader title="About Us" />
 
@@ -34,6 +34,7 @@ console.log(post.headshotFile)
                             isCaptian={false}
                             hometown={post.role}
                             headshotFile = {""+post.headshotFile}
+                            folder = "EBoardHeadshots"
                             name={post.name}>
                         </Player>
 
@@ -50,22 +51,22 @@ console.log(post.headshotFile)
 
                <div className = "banners">
                     <div className = "bannerContainer" >
-                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"recsports.png"}`} onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")} alt = "banner" ></img>
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/Icons/${"recSports.svg"}`} onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")} alt = "banner" ></img>
                     <p className = "bannerText" onClick={()=> window.open("https://recsports.umich.edu/clubs/", "_blank")}>Club Sports Website</p>
                     </div>
 
                     <div className = "bannerContainer" >
-                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"cwpa.png"}`} onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}alt = "pic" ></img>
+                    <img className="bannerPhoto" src={`${process.env.PUBLIC_URL}/Icons/${"cwpa.png"}`} onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}alt = "pic" ></img>
                     <p className = "bannerText" onClick={()=> window.open("https://collegiatewaterpolo.org/", "_blank")}>CWPA Page</p>
                     </div>
 
                     <div className = "bannerContainer" >
-                    <img  className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"studentlife.png"}`} onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")}alt = "banner"></img>
+                    <img  className="bannerPhoto" src={`${process.env.PUBLIC_URL}/Icons/${"studentLife.svg"}`} onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")}alt = "banner"></img>
                     <p className = "bannerText" onClick={()=> window.open("https://maizepages.umich.edu/organization/menswaterpolo", "_blank")} >Maizepages</p>
                     </div>
 
                     <div className = "bannerContainer" >
-                    <img  onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/0ByBWCpbn60RoUUFtRW1JemQyNlE", "_blank")} className="bannerPhoto" src={`${process.env.PUBLIC_URL}/${"gallery.png"}`} alt = "bhoto"></img>
+                    <img  onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/0ByBWCpbn60RoUUFtRW1JemQyNlE", "_blank")} className="bannerPhoto" src={`${process.env.PUBLIC_URL}/Icons/${"gallery.png"}`} alt = "bhoto"></img>
                     <p onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/0ByBWCpbn60RoUUFtRW1JemQyNlE", "_blank")} className = "bannerText" >Photo Gallery</p>
                     </div>
                </div>

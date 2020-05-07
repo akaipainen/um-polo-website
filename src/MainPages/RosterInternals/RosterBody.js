@@ -35,7 +35,7 @@ class RosterBody extends React.Component {
       const years = Object.keys(roster).reverse();
         return (
           <div>
-{               path !=="" &&  path !=="undefined" &&  path !==null&& <ImageIntro imagePath={`${process.env.PUBLIC_URL}/${roster[this.state.year].photo }`}></ImageIntro>
+{               path !=="" &&  path !=="undefined" &&  path !==null&& <ImageIntro imagePath={`${process.env.PUBLIC_URL}/rosterPhotos/${roster[this.state.year].photo }`}></ImageIntro>
 }
             <SectionHeader title="Roster">
               <Dropdown default={this.state.year} list={years} handleYearChange={this.handleYearChange} />
@@ -53,6 +53,7 @@ class RosterBody extends React.Component {
                             hometown={post.hometown}
                             yearAndProgram={post.yearAndProgram}
                             headshotFile={""+post.headshotFile}
+                            folder = "rosterPhotos"
                             name={post.name}>
                         </Player>
                     </div>
