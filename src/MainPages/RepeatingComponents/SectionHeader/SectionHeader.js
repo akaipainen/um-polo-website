@@ -3,8 +3,14 @@ import React from 'react'
 import "./SectionHeader.css";
 
 const SectionHeader = (props) => {
+var input = props.space + ""
+if(input === "undefined"){
+  input = ""
+}
+input = "sectionContainer"+input;
+console.log(input)
   return (
-    <div className="sectionContainer">
+    <div className={input}>
       <div className="sectionHeaderText">
         { props.title }
       </div>

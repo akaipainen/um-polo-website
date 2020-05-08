@@ -1,3 +1,18 @@
 .someSpacing{
     height: 4vw;
 }
+.B10champHolder{
+    background-color: #00a7e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    
+}
+.B10champImage{
+    height:10vw;
+    padding-bottom: .5vw;
+    padding-top: .5vw;
+}

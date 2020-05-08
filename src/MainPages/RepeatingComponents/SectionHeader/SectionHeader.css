@@ -24,7 +24,19 @@
   margin-top:2vw;
   margin-bottom:2vw;
 }
+.sectionContainerPlease {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 
+  background-color:var(--yellow);
+  height: 5vw;
+  color: var(--blue);
+  padding-right: 10px;
+  margin-top:2vw;
+  margin-bottom:0vw;
+}
 .sectionHeaderText{
   font-size: 3vw;
   padding-top: .3vw;

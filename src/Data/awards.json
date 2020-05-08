@@ -1,21 +1,324 @@
 {
-    "2010": [
-      {
-        "id": 1,
-        "awardName": "MVP",
-        "recipients": ["Matthew Ferrari", "Sid Murthy"]
-      },
-      {
-        "id": 2,
-        "awardName": "Most Improved",
-        "recipients": ["Jeff"]
-      }
-    ],
-    "2018": [
-        {
-          "id": 1,
-          "awardName": "MVP",
-          "recipients": ["Zach Gan","Matthew Ferrari", "Sid Murthy", "Kaipi"]
-        }
-      ]
+  "2019": [
+    {
+      "id": 1,
+      "awardName": "Team MVP",
+      "recipients": ["Nolan Vaughn"]
+    },
+    {
+      "id": 2,
+      "awardName": "Team Most Improved",
+      "recipients": ["Matthew Ferrari"]
+    },
+    {
+      "id": 3,
+      "awardName": "Team Rookie of the Year",
+      "recipients": ["Zach Burns"]
+    },
+    {
+      "id": 4,
+      "awardName": "Team Most Dedicated",
+      "recipients": ["Andrew Golin"]
+    }
+  ],
+  "2018": [
+    {
+      "id": 1,
+      "awardName": "Team MVP",
+      "recipients": ["David Newberger"]
+    },
+    {
+      "id": 2,
+      "awardName": "Team Most Improved",
+      "recipients": ["Seth Wisotsky"]
+    },
+    {
+      "id": 3,
+      "awardName": "Team Rookie of the Year",
+      "recipients": ["Sid Murthy"]
+    },
+    {
+      "id": 4,
+      "awardName": "First Team Big Ten",
+      "recipients": ["Scott Fordham", "Sid Murthy", "Nolan Vaughn"]
+    },
+    {
+      "id": 5,
+      "awardName": "Second Team Big Ten",
+      "recipients": ["Tom McLeod", "Ilya Kovalenko"]
+    },
+    {
+      "id": 6,
+      "awardName": "Big Ten Conference MVP",
+      "recipients": ["Scott Fordham"]
+    },
+    {
+      "id": 7,
+      "awardName": "First Team All-American",
+      "recipients": ["Scott Fordham"]
+    },
+    {
+      "id": 7,
+      "awardName": "Honorable Mention All-American",
+      "recipients": ["Ilya Kovalenko"]
+    }
+  ],
+
+  "2017": [
+    {
+      "id": 1,
+      "awardName": "Team MVP",
+      "recipients": ["Daniel Wu"]
+    },
+    {
+      "id": 2,
+      "awardName": "Team Most Improved",
+      "recipients": ["Connor Hallman"]
+    },
+    {
+      "id": 3,
+      "awardName": "Team Rookie of the Year",
+      "recipients": ["Scott Fordham"]
+    },
+    {
+      "id": 4,
+      "awardName": "First Team Big Ten",
+      "recipients": ["Daniel Wu", "David Newberger", "Scott Fordham"]
+    },
+    {
+      "id": 5,
+      "awardName": "Second Team Big Ten",
+      "recipients": ["Alexander Weiss", "Ilya Kovalenko", "Nola Vaughn"]
+    },
+    {
+      "id": 6,
+      "awardName": "Big Ten Conference MVP",
+      "recipients": ["Daniel Wu"]
+    },
+    {
+      "id": 7,
+      "awardName": "First Team All-American",
+      "recipients": ["Daniel Wu"]
+    },
+    {
+      "id": 7,
+      "awardName": "Second Team All-American",
+      "recipients": ["David Newberger"]
+    }
+  ]
+,
+
+"2016": [
+  {
+    "id": 1,
+    "awardName": "Team MVP",
+    "recipients": ["Davis Argersinger"]
+  },
+  {
+    "id": 2,
+    "awardName": "Team Most Improved",
+    "recipients": ["Zach Gan"]
+  },
+  {
+    "id": 3,
+    "awardName": "Team Rookie of the Year",
+    "recipients": ["Charles Schertzing"]
+  },
+  {
+    "id": 4,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Daniel Wu", "Davis Argersinger"]
+  },
+  {
+    "id": 5,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["David Newberger", "Dennis Dahlmann"]
+  },
+  {
+    "id": 6,
+    "awardName": "Big Ten Conference MVP",
+    "recipients": ["Davis Argersinger"]
+  },
+  {
+    "id": 7,
+    "awardName": "First Team All-American",
+    "recipients": ["Daniel Wu", "Davis Argersinger"]
+  },
+  {
+    "id": 7,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["David Newberger"]
+  }
+],
+
+"2015": [
+  {
+    "id": 1,
+    "awardName": "Team MVP",
+    "recipients": ["Daniel Wu"]
+  },
+  {
+    "id": 2,
+    "awardName": "Team Most Improved",
+    "recipients": ["Nick Yoo"]
+  },
+  {
+    "id": 3,
+    "awardName": "Team Rookie of the Year",
+    "recipients": ["David Newberger"]
+  },
+  {
+    "id": 4,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Daniel Wu", "Davis Argersinger"]
+  },
+  {
+    "id": 5,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["David Newberger", "Seiji Osawa", "Tom McLeod"]
+  },
+  {
+    "id": 7,
+    "awardName": "Second Team All-American",
+    "recipients": ["Davis Argersinger"]
+  },
+  {
+    "id": 7,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["Daniel Wu", "David Newberger", "Seiji Osawa"]
+  }
+],
+
+"2014": [
+  {
+    "id": 1,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Daniel Wu"]
+  },
+  {
+    "id": 2,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["David Argersinger", "Ryan Scannell", "Seiji Osawa"]
+  },
+  {
+    "id": 3,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["Daniel Wu"]
+  }
+],
+"2013": [
+  {
+    "id": 1,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Seiji Osawa"]
+  },
+  {
+    "id": 2,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["Christ Takahashi", "Nick Naruns", "Grant Cole"]
+  },
+  {
+    "id": 3,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["Seiji Osawa"]
+  }
+]
+,
+
+"2012": [
+  {
+    "id": 1,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Seiji Osawa", "Nick Naruns"]
+  },
+  {
+    "id": 2,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["Chris Takahashi"]
+  },
+  {
+    "id": 3,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["Seiji Osawa", "Nick Naruns", "Chris Takahashi"]
+  }
+],
+"2011": [
+  {
+    "id": 1,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Matt Woelfel", "Chris Takahashi"]
+  },
+  {
+    "id": 2,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["Peter DeJonge", "Ben Hubbard"]
+  },
+  {
+    "id": 3,
+    "awardName": "Big Ten Conference MVP",
+    "recipients": ["Matt Woelfel"]
+  },
+  {
+    "id": 4,
+    "awardName": "Second Team All-American",
+    "recipients": ["Matt Woelfel"]
+  }
+],
+
+"2010": [
+     
+  {
+    "id": 1,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Sam Hoekstra", "Levi Barry"]
+  },
+  {
+    "id": 2,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["Matt Woelfel"]
+  },
+  {
+    "id": 3,
+    "awardName": "Big Ten Conference MVP",
+    "recipients": ["Nick Mansfield"]
+  },
+  {
+    "id": 4,
+    "awardName": "First Team All-American",
+    "recipients": ["Sam Hoekstra", "Levi Barry"]
+  },
+  {
+    "id": 5,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["Nick Mansfield"]
+  }
+],
+
+"2009": [
+     
+  {
+    "id": 1,
+    "awardName": "First Team Big Ten",
+    "recipients": ["Matt Woelfel", "Ryan Pryor"]
+  },
+  {
+    "id": 2,
+    "awardName": "Second Team Big Ten",
+    "recipients": ["Nick Mansfield"]
+  },
+  {
+    "id": 3,
+    "awardName": "Honorable Mention All-American",
+    "recipients": ["Ryan Pryor"]
+  }
+]
+
+
+
+
+
+
+
+
+    
   }

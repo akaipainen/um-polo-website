@@ -47,7 +47,7 @@ console.log(post.headshotFile)
 
 
             <SectionHeader title="More Information" />
-            <div className = "bannerText"><br></br>During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. <br></br>Contact us if you are interested in joining the team!</div>
+            <div className = "bannerTextInfo">During the regular season we practice from 9-11 PM Monday-Thursday at Canham Natatorium. <br></br>Contact us if you are interested in joining the team!</div>
 
                <div className = "banners">
                     <div className = "bannerContainer" >

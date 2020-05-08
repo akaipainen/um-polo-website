@@ -23,4 +23,9 @@ font-size: 1.5vw;
 color:black;
 cursor: pointer;
 
-}
+}.bannerTextInfo{
+    text-align: center;
+    font-size: 1.5vw;
+    color:black;
+    
+    }
