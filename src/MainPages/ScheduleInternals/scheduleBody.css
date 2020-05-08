@@ -1,5 +1,8 @@
 .someSpacing{
-    height: 4vw;
+    height: 2vw;
+}
+.someSmallSpace{
+    height: 1vw;
 }
 .B10champHolder{
     background-color: #00a7e3;

@@ -19,6 +19,24 @@
   
     transition: transform 0.3s ease;
   }
+  @media (max-width:900px){
+    .navbar {
+      height: 10vw;
+      background-color:#00274C;
+      border-top: whitesmoke .22vw solid;
+      margin-top: .5vw;
+      border-bottom: transparent;
+      color: whitesmoke;
+      margin-bottom: 12px;
+      text-align: center;
+      font-size: 30px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    
+      transition: transform 0.3s ease;
+    }
+  }
 
   .holder {
     background-color:#00274C;
@@ -62,6 +80,47 @@ letter-spacing: 50%;
     align-items: center;
     
 height: 9vw;
+  }
+
+  @media (max-width:900px){
+    .titlePolo{
+      color: white;
+      line-height: 80%;
+      font-size:4.8vw;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+    letter-spacing: 50%;
+    
+    
+    }
+    .Line{
+      border-left: .5vw solid white;
+    height: 11vw;
+    margin-top: 1vw;
+    cursor: pointer;
+  
+  }
+    .blockM{
+      width: 15vw;
+      padding-right: 1vw;
+      padding-top: .8vw;
+  
+      height: auto;
+      cursor: pointer;
+  
+  
+  
+  }
+    .logoHolder{
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+  
+      justify-content: center;
+      align-items: center;
+      
+  height: 13vw;
+    }
   }
   .navbar:hover {
     transform:scaleY(1.05);
@@ -111,4 +170,25 @@ padding-top: auto;
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+@media (max-width: 900px){
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 43.2vw;}
+  }
+  .line-1{
+    position: absolute;
+    width: 43.2vw;
+    color: white;
+    height: auto;
+    margin-top: 2vw;
+    margin: 0 auto;
+    border-right: 1px solid rgba(255,255,255,.75);
+    font-size: 3.7vw;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
 }

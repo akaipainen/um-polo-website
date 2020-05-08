@@ -91,19 +91,15 @@ class HomeBody extends React.Component {
             return (
               <div>
                 {this.state.currentIndex === value && (
-                  <img
-                    alt="dot"
-                    className="dots"
-                    src={`${process.env.PUBLIC_URL}/Icons/select.svg`}
-                  ></img>
+                  <div
+                    className="dotsS"
+                  ></div>
                 )}
                 {this.state.currentIndex !== value && (
-                  <img
-                    className="dots"
-                    alt="dots"
+                  <div
+                    className="dotsN"
                     onClick={() => this.slideTo(value)}
-                    src={`${process.env.PUBLIC_URL}/Icons/noselect.svg`}
-                  ></img>
+                  ></div>
                 )}
               </div>
             );
