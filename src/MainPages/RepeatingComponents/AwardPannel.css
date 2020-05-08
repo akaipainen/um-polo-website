@@ -5,13 +5,12 @@
     margin-right: 5vw;
     margin-left: 5vw;
     color: white;
-    margin-bottom: .5vw;
     color:black;
     padding-right: 1vw;
 
     font-size: 2vw;
     padding-left: 1vw;
-    
+    padding-bottom: .2vw;
     height:max-content;
     display: flex;
     justify-content: space-between;
@@ -25,9 +24,9 @@
     margin-right: 5vw;
     margin-left: 5vw;
     color: white;
-    margin-bottom: .5vw;
     color:black;
     padding-right: 1vw;
+    padding-bottom: .2vw;
 
     font-size: 2vw;
     padding-left: 1vw;

@@ -34,13 +34,21 @@ class ScheduleBody extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      year: Object.keys(Schedule).concat(Object.keys(Awards)).unique().sort().reverse().valueAt(0)
+      year: Object.keys(Schedule).concat(Object.keys(Awards)).unique().sort().reverse().valueAt(0),
+      champs: false
     };
     this.handleYearChange = this.handleYearChange.bind(this);
+    this.handleTurnOn = this.handleTurnOn.bind(this);
+
   }
 
   handleYearChange(year) {
+    this.setState({ champs: false });
     this.setState({ year: year });
+  }
+  handleTurnOn(){
+    this.setState({ champs: true });
+
   }
 
   render() {
@@ -60,12 +68,14 @@ class ScheduleBody extends Component {
             handleYearChange={this.handleYearChange}
           />
         </SectionHeader>
-        <div class = "B10champHolder"><img className = "B10champImage"src={`${process.env.PUBLIC_URL}/Icons/B10champs.png`} alt = "big 10 champ banner"></img></div>
-        
+{       this.state.champs === true && <div class = "B10champHolder"><img className = "B10champImage"src={`${process.env.PUBLIC_URL}/Icons/B10champs.png`} alt = "big 10 champ banner"></img></div>
+}        
         {// Render all tournaments
         scheduleYears.includes(this.state.year) && (
           <div>
-            <Sub>Matches</Sub>
+{  this.state.champs === true &&          <Sub>Matches</Sub>
+}            {this.state.champs === false&& <Sub space = "Space">Matches</Sub>
+}
 
             {Object.keys(schedule[this.state.year]).map(tournament => {
               return (
@@ -109,9 +119,15 @@ class ScheduleBody extends Component {
             <Sub>End of Season Awards</Sub>
 
             {Object.keys(awards[this.state.year]).map(post => {
+              if(awards[this.state.year][post].awardName ==="BigTenChamps" && this.state.champs === false){
+                //this.setState({ champs: true });
+                this.handleTurnOn()
+
+              }
               return (
-                <div>
-                  <AwardPannel
+                 <div>
+                 
+                  {awards[this.state.year][post].awardName !=="BigTenChamps"&& <AwardPannel
                     title={awards[this.state.year][post].awardName}
                     index={awards[this.state.year][post].id}
                   >
@@ -124,7 +140,7 @@ class ScheduleBody extends Component {
                         </div>
                       );
                     })}
-                  </AwardPannel>
+                  </AwardPannel>}
                 </div>
               );
             })}

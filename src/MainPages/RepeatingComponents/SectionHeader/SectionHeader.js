@@ -8,7 +8,6 @@ if(input === "undefined"){
   input = ""
 }
 input = "sectionContainer"+input;
-console.log(input)
   return (
     <div className={input}>
       <div className="sectionHeaderText">

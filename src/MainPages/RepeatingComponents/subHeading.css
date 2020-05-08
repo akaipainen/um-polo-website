@@ -6,7 +6,15 @@
     margin-right: 5vw;
     margin-left: 5vw;
     color: white;
-    margin-bottom: .5vw;
+
+}
+.backBannerSpace{
+    background-color: #00274C;
+    font-family: "Jost";
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color: white;
+    margin-top: 2vw;
 
 }
 .awardsText{
