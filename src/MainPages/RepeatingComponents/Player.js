@@ -10,7 +10,6 @@ function Player(props) {
     const name = props.name
     const folder = props.folder
 
-    console.log(headshotFile)
     return (
             
 
