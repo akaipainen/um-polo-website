@@ -27,7 +27,7 @@
     margin-right: auto;
 
     display:block;
-    width: 60vw;
+    width: 70vw;
     
 }
 .format{
@@ -38,8 +38,8 @@
     text-align: center;
     color:var(--blue);
     font-size: 3vw;
-    padding-left: 20vw;  
-      padding-right: 20vw;
+    padding-left: 15vw;  
+      padding-right: 15vw;
 
 }
 .pictureSlides{
@@ -145,6 +145,15 @@ padding:.5vw;
         margin-bottom: 1vw;
     
     
+    }
+    .alumni{
+        font-size: 4vw;
+    }
+    .companies{
+        margin-top:2vw;
+        margin-bottom:.5vw;
+
+        width: 80vw;
     }
     
 }

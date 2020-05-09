@@ -12,9 +12,13 @@
   display: inline-block;
   font-family: "Jost";
 
-  width: 9vw;
+  width: 10vw;
   margin-right: 2vw;
   cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    right: 3vw;
+      
 }
 
 .dropdown-header {
@@ -42,6 +46,8 @@
 .truedropdown-list-item {
   background-color: #f1c400;
   border-top: solid black .01vw;
+  border-bottom: solid black .01vw;
+
   padding-top: .01vw;
   font-size: 1.5vw;
   text-align: center;
@@ -51,6 +57,8 @@
 .falsedropdown-list-item {
   background-color: #f1c400;
   border-top: solid black .01vw;
+  border-bottom: solid black .01vw;
+
   padding-top: .01px;
   font-size: 1.5vw;
   text-align: center;
@@ -62,3 +70,43 @@
 }
 
 
+@media (max-width:900px){
+  .dropdown-container{
+
+    width: 15vw;
+  }
+  .dropdown-header-title{
+    font-size: 3.5vw;
+  }
+  .truedropdown-list-item{
+    font-size: 2.5vw;
+    padding-bottom: .1vh;
+    padding-top: .1vh;
+
+  }
+.falsedropdown-list-item{
+  font-size: 2.5vw;
+  padding-bottom: .1vh;
+  padding-top: .1vh;
+  position: relative;
+}
+}
+@media (max-width:500px){
+  .dropdown-container{
+    width: 16vw;
+  }
+  .dropdown-header-title{
+    font-size: 4.1vw;
+  }
+  .truedropdown-list-item{
+    font-size: 2.9vw;
+    padding-bottom: .2vh;
+    padding-top: .2vh;
+
+  }
+.falsedropdown-list-item{
+  font-size: 2.9vw;
+  padding-bottom: .2vh;
+  padding-top: .2vh;
+}
+}

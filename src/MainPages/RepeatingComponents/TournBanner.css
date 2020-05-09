@@ -2,55 +2,124 @@
 
 .tournamentName{
     font-size: 2vw;
-    width: inherit;
 text-align: center;
 line-height: 2vw;
-    font-family: "Jost";
 
 }
 .tournamentPlace{
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     width: inherit;
 text-align: center;
 line-height: 2vw;
+padding-top: .05vw;
     font-family: "Jost";
+    
 
 }
 .tournamentDate{   
-    font-size: 1.3vw;
-    width: max-content;
-    margin-left: 2vw;
-
+    font-size: 1.5vw;
+width: max-content;
+position: absolute;
+left: 6vw;
 
 
 }
 .bannerHolde{
+    padding-top: .4vw;
+    padding-bottom: .4vw;
+
+}
+.bannerHolder{
     background-color: #F1C400;
     margin-left: 5vw;
     margin-right: 5vw;
-    display: flex;
     padding-top: .4vw;
     padding-bottom: .4vw;
-    align-items: center;
-    justify-content: space-between;
-
+    text-align: center;
     font-family: "Jost";
+
 
 }
 .hub{
-height: 2vw;
-margin-bottom: 0;
-vertical-align: middle;
+height: 1.7vw;
+margin-top: 0;
+vertical-align: top;
 margin-right: 1vw;
+
 }
 
 .arena{
-font-size: 1.3vw;
+font-size: 1.5vw;
 
 }
 
 .rightHand{
     vertical-align: middle;
 cursor: pointer;
-margin-right: 2vw;
+width: max-content;
+position: absolute;
+right: 6vw;
+z-index: 0;
+}
+
+
+@media (max-width:900px){
+    .tournamentDate{
+        font-size: 2vw;
+    }
+    .tournamentPlace{
+        font-size: 2vw;
+        line-height: 2.5vw;
+
+    }
+    .arena{
+            font-size: 2vw;
+    }
+    .tournamentName{
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+
+    }
+    .bannerHolde{
+        padding-top: .6vw;
+    padding-bottom: .6vw;
+    }
+    .hub{
+        height: 2vw;
+        margin-top: .4vw;
+        vertical-align: top;
+        margin-right: 1vw;
+        
+        }
+}
+
+@media (max-width:550px){
+    .tournamentDate{
+        font-size: 2.3vw;
+    }
+    .tournamentPlace{
+        font-size: 2.3vw;
+        line-height: 3vw;
+
+
+    }
+    .arena{
+            font-size: 2.3vw;
+    }
+    .tournamentName{
+        font-size: 2.8vw;
+        line-height: 3vw;
+
+    }
+    .bannerHolde{
+        padding-top: .6vw;
+    padding-bottom: .6vw;
+    }
+    .hub{
+        height: 2vw;
+        margin-top: .6vw;
+        vertical-align: top;
+        margin-right: 1vw;
+        
+        }
 }

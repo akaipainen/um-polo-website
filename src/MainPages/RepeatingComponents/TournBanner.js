@@ -16,18 +16,17 @@ function TournBanner(props) {
 
 
     return (        
+      <div className = "bannerHolder">
+        <div className = "tournamentName"><b>{name}</b></div>
             <div className = "bannerHolde">
                 <p className = "tournamentDate">{dates}</p>
-                <div><div className = "tournamentName"><b>{name}</b></div><div className = "tournamentPlace">at {host}</div></div>
+                <div className = "rightHand" onClick={()=> window.open(directions, "_blank")}><div className = "arena"><img className = "hub" alt = "map" src={`${process.env.PUBLIC_URL}/Icons/map.png`}></img>{location}</div></div>
+
+                <div className = "tournamentPlace">@ {host}</div>
 
 
-            <div className = "rightHand" onClick={()=> window.open(directions, "_blank")}>
-           <div className = "arena">            <img className = "hub" alt = "map" src={`${process.env.PUBLIC_URL}/Icons/map.png`}></img>
-{location} </div>
-
-            </div>
                   </div>
-
+                  </div>
     )
 }
 

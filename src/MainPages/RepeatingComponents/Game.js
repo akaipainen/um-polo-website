@@ -74,8 +74,8 @@ function Game(props) {
       </div>
       <div className="toTheRight">
         <div className="scoreContainer">
-         {score.length <= 13 && <div className = "scoreReport"><b>{score}</b></div>}
-         {score.length > 13 && <div className = "scoreReportSmall">{score}</div>}
+         {score !== "N/A" && <div className = "scoreReport"><b>{score}</b></div>}
+         {score === "N/A"  && <div className = "scoreReportSmall">{score}</div>}
 
           <img
             alt="gameResultLogo"

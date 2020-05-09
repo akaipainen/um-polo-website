@@ -1,7 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
 .body_text{
-    font-family: "Segoe UI";
+    font-family: "Abel";
     font-size: 1.4vw;
     padding-top: 1.3vw;
     padding-bottom: 2vw;
@@ -12,7 +13,7 @@
 
 }
 .bigbody_text{
-    font-family: "Segoe UI";
+    font-family: "Abel";
     font-size: 2.4vw;
     padding-top: 1.3vw;
     padding-bottom: 2vw;

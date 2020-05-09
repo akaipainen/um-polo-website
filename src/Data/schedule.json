@@ -9,7 +9,7 @@
         {
           "id": 1,
           "opponent": "Northwestern",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-12T13:00",
@@ -18,7 +18,7 @@
         {
           "id": 2,
           "opponent": "Ohio State",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-12T16:30",
@@ -27,7 +27,7 @@
         {
           "id": 3,
           "opponent": "Purdue",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-13T11:20",
@@ -36,7 +36,7 @@
         {
           "id": 4,
           "opponent": "Michigan State",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-13T13:40",
@@ -45,15 +45,15 @@
       ]
     },
     "Big Ten Regional 2": {
-      "location": "Counsilman Billingsley Aquatic Center",
+      "location": "Counsilman Aquatic Center",
 "host": "Indiana University",
       "dates": "October 19th - 20th",
-      "directions": "https://www.google.com/maps/dir//indiana+university+natatorium/@39.4244079,-86.1484785,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b50b4cb1c33ab:0xa1dfd60c30d334cf!2m2!1d-86.1750697!2d39.770674",
+      "directions": "https://www.google.com/maps/dir//Counsilman+Billingsley+Aquatic+Center+(CBAC),+Student+Recreational+Sports+Center,+East+Law+Lane,+Bloomington,+IN/@39.4718696,-86.6351767,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
       "games": [
         {
           "id": 1,
           "opponent": "Wisconsin",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-19T13:00",
@@ -62,7 +62,7 @@
         {
           "id": 2,
           "opponent": "Indiana",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-19T16:30",
@@ -71,7 +71,7 @@
         {
           "id": 3,
           "opponent": "Illinois",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-20T11:20",
@@ -80,7 +80,7 @@
         {
           "id": 4,
           "opponent": "Iowa",
-          "score": "Canceled due to Cryptosporidium outbreak",
+          "score": "N/A",
           "result": "canceled",
           "viewingLink": "",
           "time": "2019-10-20T13:40",
@@ -296,10 +296,10 @@
 
   "2017": {
     "Big Ten Regional 1": {
-      "location": "Counsilman Billingsley Aquatic Center",
+      "location": "Counsilman Aquatic Center",
 "host": "Indiana University",
       "dates": "September 23rd - 24th",
-      "directions": "https://www.google.com/maps/dir//indiana+university+natatorium/@39.4244079,-86.1484785,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b50b4cb1c33ab:0xa1dfd60c30d334cf!2m2!1d-86.1750697!2d39.770674",
+      "directions": "https://www.google.com/maps/dir//Counsilman+Billingsley+Aquatic+Center+(CBAC),+Student+Recreational+Sports+Center,+East+Law+Lane,+Bloomington,+IN/@39.4718696,-86.6351767,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
       "games": [
         {
           "id": 1,
@@ -877,10 +877,10 @@
       ]
     },
     "Big Ten Championship": {
-      "location": "Counsilman Billingsley Aquatic Center",
+      "location": "Counsilman Aquatic Center",
 "host": "Indiana University",
       "dates": "October 25th - 26th",
-      "directions": "https://www.google.com/maps/dir//indiana+university+natatorium/@39.4244079,-86.1484785,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b50b4cb1c33ab:0xa1dfd60c30d334cf!2m2!1d-86.1750697!2d39.770674",
+      "directions": "https://www.google.com/maps/dir//Counsilman+Billingsley+Aquatic+Center+(CBAC),+Student+Recreational+Sports+Center,+East+Law+Lane,+Bloomington,+IN/@39.4718696,-86.6351767,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
       "games": [
         {
           "id": 1,
@@ -958,7 +958,7 @@
       ]
     },
     "Big Ten Regional 2": {
-      "location": "Councilman Billingsley Aquatic Center",
+      "location": "Councilman Aquatic Center",
 "host": "Indiana University",
       "dates": "October 12th - 13th",
       "directions": "https://www.google.com/maps/dir//indiana+university+natatorium+bloomington/@39.1735742,-86.5467462,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
@@ -1127,7 +1127,7 @@
       ]
     },
     "Big Ten Championship": {
-      "location": "Councilman Billingsley Aquatic Center",
+      "location": "Councilman Aquatic Center",
 "host": "Indiana University",
       "dates": "October 27th - 28th",
       "directions": "https://www.google.com/maps/dir//indiana+university+natatorium+bloomington/@39.1735742,-86.5467462,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",

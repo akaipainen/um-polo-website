@@ -39,7 +39,6 @@
 }
 .toTheRight{
     float: right;
-    font-size: 3vw;
     margin-right: 1vw;
 
     font-family: "Strait";
@@ -107,10 +106,41 @@
     text-align: right;
 font-size: 3vw;
 }
-.scoreReport{
-    text-align: right;
-font-size: 3vw;
-}.scoreReportSmall{
+.scoreReportSmall{
     text-align: right;
 font-size: 1.8vw;
 }
+@media (max-width:900px){
+.scoreReport{
+font-size: 3.5vw;
+}
+.scoreReportSmall{
+    font-size: 2.1vw;
+
+}
+.baseText{
+    font-size: 3.3vw;
+
+}
+.toTheLeft{
+    font-size: 3.5vw;
+
+}
+}
+@media (max-width:450px){
+    .scoreReport{
+    font-size: 4vw;
+    }
+    .scoreReportSmall{
+        font-size: 2.5vw;
+    
+    }
+    .baseText{
+        font-size: 3.8vw;
+    
+    }
+    .toTheLeft{
+        font-size: 4vw;
+    
+    }
+    }

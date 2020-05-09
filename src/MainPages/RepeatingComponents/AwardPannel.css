@@ -56,3 +56,27 @@
 .breakBottom{
     clear: both;
 }
+@media (max-width:900px){
+    .awardTitle{
+        font-size: 3.5vw;
+    }
+    .awardPeople{
+        font-size: 2.5vw;
+    }
+}
+@media (max-width:600px){
+    .awardTitle{
+        font-size: 4vw;
+    }
+    .awardPeople{
+        font-size: 3vw;
+    }
+}
+@media (max-width:450px){
+    .awardTitle{
+        font-size: 4.5vw;
+    }
+    .awardPeople{
+        font-size: 3.5vw;
+    }
+}
