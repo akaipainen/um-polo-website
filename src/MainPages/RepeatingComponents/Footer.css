@@ -35,3 +35,26 @@ text-align: center;
 margin-top: .8vw;
    
   }
+  @media (max-width:800px){
+    .footer{
+      padding-bottom: 4vw;
+    }
+    .legal{
+      font-size: 1.5vw;
+    }
+    .photo{
+      width: 3vw;
+    }
+  }  @media (max-width:600px){
+    .footer{
+      padding-bottom: 5vw;
+    }
+    .legal{
+      padding-top: 1vw;
+      font-size: 2vw;
+    }
+    .photo{
+      padding-top: 1vw;
+    }
+    
+  }

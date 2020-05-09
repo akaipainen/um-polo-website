@@ -7,6 +7,9 @@
 .B10champHolder{
     background-color: #00a7e3;
     display: flex;
+    padding-top: 1vw;
+    padding-bottom: .5vw;
+
     justify-content: center;
     align-items: center;
     margin-left: 5vw;

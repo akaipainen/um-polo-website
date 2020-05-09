@@ -49,8 +49,11 @@
     padding-bottom: 1vw;
   }
   .sectionContainer{
-    height:7vw;
-  }
+  height:7vw;
+}
+.sectionContainerPlease{
+  height:7vw;
+}
 }
 @media (max-width:500px){
   .sectionHeaderText{
@@ -58,6 +61,9 @@
     padding-bottom: 1vw;
   }
 .sectionContainer{
+  height:9vw;
+}
+.sectionContainerPlease{
   height:9vw;
 }
 }
