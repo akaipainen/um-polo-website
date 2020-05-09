@@ -16,8 +16,9 @@ function AboutUsBody() {
 
             <SectionHeader title="About Us" />
 
-            <Post bigFont = "yesPlease">
-               <p><b>National Champions</b><br />1996, 1998, 2003</p>
+            <Post bigFont = "no">
+                <p>{"\t"}The University of Michigan Men's Water Polo Team is a tight knit club sport... puts drew's bio here </p><br />
+               <p><b>National Champions</b><br/>1996, 1998, 2003</p>
                <p><b>Big Ten Champions</b><br />1989, 1991, 1992, 1996, 1997, 1998, 2003, 2004, 2011, 2012, 2015, 2016, 2017, 2018</p>
                 <p><b>Big Ten Runner-Up</b><br />2000, 2001, 2002, 2005, 2006, 2008, 2009, 2010, 2014</p>
             </Post>
@@ -25,7 +26,6 @@ function AboutUsBody() {
             <SectionHeader title="2020 Executive Board" />
 
             {Eboard.map(post => {
-console.log(post.headshotFile)
                 return (
                     <div>
 

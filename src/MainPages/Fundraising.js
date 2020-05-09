@@ -25,7 +25,7 @@ function Fundraising() {
     <li><a href={`${process.env.PUBLIC_URL}/news`}>News</a></li>
     <li><a href={`${process.env.PUBLIC_URL}/roster`}>Roster</a></li>
     <li><a href={`${process.env.PUBLIC_URL}/scheduleandresults`}>Schedule and Results</a></li>
-    <li><a href={`${process.env.PUBLIC_URL}/fundraising`}>Fundraising</a></li>
+    <li><a className = "selectedFont" href={`${process.env.PUBLIC_URL}/fundraising`}>Fundraising</a></li>
 
     <li><a href={`${process.env.PUBLIC_URL}/aboutus`}>About Us</a></li>
     <li><a href={`${process.env.PUBLIC_URL}/contactus`}>Contact Us</a></li>

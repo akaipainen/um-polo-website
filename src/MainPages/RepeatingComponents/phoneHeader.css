@@ -47,7 +47,7 @@ border-top: 2px solid white;
 border-bottom: 2px solid white;
 
   }
-  
+ 
   .header li a:hover,
   .header .menu-btn:hover {
     color: #F1C400;
@@ -65,10 +65,8 @@ min-height: 20px;
     padding-bottom: 1.4vw;
 width: 100%;
     transition: all .15s ease-in;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+   padding-left: 10px;
+padding-bottom: 1vw;
 
   }
   
@@ -92,9 +90,12 @@ width:40px;
 padding-left: 10px;
         z-index: 20;
 position: absolute;
-margin-top: 10px;
+margin-top: 3vw;
 right: 0;
-top:0
+margin-right: 20px;
+top:0;
+transform: scale(1.5);
+
 
   }
   
@@ -136,7 +137,7 @@ transform: translateY(470%);
   }
   
   .menu-btn:checked ~ .menu {
-    max-height: 410px;
+    max-height: 420px;
   }
   
   .menu-btn:checked ~ .menu-icon .navicon {
@@ -226,72 +227,62 @@ transform: translateY(470%);
       clear: both;
   }
 
-  @media (max-width: 440px){
-
+@media (max-width:600px){
+  .header .menu-icon {
+    margin-top: 2vw;
+  }
+}
+  @media (max-width: 500px){
+ 
     .header .menu-icon .navicon {
       height: 2px;
       width: 20px;
-      margin-right: 100px;
-  
+
     }
     .header .menu-icon {
-  
+      padding-top: 1vw;
   height: 24px;
   width:40px;
   padding-left: 10px;
- 
-  margin-top: 10px;
- 
-  
     }
+  .header .menu-icon .navicon:before {
+    top: 6px;
   }
-  @media (max-width: 390px){
-
   
-    .header .menu-icon {
+  .header .menu-icon .navicon:after {
+    top: -6px;
+  }
   
- 
-  margin-top: 8px;
-    }
-
-    .informalLogo{
-      width: 60%;
-      
-        } 
-  }  
-  @media (max-width: 400px){
-.header{
-  height: 45px;
-}
-    .header .menu-icon .navicon {
-      height: 1.5px;
-      width: 15px;
-      margin-right: 100px;
-  
-    }
-    .header .menu-icon {
-  
-  height: 24px;
-  width:40px;
-  padding-left: 10px;
- 
-  margin-top: 10px;
- 
-  
-    }
-    .header .menu-icon .navicon:before {
-      top: 5px;
-    }
     
-    .header .menu-icon .navicon:after {
-      top: -5px;
-    }
   }
-  @media (max-width: 300px){
-    .myBigLogo{
-      display: block;
+
+  @media (max-width: 350px){
+ 
+    .header .menu-icon .navicon {
+      height: 1px;
+      width: 16px;
+
     }
-    .informalLogo{
-      width: 150px;
+    .header .menu-icon {
+      padding-top: 8px;
+  height: 24px;
+  width:40px;
+  padding-left: 10px;
     }
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+    
+  }
+
+
+      .selectedFont{
+        color:#00274C;
+        background-color: white;
+    
       }

@@ -21,7 +21,7 @@ function Footer() {
             
            <div className= "legal">
            Copyright © 2020 University of Michigan Men’s Water Polo™. All rights reserved.<br></br>
-           Developed by <b>Matthew Ferrari</b>, <b>Alex Kaipainen</b>, and <b>Sid Murthy</b> in Cupertino, CA.
+           Developed by <b>Matthew Ferrari</b> with the assistance of <b>Alex Kaipainen</b> and <b>Sid Murthy</b>
             </div>
 
         </footer>

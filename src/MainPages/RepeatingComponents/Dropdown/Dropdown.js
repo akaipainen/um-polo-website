@@ -13,9 +13,11 @@ class Dropdown extends Component {
   }
 
   close() {
+       
     this.setState({
       listOpen: false
     })
+  
   }
   open() {
     this.setState({
@@ -40,7 +42,7 @@ class Dropdown extends Component {
     const {listOpen, headerTitle} = this.state
     return (
       <div class="dropdown-container">
-        <div className="dropdown-header"  onMouseEnter = {()=> this.open()} onMouseLeave = {()=> this.close()}>
+        <div className="dropdown-header"  onMouseEnter = {()=> this.open()} onMouseLeave = {()=> this.close()} onClick = {()=> this.toggleList()}>
           <div className="dropdown-header-title">
             {listOpen && <div>{headerTitle} ↓</div>}
             {!listOpen && <div>{headerTitle} ↑</div>}

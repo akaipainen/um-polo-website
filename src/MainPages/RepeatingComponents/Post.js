@@ -19,10 +19,10 @@ export const Post = ({
 
           <div> 
           {optionalTitle !== null  && optionalTitle !== ""&&
-        <div className = "title"> {optionalTitle}</div>
+        <div className = "title"><b>{optionalTitle}</b> </div>
       }
         {optionalDate !== null &&optionalDate !== "" &&
-        <div className = "date"> {optionalDate}</div>
+        <div className = "date"> <b>{optionalDate}</b></div>
       }
 
       </div>

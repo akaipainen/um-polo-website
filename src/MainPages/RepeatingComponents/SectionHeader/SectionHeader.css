@@ -43,7 +43,24 @@
   padding-left: 2vw;
   font-family: "Jost";
 }
-
+@media (max-width:900px){
+  .sectionHeaderText{
+    font-size: 4vw;
+    padding-bottom: 1vw;
+  }
+  .sectionContainer{
+    height:7vw;
+  }
+}
+@media (max-width:500px){
+  .sectionHeaderText{
+    font-size: 5vw;
+    padding-bottom: 1vw;
+  }
+.sectionContainer{
+  height:9vw;
+}
+}
 /* .sectionContainer > * {
   
 } */

@@ -22,7 +22,7 @@ function News() {
     <input className="menu-btn" type="checkbox" id="menu-btn" />
   <label className="menu-icon" for="menu-btn"><span className="navicon"></span></label>
   <ul className="menu">
-    <li><a href={`${process.env.PUBLIC_URL}/news`}>News</a></li>
+    <li><a className = "selectedFont" href={`${process.env.PUBLIC_URL}/news`}>News</a></li>
     <li><a href={`${process.env.PUBLIC_URL}/roster`}>Roster</a></li>
     <li><a href={`${process.env.PUBLIC_URL}/scheduleandresults`}>Schedule and Results</a></li>
     <li><a href={`${process.env.PUBLIC_URL}/fundraising`}>Fundraising</a></li>

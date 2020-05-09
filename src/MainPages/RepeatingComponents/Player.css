@@ -58,6 +58,7 @@ width: 100%;
     font-size: 4vw;
 
 }
+
 .captian{
     float:left;
     margin-top: 1vw;
@@ -82,4 +83,22 @@ width: 100%;
      margin-top: 1vw;
     font-size: 3vw;
 
+    }
+    @media (max-width:900px){
+        .name{
+            font-size: 5vw;
+    
+        }
+        .captian{
+            margin-top: 1.5vw;
+        
+            height: 3.4vw;
+        
+        }
+    .hometown{
+        font: 5vw;
+    }
+    .major{
+        font-size: 3.5vw;
+    }
     }

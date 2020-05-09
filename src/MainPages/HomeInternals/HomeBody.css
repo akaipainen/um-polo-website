@@ -109,16 +109,7 @@ padding:.5vw;
         padding:.7vw;
     }
 }
-@media (max-width:500px){
-    .arrow{
-        width: 3.5vw;
-        height: 3.5vw;
-    }
-  
-    .arrow:active{
-        padding:.75vw;
-    }
-}
+
 .slideshowContainer{
     width: 90vw;
     margin: 0;
@@ -135,4 +126,25 @@ padding:.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:900px){
+    .arrow{
+       display: none;
+    }
+    .pictureSlides{
+        width: 100vw;
+        height: 33vw;
+    }
+    .slideshowContainer{
+        width: 100vw;
+        
+        height: 33vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    
+    
+    }
+    
 }
