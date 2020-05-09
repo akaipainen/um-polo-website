@@ -3,7 +3,6 @@ import "./Header.css";
 import { Button } from "./Button";
 
 
-
 function Header(props) {
     const x = props.highlight
 
@@ -11,6 +10,7 @@ function Header(props) {
 
 
         <div className="holder" >
+           
           
             <div className="logoHolder">
             <img onClick = {()=> window.open( `${process.env.PUBLIC_URL}/`,"_self")} alt = "BlockM" src ={ `${process.env.PUBLIC_URL}/Icons/blockM.svg`} className = "blockM"></img>
@@ -21,7 +21,6 @@ function Header(props) {
                 <p class="line-1 anim-typewriter">14 TIME BIG TEN CHAMPIONS</p>
                 </div>
             </div>
-           
             <nav className="navbar" >
 
                 {x === "news" && <Button

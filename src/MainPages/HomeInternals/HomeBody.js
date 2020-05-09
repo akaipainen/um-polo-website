@@ -96,10 +96,12 @@ class HomeBody extends React.Component {
                   ></div>
                 )}
                 {this.state.currentIndex !== value && (
-                  <div
+                 <div onClick={() => this.slideTo(value)}
+                 >
+                 <div
                     className="dotsN"
-                    onClick={() => this.slideTo(value)}
                   ></div>
+                  </div>
                 )}
               </div>
             );

@@ -3,6 +3,7 @@
   .link{
     text-decoration: none;
   }
+ 
 .navbar {
     height: 4vw;
     background-color:#00274C;
@@ -19,28 +20,18 @@
   
     transition: transform 0.3s ease;
   }
-  @media (max-width:900px){
+  @media (max-width:899px){
     .navbar {
-      height: 10vw;
-      background-color:#00274C;
-      border-top: whitesmoke .22vw solid;
-      margin-top: .5vw;
-      border-bottom: transparent;
-      color: whitesmoke;
-      margin-bottom: 12px;
-      text-align: center;
-      font-size: 30px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    
-      transition: transform 0.3s ease;
+     display: none;
     }
   }
+ 
+
 
   .holder {
     background-color:#00274C;
-    
+    z-index: 2;
+
 
   }
   .blockM{
@@ -145,7 +136,7 @@ padding-top: auto;
  
   .line-1{
     position: absolute;
-    width: 37vw;
+    width: max-content;
     color: white;
     height: auto;
     margin-top: 2vw;
@@ -160,7 +151,7 @@ padding-top: auto;
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 4s steps(44) 1s 1 backwards,
              blinkTextCursor 800ms steps(44) 10 forwards normal;
 }
 @keyframes typewriter{
@@ -178,7 +169,7 @@ padding-top: auto;
   }
   .line-1{
     position: absolute;
-    width: 43.2vw;
+    width: max-content;
     color: white;
     height: auto;
     margin-top: 2vw;
@@ -191,4 +182,9 @@ padding-top: auto;
     transform: translateY(-50%);    
 }
 
+}
+@media (max-width:899px){
+  .logoHolder{
+    display: none;
+  }
 }

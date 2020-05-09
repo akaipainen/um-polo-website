@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: 'Droid Serif', serif;
+  }
+  
+  a {
+    
+    color: #ffffff;
+  }
+  
+  
+  /* header */
+  
+  .header {
+    background-color:#00274C;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 1vw;
+  }
+  @media (min-width: 900px){
+    .header{
+      display: none;
+    }
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color:#00274C;
+    
+  }
+  
+  .header li a {
+    display: block;
+    padding: 15px 15px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    color: #F1C400;
+    
+
+  }
+  .informalLogo{
+width: 70%;
+min-height: 20px;
+outline: 2px dashed blue;
+
+
+  }  
+  .myBigLogo {
+    padding-top: 2vw;
+    padding-bottom: 1.4vw;
+width: 100%;
+    transition: all .15s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    outline: 2px dashed green;
+
+  }
+  
+  /* menu */
+   .header .menu {
+    clear: both;
+    max-height: 0;
+    text-align: center;
+    color:#ffffff;
+    transition: max-height .3s ease-in;
+  }
+ 
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    user-select: none;
+height: 30px;
+width:40px;
+padding-left: 10px;
+        z-index: 20;
+outline: 2px dashed green;
+position: absolute;
+margin-top: 10px;
+right: 0;
+top:0
+
+  }
+  
+  .header .menu-icon .navicon {
+    background: #ffffff;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 25px;
+    margin-right: 100px;
+outline: 2px dashed pink;
+transform: translateY(470%);
+
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .15s ease-in;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 7px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -7px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .menu-btn:checked ~ .menu {
+    max-height: 270px;
+  }
+  
+  .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 56.25em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+  
+  
+  /* section */
+  
+  .section {
+    overflow: hidden;
+    margin: auto;
+    max-width: 1400px;
+   
+  }
+  
+  .section a {
+    position: relative;
+
+    float: left;
+    width: 100%;
+    
+  }
+  
+  .section a img {
+    width: 100%;
+    display: block;
+  }
+  
+  .section a span {
+    
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 2em;
+ }
+  
+  .section-split a span {
+    display: none;
+  }
+  
+  .section-split a:hover span {
+    display: block;
+  }
+  
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 56.25em) {
+    .section-split a {
+      width: 50%;
+    }
+  }
+  .breakBottom{
+      clear: both;
+  }
+
+  @media (max-width: 440px){
+
+    .header .menu-icon .navicon {
+      height: 2px;
+      width: 20px;
+      margin-right: 100px;
+  
+    }
+    .header .menu-icon {
+  
+  height: 24px;
+  width:40px;
+  padding-left: 10px;
+ 
+  margin-top: 10px;
+ 
+  
+    }
+  }
+  @media (max-width: 390px){
+
+  
+    .header .menu-icon {
+  
+ 
+  margin-top: 8px;
+    }
+
+    .informalLogo{
+      width: 60%;
+      
+        } 
+  }  
+  @media (max-width: 400px){
+.header{
+  height: 45px;
+}
+    .header .menu-icon .navicon {
+      height: 1.5px;
+      width: 15px;
+      margin-right: 100px;
+  
+    }
+    .header .menu-icon {
+  
+  height: 24px;
+  width:40px;
+  padding-left: 10px;
+ 
+  margin-top: 10px;
+ 
+  
+    }
+    .header .menu-icon .navicon:before {
+      top: 5px;
+    }
+    
+    .header .menu-icon .navicon:after {
+      top: -5px;
+    }
+  }
+  @media (max-width: 300px){
+    .myBigLogo{
+      display: block;
+    }
+    .informalLogo{
+      width: 150px;
+    }
+      }
