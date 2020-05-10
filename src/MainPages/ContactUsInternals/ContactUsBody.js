@@ -108,10 +108,10 @@ if (currentlySelectedAthlete){
                             </div>
                         </div>
 
-                        <br></br>
+                        <br className = "optionalGoAway"></br>
 
                         <div className="dropHolder">
-                            <div className="question-title">*Please elect the reason for contacting us:</div>
+                            <div className="drop-title">*Please select the reason for contacting us:</div>
                             <div className="selectdiv">
                                 <select required id="mySelect" className={"dropBox" + (this.state.value === "")} onChange={this.handleChange}>
                                     <option value="" selected disabled className="emptySelection">Please select a reason</option>
@@ -143,7 +143,7 @@ if (currentlySelectedAthlete){
 
                             <div className="questionBlock">
                                 <label className="question-title" >*Anticipated year of degree completion:</label>
-                                <input type="number" name="entry.68182095" className="phone" id="gradYear"  min = {((new Date()).getFullYear() ).toString() } max = {((new Date()).getFullYear() +10).toString() }placeholder={((new Date()).getFullYear() + 4).toString() } required></input>
+                                <input type="number" name="entry.68182095" className="experience" id="gradYear"  min = {((new Date()).getFullYear() ).toString() } max = {((new Date()).getFullYear() +10).toString() }placeholder={((new Date()).getFullYear() + 4).toString() } required></input>
                             </div>
                         
                         </div>
@@ -164,19 +164,19 @@ if (currentlySelectedAthlete){
                         <div className="lineHolder">
                         <div className="questionBlock">
                                 <label className="question-title" >*Years of water polo experience:</label>
-                                <input type="number" name="entry.74751114" className="experience" id="experience"   placeholder="0" min = "0" max = "100" required></input>
+                                <input type="number" name="entry.74751114" className="experience" id="experience"   placeholder="0" min = "0" max = "30" required></input>
                                 <div className = "smallText">NOTE: 0 years of experience is completely fine!</div>
                             </div>
 
                             <div className="questionBlock">
                                 <label className="question-title" >Any teams played for:</label>
-                                <input type="text"name="entry.1726469196" className="priorTeams" id="priorTeams" placeholder="Enter any past teams played for" ></input>
+                                <input type="text"name="entry.1726469196" className="priorTeams" id="priorTeams" placeholder="List teams" ></input>
                             </div>
                             
                         </div>
                         <div className="someSpace"></div>
 
-                        <p className="question-title" >Optional space for any sort of questions or comments:</p>
+                        <p className="question-title" >Optional space for questions or comments:</p>
                             <textarea type="text" className="message2" name="entry.1567373700" id="optionalQuestions" placeholder="Those who write us a quality story are more likely to make it through the vigerous selection process :)"></textarea>
 
 
@@ -192,7 +192,7 @@ if (currentlySelectedAthlete){
                             <div className="someSpace"></div>
 
                                 <label className="question-title" >*Title:</label>
-                                <input type="text" className="phone1" id="titleText" name = "entry.188853843" placeholder="Enter reason for contact here" required></input>
+                                <input type="text" className="messageTitle" id="titleText" name = "entry.188853843" placeholder="Enter reason for contact here" required></input>
                             </div>
                             }
 
@@ -203,7 +203,7 @@ if (currentlySelectedAthlete){
                         </div>}
                         <div className="someSpace"></div>
 
-                        <label className="question-title" >*Please type "Ⓖ𝓞 Ḇ𝓛Ʊℰ" to confirm you are not a robot:</label>
+                        <p className = "robotCheck">*Please type "Ⓖ𝓞 Ḇ𝓛Ʊℰ" in the text box below to confirm that you are not a robot:</p>
                         <input type="text" className="priorTeams" autocomplete="off" placeholder="Enter the secret password here" pattern="GO BLUE" required></input>
                         <div className = "smallText"><mark>NOTE: use normal characters and all caps—<b>DO NOT</b> copy and paste!</mark></div>
 
