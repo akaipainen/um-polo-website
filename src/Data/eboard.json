@@ -18,12 +18,12 @@
 },
 {
     "id": 4,
-     "role": "Captian",
+     "role": "Captain",
      "name": "Chris Lobdell"
 },
 {
     "id": 5,
-     "role": "Captian",
+     "role": "Captain",
      "headshotFile": "headshotNolan.jpg",
 
      "name": "Nolan Vaughn"
@@ -31,12 +31,12 @@
 },
 {
     "id": 6,
-     "role": "Captian\nCommunity Service Chair",
+     "role": "Captain\nCommunity Service Chair",
      "name": "Scott Fordham"
 },
 {
     "id": 7,
-     "role": "Captian",
+     "role": "Captain",
      "headshotFile": "headshotDZ.png",
 
      "name": "Daniel Zacks"

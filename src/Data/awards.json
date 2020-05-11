@@ -105,12 +105,12 @@
       "recipients": ["Daniel Wu"]
     },
     {
-      "id": 7,
+      "id": 8,
       "awardName": "Second Team All-American",
       "recipients": ["David Newberger"]
     },
     {
-      "id": 8,
+      "id": 9,
       "awardName": "BigTenChamps"
     }
   ]
@@ -190,7 +190,7 @@
     "recipients": ["David Newberger", "Seiji Osawa", "Tom McLeod"]
   },
   {
-    "id": 7,
+    "id": 6,
     "awardName": "Second Team All-American",
     "recipients": ["Davis Argersinger"]
   },

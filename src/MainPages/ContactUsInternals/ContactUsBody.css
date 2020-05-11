@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .lineHolder {
     display: block;
   }
@@ -178,7 +178,7 @@
   height: 2vw;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .dropdown_format_false {
     width: 15vw;
   }
@@ -249,7 +249,7 @@
   position: absolute;
   pointer-events: none;
 }
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .dropBoxtrue {
     width: 22vw;
   }
@@ -320,7 +320,7 @@
       }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .done {
       
         padding-right: 1vw;
