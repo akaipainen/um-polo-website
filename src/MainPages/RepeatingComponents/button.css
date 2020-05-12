@@ -54,25 +54,7 @@
   font-size: 1.6vw;
 }
 
-@media (max-width:900px){
-  .yes--medium {
-    padding: 1vw 2vw;
-    font-size: 2vw;
-  }
-  
-  
-  .no--medium {
-    padding: 1vw 2vw;
-    font-size: 3vw;
-  }
-  .yes:hover {
-    transform: translateY(-.5vw);
-  }
-  
-  .no:hover {
-    transform: translateY(-.5vw);
-  }
-}
+
 .yes--primary--outline {
   background-color: transparent;
   border: transparent;

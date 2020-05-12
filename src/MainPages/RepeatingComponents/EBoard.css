@@ -33,14 +33,14 @@ width: inherit;
 
 
 }
-.nameHolder{
+.nameHolder1{
 margin-right: 0;
 width: 100%;
 padding-right: 2vw;
 
 
 }
-.headshot{
+.headshot1{
     height: 9.5vw;
     width:8vw;
     margin-right:1vw;
@@ -52,14 +52,14 @@ padding-right: 2vw;
     float: right;
 
 }
-.name{
+.name1{
     float:right;
 
     font-size: 3.4vw;
 
 }
 
-.hometown{
+.hometown1{
     float:left;
     font-size: 3.6vw;
     text-align: left;
