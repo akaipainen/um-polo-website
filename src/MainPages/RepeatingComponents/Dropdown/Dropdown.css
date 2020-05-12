@@ -30,9 +30,9 @@
 
 .dropdown-header-title {
   font-size: 2.5vw;
-  color:white;
-
-
+  color:#F1C400;
+background-color: #00274C;
+border-radius: .5vw;
 }
 
 .dropdown-list {
@@ -72,7 +72,6 @@
 
 @media (max-width:900px){
   .dropdown-container{
-
     width: 15vw;
   }
   .dropdown-header-title{

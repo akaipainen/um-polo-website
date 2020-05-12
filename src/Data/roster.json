@@ -6,7 +6,7 @@
     "isCaptian": false,
     "name": "Matthew Ferrari",
     "hometown": "Fairfax, VA",
-    "yearAndProgram":"Freshman studying Computer Science and Industrial Engineering",
+    "yearAndProgram":"FR, Computer Science and Industrial Engineering",
     "headshotFile":"teamRari2019.jpg"
 
   },
@@ -15,7 +15,7 @@
     "isCaptian": false,
     "name": "Zach Burns",
     "hometown": "Rockford, MI",
-    "yearAndProgram":"Freshman studying Philosophy, Political Science, and Economics",
+    "yearAndProgram":"FR, Philosophy, Political Science, and Economics",
     "headshotFile":"teamBurns2019.jpg"
 
   },
@@ -24,7 +24,7 @@
     "isCaptian": false,
     "name": "Baylor Wiggins",
     "hometown": "Ashland, OR",
-    "yearAndProgram":"Freshman studying Biology",
+    "yearAndProgram":"FR, Biology",
     "headshotFile":"teamBaylor2019.jpg"
 
   },
@@ -33,7 +33,7 @@
     "isCaptian": false,
     "name": "Thor Clarke",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Freshman studying Engineering",
+    "yearAndProgram":"FR, Engineering",
     "headshotFile":"teamThor2019.jpg"
 
   },
@@ -42,7 +42,7 @@
     "isCaptian": false,
     "name": "Alex Attisha",
     "hometown": "San Diego, CA",
-    "yearAndProgram":"Sophomore studying Interdisciplinary Physics and Economics",
+    "yearAndProgram":"SO, Interdisciplinary Physics and Economics",
     "headshotFile":"teamAttisha2019.jpg"
 
   },
@@ -51,7 +51,7 @@
     "isCaptian": false,
     "name": "Andrew Golin",
     "hometown": "Dexter, MI",
-    "yearAndProgram":"Sophomore studying Biomedical Engineering",
+    "yearAndProgram":"SO, Biomedical Engineering",
     "headshotFile":"teamDrew2019.jpg"
 
   },
@@ -60,14 +60,15 @@
     "isCaptian": false,
     "name": "Federico Benazzo",
     "hometown": "Pavia, Italy",
-    "yearAndProgram":"Sophomore studying Aerospace Engineering"
+    "headshotFile":"nopicture.svg",
+    "yearAndProgram":"SO, Aerospace Engineering"
 
   },{
     "id": 8,
     "isCaptian": false,
     "name": "Arya Kale",
     "hometown": "Okemos, MI",
-    "yearAndProgram":"Sophomore studying Biomolecular Science and Spanish",
+    "yearAndProgram":"SO, Biomolecular Science and Spanish",
     "headshotFile":"teamArya2019.jpg"
 
   },
@@ -76,7 +77,7 @@
     "isCaptian": false,
     "name": "Dan Rusca",
     "hometown": "Chicago, IL",
-    "yearAndProgram":"Sophomore studying Computer Science",
+    "yearAndProgram":"SO, Computer Science",
     "headshotFile":"teamRusca2019.jpg"
 
   },
@@ -85,7 +86,7 @@
     "isCaptian": false,
     "name": "Maverick Becker",
     "hometown": "La Jolla, CA",
-    "yearAndProgram":"Sophomore studying Economics",
+    "yearAndProgram":"SO, Economics",
     "headshotFile":"teamMav2019.jpg"
 
   },
@@ -94,7 +95,7 @@
     "isCaptian": false,
     "name": "Cameron Serr",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Sophomore studying Computer Science",
+    "yearAndProgram":"SO, Computer Science",
     "headshotFile":"teamCam2019.jpg"
 
   },
@@ -103,7 +104,7 @@
     "isCaptian": false,
     "name": "Brendan Chang",
     "hometown": "Gkenview, IL",
-    "yearAndProgram":"Sophomore studying Computer Science",
+    "yearAndProgram":"SO, Computer Science",
     "headshotFile":"teamBChang2019.jpg"
 
   },
@@ -112,7 +113,7 @@
     "isCaptian": false,
     "name": "Adam Schnepf",
     "hometown": "Okemos, MI",
-    "yearAndProgram":"Sophomore studying",
+    "yearAndProgram":"SO, Undecided",
     "headshotFile":"teamAdam2019.jpg"
 
   },
@@ -121,7 +122,7 @@
     "isCaptian": false,
     "name": "Diego Sanchez-Burks",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Sophomore studying",
+    "yearAndProgram":"SO, Undecided",
     "headshotFile":"teamDiego2019.jpg"
 
   },
@@ -130,7 +131,7 @@
     "isCaptian": false,
     "name": "Chris Lobdell",
     "hometown": "Portola Valley, CA",
-    "yearAndProgram":"Sophomore studying",
+    "yearAndProgram":"SO, Undecided",
     "headshotFile":"teamLobdell2019.jpg"
 
   },
@@ -139,7 +140,7 @@
     "isCaptian": false,
     "name": "Alex Kaipainen",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Sophomore studying Computer Science and Physics",
+    "yearAndProgram":"SO, Computer Science and Physics",
     "headshotFile":"teamKiapi2019.jpg"
 
   },
@@ -157,7 +158,7 @@
     "isCaptian": true,
     "name": "Matt McCormack",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Junior studying Psychology",
+    "yearAndProgram":"JR, Psychology",
     "headshotFile":"teamMattJohn2019.jpg"
 
   },
@@ -167,7 +168,7 @@
     "isCaptian": true,
     "name": "Nolan Vaughn",
     "hometown": "Naperville, IL",
-    "yearAndProgram":"Junior studying Computer Science",
+    "yearAndProgram":"JR, Computer Science",
     "headshotFile":"teamNolan2019.jpg"
 
   },
@@ -176,7 +177,7 @@
     "isCaptian": true,
     "name": "Daniel Zacks",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Junior studying Computer Science",
+    "yearAndProgram":"JR, Computer Science",
     "headshotFile":"teamDZ2019.jpg"
 
   },
@@ -185,7 +186,7 @@
     "isCaptian": false,
     "name": "Aaron Crane",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Junior studying Biology",
+    "yearAndProgram":"JR, Biology",
     "headshotFile":"teamCrane2019.jpg"
   },
   {
@@ -193,7 +194,7 @@
     "isCaptian": false,
     "name": "Cade Bosch",
     "hometown": "Los Angeles, CA",
-    "yearAndProgram":"Junior studying Economics",
+    "yearAndProgram":"JR, Economics",
     
     "headshotFile":"teamCade2019.jpg"
 
@@ -203,7 +204,7 @@
     "isCaptian": false,
     "name": "Stefan Kassem",
     "hometown": "Princeton, NJ",
-    "yearAndProgram":"Junior studying Economics",
+    "yearAndProgram":"JR, Economics",
     "headshotFile":"teamStef2019.jpg"
   },
   {
@@ -211,7 +212,7 @@
     "isCaptian": false,
     "name": "Zach Gusho",
     "hometown": "Birmingham, MI",
-    "yearAndProgram":"Junior studying Computer Science",
+    "yearAndProgram":"JR, Computer Science",
     "headshotFile":"teamGusho2019.jpg"
   },
   
@@ -221,7 +222,7 @@
     "isCaptian": false,
     "name": "Scott Fordham",
     "hometown": "Los Angeles, CA",
-    "yearAndProgram":"Junior studying Ecology",
+    "yearAndProgram":"JR, Ecology",
     "headshotFile":"teamScott2019.jpg"
 
   },
@@ -230,7 +231,7 @@
     "isCaptian": false,
     "name": "Court Middleton",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Junior studying Computer Science",
+    "yearAndProgram":"JR, Computer Science",
     "headshotFile":"teamCourt2019.jpg"
 
   },{
@@ -238,7 +239,7 @@
     "isCaptian": false,
     "name": "Mason Devarti",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Senior studying Economics",
+    "yearAndProgram":"SR, Economics",
     "headshotFile":"teamMason2019.jpg"
 
   },
@@ -247,7 +248,7 @@
     "isCaptian": false,
     "name": "Zach Gan",
     "hometown": "Kensington, MD",
-    "yearAndProgram":"Senior studying Spanish and Political Science",
+    "yearAndProgram":"SR, Spanish and Political Science",
     "headshotFile":"teamGan2019.jpg"
 
   },
@@ -256,7 +257,7 @@
     "isCaptian": false,
     "name": "Chris Segar",
     "hometown": "Cincinnati, OH",
-    "yearAndProgram":"Senior studying Math and Economics",
+    "yearAndProgram":"SR, Math and Economics",
     "headshotFile":"teamSegar2019.jpg"
 },
     {
@@ -264,7 +265,7 @@
       "isCaptian": false,
       "name": "Justin Poliner",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Senior studying Buisness",
+      "yearAndProgram":"SR, Buisness",
       "headshotFile":"teamPoliner2019.jpg"
   
     },
@@ -273,7 +274,7 @@
       "isCaptian": false,
       "name": "David Kamper",
       "hometown": "Duluth, MN",
-      "yearAndProgram":"Senior studying Neuroscience, Philosophy, Cognitive Science, and Trombone Performance",
+      "yearAndProgram":"SR, Neuroscience, Philosophy, Cognitive Science, and Trombone Performance",
       "headshotFile":"teamKamper2019.jpg"
   
     },
@@ -282,7 +283,7 @@
       "isCaptian": false,
       "name": "Matt Reiser",
       "hometown": "Napa, CA",
-      "yearAndProgram":"Graduate student studying Law",
+      "yearAndProgram":"GS, Law",
       "headshotFile":"teamReiser2019.jpg"
 
   
@@ -292,7 +293,7 @@
       "isCaptian": false,
       "name": "Ilya Kovalenko",
       "hometown": "Martinez, GA",
-      "yearAndProgram":"Graduate student studying Mechanical Engineering",
+      "yearAndProgram":"GS, Mechanical Engineering",
       "headshotFile":"teamIlya2019.jpg"
   
     },
@@ -300,15 +301,17 @@
       "id": 20,
       "isCaptian": false,
       "name": "Davis Argersinger",
+      "headshotFile":"nopicture.svg",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Graduate student studying medicine"
+      "yearAndProgram":"GS, medicine"
   
     }]}
     
     
     
     
-    ,"2018": {
+    ,
+    "2018": {
   "photo":"team2018.jpg",
   "people": [
     {
@@ -316,7 +319,7 @@
       "isCaptian": false,
       "name": "Maverick Becker",
       "hometown": "La Jolla, CA",
-      "yearAndProgram":"Freshman studying Economics",
+      "yearAndProgram":"FR, Economics",
       "headshotFile":"teamMav2018.jpg"
     },
     {
@@ -324,7 +327,7 @@
       "isCaptian": false,
       "name": "Federico Benazzo",
       "hometown": "Pavia, Italy",
-      "yearAndProgram":"Freshman studying Aerospace Engineering",
+      "yearAndProgram":"FR, Aerospace Engineering",
       "headshotFile":"teamFed2018.jpg"
     },
     {
@@ -332,7 +335,7 @@
       "isCaptian": false,
       "name": "Andrew Golin",
       "hometown": "Dexter, MI",
-      "yearAndProgram":"Freshman studying Biomedical Engineering",
+      "yearAndProgram":"FR, Biomedical Engineering",
       "headshotFile":"teamDrew2018.jpg"
     },
     {
@@ -340,7 +343,7 @@
       "isCaptian": false,
       "name": "Arya Kale",
       "hometown": "Okemos, MI",
-      "yearAndProgram":"Freshman studying Biomolecular Science and Spanish",
+      "yearAndProgram":"FR, Biomolecular Science and Spanish",
       "headshotFile":"teamArya2018.jpg"
     },
     {
@@ -356,7 +359,7 @@
       "isCaptian": false,
       "name": "Alex Kaipainen",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Freshman studying Computer Science and Physics",
+      "yearAndProgram":"FR, Computer Science and Physics",
       "headshotFile":"teamKiapi2018.jpg"
     },
     {
@@ -364,7 +367,7 @@
       "isCaptian": false,
       "name": "Adam Schnepf",
       "hometown": "Okemos, MI",
-      "yearAndProgram":"Freshman studying",
+      "yearAndProgram":"FR, Undecided",
       "headshotFile":"teamAdam2018.jpg"
     },
     {
@@ -372,7 +375,7 @@
       "isCaptian": false,
       "name": "Chris Lobdell",
       "hometown": "Portola Valley, CA",
-      "yearAndProgram":"Freshman studying",
+      "yearAndProgram":"FR, Undecided",
       "headshotFile":"teamLobdell2018.jpg"
     },
     {
@@ -380,7 +383,7 @@
       "isCaptian": false,
       "name": "Dan Rusca",
       "hometown": "Chicago, IL",
-      "yearAndProgram":"Freshman studying Computer Science",
+      "yearAndProgram":"FR, Computer Science",
       "headshotFile":"teamRusca2018.jpg"
     },
     {
@@ -388,7 +391,7 @@
       "isCaptian": false,
       "name": "Brendan Chang",
       "hometown": "Gkenview, IL",
-      "yearAndProgram":"Freshman studying Computer Science",
+      "yearAndProgram":"FR, Computer Science",
       "headshotFile":"teamBChang2018.jpg"
   
     },
@@ -397,7 +400,7 @@
       "isCaptian": false,
       "name": "Cameron Serr",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Freshman studying Computer Science",
+      "yearAndProgram":"FR, Computer Science",
       "headshotFile":"teamCam2018.jpg"
   
     },
@@ -406,7 +409,7 @@
       "isCaptian": false,
       "name": "Scott Fordham",
       "hometown": "Los Angeles, CA",
-      "yearAndProgram":"Sophomore studying Ecology",
+      "yearAndProgram":"SO, Ecology",
       "headshotFile":"teamScott2018.jpg"
     },
     {
@@ -414,7 +417,7 @@
       "isCaptian": false,
       "name": "Matt McCormack",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Sophomore studying Psychology",
+      "yearAndProgram":"SO, Psychology",
       "headshotFile":"teamMattJohn2018.jpg"
   
     },
@@ -424,7 +427,7 @@
     "isCaptian": false,
     "name": "Stefan Kassem",
     "hometown": "Princeton, NJ",
-    "yearAndProgram":"Sophomore studying Economics",
+    "yearAndProgram":"SO, Economics",
     "headshotFile":"teamStef2018.jpg"
   },
   {
@@ -432,7 +435,7 @@
     "isCaptian": false,
     "name": "Daniel Zacks",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Sophomore studying Computer Science",
+    "yearAndProgram":"SO, Computer Science",
     "headshotFile":"teamDZ2018.jpg"
   },
     {
@@ -440,7 +443,7 @@
       "isCaptian": false,
       "name": "Court Middleton",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Sophomore studying Computer Science",
+      "yearAndProgram":"SO, Computer Science",
       "headshotFile":"teamCourt2018.jpg"
     },
     {
@@ -448,7 +451,7 @@
       "isCaptian": false,
       "name": "Nolan Vaughn",
       "hometown": "Naperville, IL",
-      "yearAndProgram":"Sophomore studying Computer Science",
+      "yearAndProgram":"SO, Computer Science",
       "headshotFile":"teamNolan2018.jpg"
     },
     {
@@ -456,7 +459,7 @@
       "isCaptian": false,
       "name": "Mason Devarti",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Junior studying Economics",
+      "yearAndProgram":"JR, Economics",
       "headshotFile":"teamMason2018.jpg"
     },
      
@@ -465,7 +468,7 @@
     "isCaptian": false,
     "name": "Justin Poliner",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Junior studying Buisness",
+    "yearAndProgram":"JR, Buisness",
     "headshotFile":"teamPoliner2018.jpg"
   },
  
@@ -474,7 +477,7 @@
     "isCaptian": false,
     "name": "Zach Gan",
     "hometown": "Kensington, MD",
-    "yearAndProgram":"Junior studying Spanish and Political Science",
+    "yearAndProgram":"JR, Spanish and Political Science",
     "headshotFile":"teamGan2018.jpg"
   },
   {
@@ -482,7 +485,7 @@
     "isCaptian": false,
     "name": "Chris Seger",
     "hometown": "Cincinnati, OH",
-    "yearAndProgram":"Junior studying Math and Economics",
+    "yearAndProgram":"JR, Math and Economics",
     "headshotFile":"teamSegar2018.jpg"
   },
  
@@ -506,7 +509,7 @@
     "name": "Ilya Kovalenko",
       "headshotFile":"teamIlya2018.jpg",
     "hometown": "Martinez, GA",
-    "yearAndProgram":"Senior studying Mechanical Engineering"
+    "yearAndProgram":"SR, Mechanical Engineering"
   },
   {
     "id": 1,
@@ -543,7 +546,7 @@
         "isCaptian": false,
         "name": "Scott Fordham",
         "hometown":"Los Angeles, CA",
-        "yearAndProgram":"Freshman studying Ecology",
+        "yearAndProgram":"FR, Ecology",
         "headshotFile":"teamScott2017.jpg"
       },
       {
@@ -551,7 +554,7 @@
         "isCaptian": false,
         "name": "Nolan Vaughn",
         "hometown": "Naperville, IL",
-        "yearAndProgram":"Freshman studying Computer Science",
+        "yearAndProgram":"FR, Computer Science",
         "headshotFile":"teamNolan2017.jpg"
       },
       {
@@ -559,7 +562,7 @@
         "isCaptian": false,
         "name": "Matt McCormack",
         "hometown": "Ann Arbor, MI",
-        "yearAndProgram":"Freshman studying Psychology",
+        "yearAndProgram":"FR, Psychology",
         "headshotFile":"teamMattJohn2017.jpg"
     
       }, {
@@ -567,7 +570,7 @@
         "isCaptian": false,
         "name": "Stefan Kassem",
         "hometown": "Princeton, NJ",
-        "yearAndProgram":"Freshman studying Economics",
+        "yearAndProgram":"FR, Economics",
         "headshotFile":"teamStef2017.jpg"
       },
       {
@@ -575,7 +578,7 @@
         "isCaptian": false,
         "name": "Dan Zacks",
         "hometown": "Ann Arbor, MI",
-        "yearAndProgram":"Freshman studying Computer Science",
+        "yearAndProgram":"FR, Computer Science",
         "headshotFile":"teamDZ2017.jpg"
       },
     {
@@ -583,7 +586,7 @@
       "isCaptian": false,
       "name": "Zach Gan",
       "hometown": "Kensington, MD",
-      "yearAndProgram":"Sophomore studying Spanish and Political Science",
+      "yearAndProgram":"SO, Spanish and Political Science",
       "headshotFile":"teamGan2017.jpg"
     },
     {
@@ -591,7 +594,7 @@
       "isCaptian": false,
       "name": "Chris Segar",
       "hometown": "Cincinnati, OH",
-      "yearAndProgram":"Sophomore studying Math and Economics",
+      "yearAndProgram":"SO, Math and Economics",
       "headshotFile":"teamSegar2017.jpg"
     },
     {
@@ -599,7 +602,7 @@
       "isCaptian": false,
       "name": "Justin Poliner",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Junior studying Buisness",
+      "yearAndProgram":"JR, Buisness",
       "headshotFile":"teamPoliner2017.jpg"
   
     },
@@ -608,7 +611,7 @@
       "isCaptian": false,
       "name": "Matt Reiser",
       "hometown": "Napa, CA",
-      "yearAndProgram":"Junior studying Law",
+      "yearAndProgram":"JR, Law",
       "headshotFile":"teamReiser2017.jpg"
     },
     {
@@ -616,7 +619,7 @@
       "isCaptian": false,
       "name": "Ilya Kovalenko",
       "hometown": "Martinez, GA",
-      "yearAndProgram":"Junior studying Mechanical Engineering",
+      "yearAndProgram":"JR, Mechanical Engineering",
       "headshotFile":"teamIlya2017.jpg"
     },
     {
@@ -655,7 +658,7 @@
       "isCaptian": false,
       "name": "Zach Gan",
       "hometown": "Kensington, MD",
-      "yearAndProgram":"Freshman studying Spanish and Political Science",
+      "yearAndProgram":"FR, Spanish and Political Science",
       "headshotFile":"teamGan2016.jpg"
 
     }
@@ -665,7 +668,7 @@
       "isCaptian": false,
       "name": "Chris Segar",
       "hometown": "Cincinnati, OH",
-      "yearAndProgram":"Freshman studying Math and Economics",    
+      "yearAndProgram":"FR, Math and Economics",    
         "headshotFile":"teamSegar2016.jpg"
 
     }, {
@@ -673,7 +676,7 @@
       "name": "Ilya Kovalenko",
       "isCaptian": false,
       "hometown": "Martinez, GA",
-      "yearAndProgram":"Sophomore studying Mechanical Engineering",
+      "yearAndProgram":"SO, Mechanical Engineering",
       "headshotFile":"teamIlya2016.jpg"
 
     },{
@@ -681,7 +684,7 @@
       "isCaptian": false,
       "name": "Justin Poliner",
       "hometown": "Ann Arbor, MI",
-      "yearAndProgram":"Sophomore studying Buisness",
+      "yearAndProgram":"SO, Buisness",
       "headshotFile":"teamPoliner2016.jpg"
 
   
@@ -744,7 +747,7 @@
     "name": "Ilya Kovalenko",
     "isCaptian": false,
     "hometown": "Martinez, GA",
-    "yearAndProgram":"Freshman studying Mechanical Engineering",
+    "yearAndProgram":"FR, Mechanical Engineering",
     "headshotFile":"teamIlya2015.jpg"
 
   },
@@ -753,7 +756,7 @@
     "isCaptian": false,
     "name": "Justin Poliner",
     "hometown": "Ann Arbor, MI",
-    "yearAndProgram":"Freshman studying Buisness",
+    "yearAndProgram":"FR, Buisness",
     "headshotFile":"teamPoliner2015.jpg"
 
 

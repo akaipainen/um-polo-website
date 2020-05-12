@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# THE readme, by Matthew Ferrari:
+  
 
-In the project directory, you can run:
+In this document, you will learn about the structure of the website, how it is hosted, how to open the website on a local machine, how to deploy it to Apache, and how modify the sites content!
 
-### `npm start`
+## Background
+The website was designed and developed by Matthew Ferrari with contributions from Alex Kaipainen and Sid Murthy.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The project has no back end because we can simply use React Router to eliminate what would be this massive headache with Apache.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Working with the front end on Apache is no easy task either, however. In order to successfully deploy to Apache, we need a .htaccess file to route all requests to our index.html. We also use a .htaccess to rewrite all http requests to our https site. This is also how we get our SSL encryption. The private folder comes with a certificate so we simply disable Cosign Auth and send all traffic to the private folder.  
 
-### `npm test`
+If you are just looking to update the roster, schedule, Eboard, fundraising chair, slideshow pictures, awards, or news, this is very simple. Moreover, this can be done with basically zero knowledge of code and just takes the most basic of pattern recognition skills. If you are looking to change something else, this will take knowledge of HTML, CSS, and/or React.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+The project repository can be found at this link: https://github.com/akaipainen/um-polo-website
 
-### `npm run build`
+The project is coded in Node.js with the React framework. To run the application on a local host, you must first install node.js from the Node website. Once you have node, clone the repo: `git clone`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the repo is on your local machine, navigate to the folder in the Node.js command prompt. To open the project, you will first have to enter the following command:`npm install`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This will install all of the the project's dependencies. You can find a list of the dependencies in package.json but running npm install will install all of them for you.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once that is finished, you can run the following command to serve the site on your local network on the default port, port 3000: `npm start`
 
-### `npm run eject`
+And just like that, you have the project up and running. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Making a simple change
+A simple change is defined as any change that has to do with the content on the roster, schedule, Eboard, fundraising chair, slideshow pictures, awards, or news. To change one of these, simply load navigate to Project>src> Data. The data is served to the website through the JSON files in this folder. To make a change, simply add/alter/remove object in the appropriate file. Simply read the first couple of entries to understand how the modifications must be formatted. To upload images for the files (should it be necessary for the section you are modifying), upload the image into project>public>folder that matches desire. Use SVGs when possible and always optimize images with imageoptim or svgo.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Making a non-simple change
+Welp, not quite sure what you are looking to change, but good luck! 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deployment
+To deploy the site, run the following command in the node terminal to create a build folder:`npm run build`
+Now, upload the entire contents of the build folder to the private UMpolo sub-directory. This can be done either manually or through SFTP.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Happy Coding!

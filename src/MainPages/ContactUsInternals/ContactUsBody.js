@@ -204,8 +204,9 @@ if (currentlySelectedAthlete){
                         <div className="someSpace"></div>
 
                         <p className = "robotCheck">*Please type "Ⓖ𝓞 Ḇ𝓛Ʊℰ" in the text box below to confirm that you are not a robot:</p>
+                        <div className = "smallText"><mark>NOTE: use <b>normal characters</b> and <b>all caps</b>—<b>DO NOT</b> copy and paste!</mark></div>
+
                         <input type="text" className="priorTeams" autocomplete="off" placeholder="Enter the secret password here" pattern="GO BLUE" required></input>
-                        <div className = "smallText"><mark>NOTE: use normal characters and all caps—<b>DO NOT</b> copy and paste!</mark></div>
 
                         <div className="someSpace"></div>
 

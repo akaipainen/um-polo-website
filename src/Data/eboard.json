@@ -19,7 +19,9 @@
 {
     "id": 4,
      "role": "Captain",
-     "name": "Chris Lobdell"
+     "name": "Chris Lobdell",
+     "headshotFile":"nopicture.svg"
+
 },
 {
     "id": 5,
@@ -31,13 +33,15 @@
 },
 {
     "id": 6,
-     "role": "Captain\nCommunity Service Chair",
+     "role": "Captain",
+     "headshotFile":"nopicture.svg",
+
      "name": "Scott Fordham"
 },
 {
     "id": 7,
      "role": "Captain",
-     "headshotFile": "headshotDZ.png",
+     "headshotFile": "headshotDZ.jpg",
 
      "name": "Daniel Zacks"
 },
@@ -45,7 +49,7 @@
     "id": 8,
      "role": "Fundraising Chair",
      "name": "Adam Schnepf",
-     "headshotFile":"headshotAdam.png"
+     "headshotFile":"headshotAdam.jpg"
 
 },
 {
@@ -64,11 +68,13 @@
 {
     "id": 11,
      "role": "Web Team",
-      "name": "Alex Kaipainen"
+      "name": "Alex Kaipainen",
+      "headshotFile":"nopicture.svg"
+
 },
 {
     "id": 12,
-     "role": "Web Team\nSocial Chair",
+     "role": "Web Team",
      "headshotFile": "headshotSid.jpg",
       "name": "Sid Murthy"
 },
@@ -78,22 +84,45 @@
       "name": "Court Middleton",
       "headshotFile":"headshotCourt.jpg"
 
-},{
+},
+{
     "id": 14,
-     "role": "Community Service Chair\nSocial Chair",
+     "role": "Community Service Chair",
       "name": "Arya Kale",
-      "headshotFile":"headshotArya.png"
+      "headshotFile":"headshotArya.jpg"
 
-},{
+},
+{
     "id": 15,
+     "role": "Community Service Chair",
+     "headshotFile": "nopicture.svg",
+
+     "name": "Scott Fordham"
+     
+},
+{
+    "id": 16,
      "role": "Social Chair",
       "name": "Stefan Kassem",
       "headshotFile": "headshotStef.jpg"
 
 },{
-    "id": 16,
+    "id": 17,
      "role": "Social Chair",
      "headshotFile": "headshotBurns.jpg",
 
       "name": "Zach Burns"
+},
+{
+    "id": 18,
+     "role": "Web Team",
+     "headshotFile": "headshotSid.jpg",
+      "name": "Sid Murthy"
+},
+{
+    "id": 19,
+     "role": "Social Chair",
+      "name": "Arya Kale",
+      "headshotFile":"headshotArya.jpg"
+
 }]

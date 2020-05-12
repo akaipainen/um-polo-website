@@ -142,8 +142,7 @@ class HomeBody extends React.Component {
           src={`${process.env.PUBLIC_URL}/Icons/companies.svg`}
         ></img>
         <p className="alumni">
-          Our Alumni get placed all across the globe and strengthen the Michigan
-          Water Polo network.
+          Our Alumni work all across the globe and provide the team with an invaluable networking resource.
         </p>
       </div>
     );

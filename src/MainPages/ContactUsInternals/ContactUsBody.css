@@ -281,7 +281,7 @@
   font-size: 1.5vw;
 }
 .smallText {
-  font-size: 1.2vw;
+  font-size: 1.6vw;
   margin-bottom: 1vw;
 }
 .appear {
@@ -319,7 +319,9 @@
       
       }
 }
-
+.robotCheck{
+  font-size: 1.6vw;
+}
 @media (max-width: 650px) {
     .done {
       
@@ -336,7 +338,7 @@
     font-size: 14px;
   }
   .smallText {
-    font-size: 8px;
+    font-size: 10px;
     margin-bottom: 0px;
   }
 

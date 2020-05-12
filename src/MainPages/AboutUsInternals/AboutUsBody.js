@@ -3,7 +3,7 @@ import { Post } from '../RepeatingComponents/Post'
 import SectionHeader from '../RepeatingComponents/SectionHeader/SectionHeader'
 import ImageIntro from '../RepeatingComponents/introImage'
 import Eboard from '../../Data/eboard.json'
-import Player from '../RepeatingComponents/Player'
+import Player from '../RepeatingComponents/EBoard'
 import './AboutUsBody.css';
 
 
@@ -16,11 +16,12 @@ function AboutUsBody() {
 
             <SectionHeader title="About Us" />
 
-            <Post bigFont = "no">
-                <p>{"\t"}The University of Michigan Men's Water Polo Team is a tight knit club sport that turns young boys into men. Lol. Someone write a bio and put it here.</p><br />
-               <p><b>National Champions</b><br/>1996, 1998, 2003</p>
-               <p><b>Big Ten Champions</b><br />1989, 1991, 1992, 1996, 1997, 1998, 2003, 2004, 2011, 2012, 2015, 2016, 2017, 2018</p>
-                <p><b>Big Ten Runner-Up</b><br />2000, 2001, 2002, 2005, 2006, 2008, 2009, 2010, 2014</p>
+            <Post bigFont = "yesPlease">
+                <p>{"\t"}The University of Michigan Men's Club Water Polo Team is a tight knit community of students. We are a member of the College Water Polo Association (CWPA) that includes both varsity and club teams. We play as part of the Big Ten Division (club only) in season, while in the off season we can play any team in the country in any division.  Our season typically runs from September to mid-November. Our team is run by the players and we perform various duties such as budgeting, scheduling, recruiting, fundraising, and organizing transportation/hotels for road trips. Each year, we elect officers to carry out these various tasks. Our mission is to provide the opportunity for interested individuals of all skill levels to participate in the sport of water polo on the collegiate club level. 
+ If you are interested in learning more about the team and/or potentially joining, please contact us using the form on the contact us page! </p><br />
+               <p><b>National Champions</b><br/>2003, 1998, 1996</p>
+               <p><b>Big Ten Champions</b><br />2018, 2017, 2016, 2015, 2012, 2011, 2004, 2003, 1998, 1997, 1996, 1992, 1991, 1989</p>
+                <p><b>Big Ten Runner-Up</b><br />2014, 2010, 2009, 2008, 2006, 2005, 2002, 2001, 2000</p>
             </Post>
 
             <SectionHeader title="2020 Executive Board" />

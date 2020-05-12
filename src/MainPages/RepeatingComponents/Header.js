@@ -23,30 +23,7 @@ function Header(props) {
             </div>
             <nav className="navbar" >
 
-                {x === "news" && <Button
-                    onClick={() => {
-                    }}
-                    type="button"
-                    hover="no"
-
-                    buttonStyle="no--primary--solid"
-                    buttonSize="no--medium"
-                >
-                    News
-      </Button>}
-                {x !== "news" && <Button
-                    onClick={() => {
-                        window.location.href = `${process.env.PUBLIC_URL}/news`
-                    }}
-
-
-                    type="button"
-                    hover="yes"
-                    buttonStyle="yes--primary--outline"
-                    buttonSize="yes--medium"
-                >
-                    News
-      </Button>}
+               
 
                 {x === "roster" && <Button
                     onClick={() => {
@@ -123,7 +100,30 @@ function Header(props) {
                     Fundraising
       </Button>}
 
+      {x === "news" && <Button
+                    onClick={() => {
+                    }}
+                    type="button"
+                    hover="no"
 
+                    buttonStyle="no--primary--solid"
+                    buttonSize="no--medium"
+                >
+                    News
+      </Button>}
+                {x !== "news" && <Button
+                    onClick={() => {
+                        window.location.href = `${process.env.PUBLIC_URL}/news`
+                    }}
+
+
+                    type="button"
+                    hover="yes"
+                    buttonStyle="yes--primary--outline"
+                    buttonSize="yes--medium"
+                >
+                    News
+      </Button>}
       {x === "about us" && <Button
                     onClick={() => {
                     }}
